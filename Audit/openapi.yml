@@ -1,0 +1,133 @@
+openapi: 3.0.0
+info:
+  description: This API provides audit info
+  version: "1.0.0"
+  title: Audit API
+  contact:
+    email: gpal@my.bcit.ca
+
+paths:
+  /login/user:
+    get:
+      summary: gets a user reading from history
+      operationId: app.get_password_user
+      description: Gets user readings from the event store
+      parameters:
+        - name: index
+          in: query
+          description: Gets the user at the index in the event store
+          schema:
+            type: string
+            example: 'Gorden'
+      responses:
+        '200':
+          description: Successfully returned an user event
+          content:
+            application/json:
+              schema:
+                type: object
+                items:
+                  $ref: '#/components/schemas/PasswordmanagerAccount'
+        '400':
+          description: Invalid request
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+        '404':
+          description: Not Found
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+
+  /user/password:
+    get:
+      summary: gets a password reading from history
+      operationId: app.get_user_password
+      description: Gets user's password reading from the event store
+      parameters:
+        - name: index
+          in: query
+          description: Gets the password at the index in the event store
+          schema:
+            type: string
+            example: 'password'
+      responses:
+        '200':
+          description: Successfully returned a password event
+          content:
+            application/json:
+              schema:
+                type: object
+                items:
+                  $ref: '#/components/schemas/UserPasswords'
+        '400':
+          description: Invalid request
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+        '404':
+          description: Not Found
+
+components:
+  schemas:
+    PasswordmanagerAccount:
+      required:
+      - email
+      - name
+      - password
+      - user_id
+      - trace_id
+      type: object
+      properties:
+        user_id:
+          type: integer
+          example: 100
+        name:
+          type: string
+          example: Gorden Pal
+        email:
+          type: string
+          example: gpal@my.bcit.ca
+        password:
+          type: string
+          example: password
+        trace_id:
+          type: string
+          example: "303"
+
+    UserPasswords:
+      required:
+      - description
+      - password
+      - password_id
+      - password_hint
+      - trace_id
+      type: object
+      properties:
+        password_id:
+          type: string
+          example: A100
+        password:
+          type: string
+          example: password
+        description:
+          type: string
+          example: describes discrete purpose of managing this password
+        password_hint:
+          type: string
+          example: "password hint"
+        trace_id:
+          type: string
+          example: "304"

@@ -1,0 +1,51 @@
+openapi: 3.0.0 
+info: 
+  description: This API provides event stats 
+  version: "1.0.0" 
+  title: Stats API 
+  contact: 
+    email: gpal@my.bcit.ca 
+ 
+paths: 
+  /stats: 
+    get: 
+      summary: Gets the event stats 
+      operationId: app.get_stats
+      description: Gets event processsed statistics of user and password
+      responses: 
+        '200': 
+          description: Successfully returned a list of events 
+          content: 
+            application/json: 
+              schema: 
+                type: object 
+                items: 
+                  $ref: '#/components/schemas/ReadingStats' 
+        '400': 
+          description: Invalid request 
+          content: 
+            application/json: 
+              schema: 
+                type: object 
+                properties: 
+                  message: 
+                    type: string 
+ 
+components: 
+  schemas: 
+    ReadingStats: 
+      required: 
+      - num_of_name
+      - num_of_password
+      - trace_id
+      properties: 
+        num_of_name:
+          type: integer 
+          example: 50
+        num_of_password:
+          type: integer 
+          example: 50
+        trace_id:
+          type: integer 
+          example: 18000
+      type: object

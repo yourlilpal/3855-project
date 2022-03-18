@@ -1,0 +1,9 @@
+version: 1 
+datastore: 
+  filename: stats.sqlite 
+scheduler: 
+  period_sec: 5 
+passworduser:
+  url: http://localhost:8090/user/password
+userpasswords:
+  url: http://localhost:8090/login/user

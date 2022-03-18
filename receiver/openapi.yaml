@@ -1,0 +1,98 @@
+---
+openapi: 3.0.0
+info:
+  title: Create User
+  description: This API creates users for the password manager
+  contact:
+    email: gpal@my.bcit.ca
+  license:
+    name: Apache 2.0
+    url: http://www.apache.org/licenses/LICENSE-2.0.html
+  version: 1.0.0
+tags:
+- name: user
+  description: Register new password manager account
+paths:
+  /login/user:
+    post:
+      tags:
+      - user
+      summary: adds new user account
+      description: Adds new user to manage their password
+      operationId: app.create_new_user
+      requestBody:
+        description: account user to add
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/PasswordmanagerAccount'
+      responses:
+        "201":
+          description: Account created
+        "400":
+          description: invalid input, object invalid
+        "409":
+          description: an existing account already exists
+  /user/password:
+    post:
+      tags:
+      - user
+      summary: adds new password
+      description: Adds new password to be manage by user
+      operationId: app.add_new_password
+      requestBody:
+        description: user's password cache
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/UserPasswords'
+      responses:
+        "201":
+          description: Password created
+        "400":
+          description: invalid input, try again
+components:
+  schemas:
+    PasswordmanagerAccount:
+      required:
+      - email
+      - name
+      - password
+      - user_id
+      type: object
+      properties:
+        user_id:
+          type: integer
+          example: 100
+        name:
+          type: string
+          example: Gorden Pal
+        email:
+          type: string
+          example: gpal@my.bcit.ca
+        password:
+          type: string
+          example: password
+    UserPasswords:
+      required:
+      - description
+      - password
+      - password_id
+      - password_hint
+      type: object
+      properties:
+        password_id:
+          type: string
+          example: A100
+        password:
+          type: string
+          example: password
+        description:
+          type: string
+          example: describes discrete purpose of managing this password
+        password_hint:
+          type: string
+          example: "password hint"
+
+
+

@@ -1,0 +1,9 @@
+version: 1
+passworduser:
+  url: http://localhost:8090/login/user
+userpasswords:
+  url: http://localhost:8090/user/password
+events:
+  hostname: kafka-3855.eastus2.cloudapp.azure.com
+  port: 9092
+  topic: events

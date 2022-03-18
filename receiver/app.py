@@ -1,0 +1,93 @@
+import connexion 
+from connexion import NoContent 
+import json
+import datetime 
+import os
+import yaml 
+import logging, logging.config
+import random
+from pykafka import KafkaClient
+
+FILE_NAME = "password_manager_file.json"
+MAX_EVENT = 10
+HEADERS = {'Content-Type': 'application/json'}
+
+with open('app_conf.yml', 'r') as f:
+    app_config = yaml.safe_load(f.read())
+    kafka_server = app_config["events"]["hostname"]
+    kafka_port = app_config["events"]["port"]
+    event_topic = app_config["events"]["topic"]
+
+with open('log_conf.yml', 'r') as f:
+    log_config = yaml.safe_load(f.read())
+    logging.config.dictConfig(log_config)
+    logger = logging.getLogger("basicLogger")
+
+
+
+
+def make_file():
+    """This will create a file with an empty list to host the JSON data"""
+    
+    if os.path.isfile(FILE_NAME) == False:
+        new_file = open(FILE_NAME, "w")
+        new_file.write("[]")
+        new_file.close()
+
+
+def create_new_user(body):
+    """This will add a user to Password Manager"""
+    trace_id = random.randint(100000, 200000)
+    body['trace_id'] = str(trace_id)
+    # trace_id = body['trace_id']
+    client = KafkaClient(hosts='{}:{}'.format(kafka_server, kafka_port))
+    topic = client.topics[str.encode(event_topic)]
+    producer = topic.get_sync_producer()
+
+    msg = {"type": "passworduser",
+           "datetime":
+               datetime.datetime.now().strftime(
+                   "%Y-%m-%dT%H:%M:%S"),
+           "payload": body}
+    msg_str = json.dumps(msg)
+    producer.produce(msg_str.encode('utf-8'))
+    logger.info("Received event %s request with a unique id of %s"
+                % ("Password Manager account", body['trace_id']))
+    # response = requests.post(app_config["passworduser"]["url"], json=body, headers=HEADERS)
+    logger.info("Returned event %s response %s with status %s"
+                % ("Password Manager account", body['trace_id'], 200))
+
+    return NoContent, 200
+
+
+def add_new_password(body):
+    """This will add a password account with description"""
+
+
+    trace_id = random.randint(100000, 200000)
+    body['trace_id'] = str(trace_id)
+    client = KafkaClient(hosts='{}:{}'.format(kafka_server, kafka_port))
+    topic = client.topics[str.encode(event_topic)]
+    producer = topic.get_sync_producer()
+
+    msg = {"type": "userpassword",
+           "datetime":
+               datetime.datetime.now().strftime(
+                   "%Y-%m-%dT%H:%M:%S"),
+           "payload": body}
+    msg_str = json.dumps(msg)
+    producer.produce(msg_str.encode('utf-8'))
+    logger.info("Received event %s request with a unique id of %s"
+                % ("User Passwords", body['trace_id']))
+    # response = requests.post(app_config["userpasswords"]["url"], json=body, headers=HEADERS)
+    logger.info("Returned event %s response %s with status %d"
+                % ("User Passwords", body['trace_id'], 200))
+
+    return NoContent, 200
+ 
+
+app = connexion.FlaskApp(__name__, specification_dir='') 
+app.add_api("openapi.yaml", strict_validation=False, validate_responses=True)
+ 
+if __name__ == "__main__": 
+    app.run(port=8080)
