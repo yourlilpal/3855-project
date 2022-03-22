@@ -11,9 +11,7 @@ with open('app_conf.yml', 'r') as f:
 with open('log_conf.yml', 'r') as f:
     log_config = yaml.safe_load(f.read())
     logging.config.dictConfig(log_config)
-
-
-logger = logging.getLogger('basicLogger')
+    logger = logging.getLogger('basicLogger')
 
 
 def get_password_user(index):
@@ -58,7 +56,7 @@ def get_user_password(index):
             msg_str = msg.value.decode('utf-8')
             msg = json.loads(msg_str)
             payload = msg["payload"]
-            if msg['type'] == 'userpasswords':
+            if msg['type'] == 'userpassword':
                 if counter == index:
                     return payload, 200
                 counter += 1

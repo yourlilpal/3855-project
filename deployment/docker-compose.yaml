@@ -45,6 +45,13 @@ services:
     network_mode: "host"
     depends_on:
       - "storage"
+  audit_log:
+    image: audit_log
+    restart: always
+    ports:
+      - "8110:8110"
+    depends_on:
+      - "kafka"
   db:
     image: mysql:5.7
     restart: always

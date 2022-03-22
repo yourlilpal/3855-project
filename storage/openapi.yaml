@@ -14,25 +14,6 @@ tags:
   description: Register new password manager account
 paths:
   /login/user:
-    post:
-      tags:
-      - user
-      summary: adds new user account
-      description: Adds new user to manage their password
-      operationId: app.create_new_user
-      requestBody:
-        description: account user to add
-        content:
-          application/json:
-            schema:
-              $ref: '#/components/schemas/PasswordmanagerAccount'
-      responses:
-        "201":
-          description: Account created
-        "400":
-          description: invalid input, object invalid
-        "409":
-          description: an existing account already exists
     get:
         tags:
           - user
@@ -66,23 +47,23 @@ paths:
                     message: 
                       type: string
   /user/password:
-    post:
-      tags:
-      - user
-      summary: adds new password
-      description: Adds new password to be manage by user
-      operationId: app.add_new_password
-      requestBody:
-        description: user's password cache
-        content:
-          application/json:
-            schema:
-              $ref: '#/components/schemas/UserPasswords'
-      responses:
-        "201":
-          description: Password created
-        "400":
-          description: invalid input, try again
+#    post:
+#      tags:
+#      - user
+#      summary: adds new password
+#      description: Adds new password to be manage by user
+#      operationId: app.add_new_password
+#      requestBody:
+#        description: user's password cache
+#        content:
+#          application/json:
+#            schema:
+#              $ref: '#/components/schemas/UserPasswords'
+#      responses:
+#        "201":
+#          description: Password created
+#        "400":
+#          description: invalid input, try again
     get:
       tags:
         - user

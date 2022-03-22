@@ -24,8 +24,6 @@ with open('log_conf.yml', 'r') as f:
     logger = logging.getLogger("basicLogger")
 
 
-
-
 def make_file():
     """This will create a file with an empty list to host the JSON data"""
     
@@ -50,9 +48,10 @@ def create_new_user(body):
                    "%Y-%m-%dT%H:%M:%S"),
            "payload": body}
     msg_str = json.dumps(msg)
-    producer.produce(msg_str.encode('utf-8'))
     logger.info("Received event %s request with a unique id of %s"
                 % ("Password Manager account", body['trace_id']))
+    producer.produce(msg_str.encode('utf-8'))
+
     # response = requests.post(app_config["passworduser"]["url"], json=body, headers=HEADERS)
     logger.info("Returned event %s response %s with status %s"
                 % ("Password Manager account", body['trace_id'], 200))
@@ -76,9 +75,10 @@ def add_new_password(body):
                    "%Y-%m-%dT%H:%M:%S"),
            "payload": body}
     msg_str = json.dumps(msg)
-    producer.produce(msg_str.encode('utf-8'))
     logger.info("Received event %s request with a unique id of %s"
                 % ("User Passwords", body['trace_id']))
+    producer.produce(msg_str.encode('utf-8'))
+
     # response = requests.post(app_config["userpasswords"]["url"], json=body, headers=HEADERS)
     logger.info("Returned event %s response %s with status %d"
                 % ("User Passwords", body['trace_id'], 200))

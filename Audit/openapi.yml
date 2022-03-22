@@ -17,8 +17,8 @@ paths:
           in: query
           description: Gets the user at the index in the event store
           schema:
-            type: string
-            example: 'Gorden'
+            type: integer
+            example: 2
       responses:
         '200':
           description: Successfully returned an user event
@@ -57,8 +57,8 @@ paths:
           in: query
           description: Gets the password at the index in the event store
           schema:
-            type: string
-            example: 'password'
+            type: integer
+            example: 1
       responses:
         '200':
           description: Successfully returned a password event
