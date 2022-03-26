@@ -32,6 +32,8 @@ Base.metadata.bind = DB_ENGINE
 DB_SESSION = sessionmaker(bind=DB_ENGINE)
 
 logger.info("Connecting to DB. Hostname:{}, Port:{}".format(hostname, port))
+
+
 # DB_ENGINE = create_engine("sqlite:///readings.sqlite")
 # Base.metadata.bind = DB_ENGINE
 # DB_SESSION = sessionmaker(bind=DB_ENGINE)
@@ -40,14 +42,16 @@ logger.info("Connecting to DB. Hostname:{}, Port:{}".format(hostname, port))
 def process_messages():
     """ Process event messages """
     process_hostname = "%s:%d" % (app_config["events"]["hostname"],
-                          app_config["events"]["port"])
+                                  app_config["events"]["port"])
+    logger.info("Access process hostname")
     client = KafkaClient(hosts=process_hostname)
+    logger.info("Access client")
     topic = client.topics[str.encode(app_config["events"]["topic"])]
-
+    logger.info("Access topics")
     consumer = topic.get_simple_consumer(consumer_group=b'event_group',
                                          reset_offset_on_start=False,
                                          auto_offset_reset=OffsetType.LATEST)
-
+    logger.info("Access consumer")
     for msg in consumer:
         msg_str = msg.value.decode('utf-8')
         msg = json.loads(msg_str)
@@ -71,11 +75,11 @@ def create_new_user(body):
     # trace_id = random.randint(100000, 200000)
     # print(trace_id)
     password_user = Passworduser(body['user_id'],
-                       body['name'],
-                       body['password'],
-                       body['email'],
-                       body['trace_id'])
-    print(password_user)
+                                 body['name'],
+                                 body['password'],
+                                 body['email'],
+                                 body['trace_id'])
+    # print(password_user)
     session.add(password_user)
 
     session.commit()
@@ -94,10 +98,10 @@ def add_new_password(body):
     # print(trace_id)
 
     user_password = Userpasswords(body['password_id'],
-                   body['password'],
-                   body['password_hint'],
-                   body['description'],
-                   body['trace_id'])
+                                  body['password'],
+                                  body['password_hint'],
+                                  body['description'],
+                                  body['trace_id'])
 
     session.add(user_password)
 
@@ -119,17 +123,17 @@ def get_password_user(timestamp):
     results_list = []
     for reading in readings:
         results_list.append(reading.to_dict())
-        print(results_list)
+        # print(results_list)
     session.close()
 
     logger.info("Timestamp %s returns %d results" %
-    (timestamp, len(results_list)))
+                (timestamp, len(results_list)))
     return results_list, 200
 
 
 def get_user_password(timestamp):
     """ Gets user password readings after the timestamp """
-    
+
     session = DB_SESSION()
     timestamp_datetime = datetime.datetime.strptime(timestamp, "%Y-%m-%dT%H:%M:%S")
 
@@ -137,11 +141,11 @@ def get_user_password(timestamp):
     results_list = []
     for reading in readings:
         results_list.append(reading.to_dict())
-        print(results_list)
+        # print(results_list)
     session.close()
 
-    # logger.info("Timestamp %s returns %d results" %
-    # (timestamp, len(results_list)))
+    logger.info("Timestamp %s returns %d results" %
+                (timestamp, len(results_list)))
     return results_list, 200
 
 
@@ -150,6 +154,6 @@ app.add_api("openapi.yaml", strict_validation=True, validate_responses=True)
 
 if __name__ == "__main__":
     t1 = Thread(target=process_messages)
-    t1.daemon = True
+    t1.setDaemon = True
     t1.start()
     app.run(port=8090)
