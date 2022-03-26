@@ -19,7 +19,7 @@ class Userpasswords(Base):
     # trace_id = Column(String(100), nullable=False)
     trace_id = Column(Integer, nullable=False)
 
-    def __init__(self, password_id, password, password_hint, description, trace_id=random.randint(100000, 200000)):
+    def __init__(self, password_id, password, password_hint, description, trace_id):
         """ Initializes a password """
         self.password_id = password_id
         self.password = password

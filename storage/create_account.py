@@ -19,7 +19,7 @@ class Passworduser(Base):
     # trace_id = Column(String(100), nullable=False)
     trace_id = Column(Integer, nullable=False)
 
-    def __init__(self, user_id, name, password, email, trace_id=random.randint(100000, 200000)):
+    def __init__(self, user_id, name, password, email, trace_id):
         """ Initializes a user of password manager """
         self.user_id = user_id
         self.name = name
