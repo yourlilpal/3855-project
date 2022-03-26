@@ -8520,3 +8520,898 @@
 2022-03-25 21:40:06,687 - basicLogger - INFO - Storing new user event
 2022-03-25 21:40:07,180 - basicLogger - INFO - Message: {'type': 'passworduser', 'datetime': '2022-03-26T01:40:06', 'payload': {'user_id': 100, 'name': 'Gorden Pal', 'email': 'email@email.com', 'password': 'C2C2CD1', 'trace_id': '128540'}}
 2022-03-25 21:40:07,180 - basicLogger - INFO - Storing new user event
+2022-03-26 01:52:33,710 - basicLogger - INFO - Connecting to DB. Hostname:kafka-3855.eastus2.cloudapp.azure.com, Port:3306
+2022-03-26 01:52:33,748 - basicLogger - INFO - Connecting to DB. Hostname:kafka-3855.eastus2.cloudapp.azure.com, Port:3306
+2022-03-26 01:52:33,775 - basicLogger - INFO - Access process hostname
+2022-03-26 01:52:34,163 - basicLogger - INFO - Access client
+2022-03-26 01:52:34,349 - basicLogger - INFO - Access topics
+2022-03-26 01:52:34,602 - basicLogger - INFO - Access consumer
+2022-03-26 01:52:36,573 - basicLogger - INFO - Timestamp 2022-03-26T01:52:33 returns 0 results
+2022-03-26 01:52:38,855 - basicLogger - INFO - Timestamp 2022-03-26T01:52:33 returns 0 results
+2022-03-26 01:52:48,455 - basicLogger - INFO - Timestamp 2022-03-26T01:52:46 returns 0 results
+2022-03-26 01:52:50,742 - basicLogger - INFO - Timestamp 2022-03-26T01:52:46 returns 0 results
+2022-03-26 01:52:53,421 - basicLogger - INFO - Timestamp 2022-03-26T01:52:51 returns 0 results
+2022-03-26 01:52:55,702 - basicLogger - INFO - Timestamp 2022-03-26T01:52:51 returns 0 results
+2022-03-26 01:52:58,435 - basicLogger - INFO - Timestamp 2022-03-26T01:52:56 returns 0 results
+2022-03-26 01:53:00,707 - basicLogger - INFO - Timestamp 2022-03-26T01:52:56 returns 0 results
+2022-03-26 01:53:03,422 - basicLogger - INFO - Timestamp 2022-03-26T01:53:01 returns 0 results
+2022-03-26 01:53:05,702 - basicLogger - INFO - Timestamp 2022-03-26T01:53:01 returns 0 results
+2022-03-26 01:53:08,421 - basicLogger - INFO - Timestamp 2022-03-26T01:53:06 returns 0 results
+2022-03-26 01:53:10,700 - basicLogger - INFO - Timestamp 2022-03-26T01:53:06 returns 0 results
+2022-03-26 01:53:13,437 - basicLogger - INFO - Timestamp 2022-03-26T01:53:11 returns 0 results
+2022-03-26 01:53:15,726 - basicLogger - INFO - Timestamp 2022-03-26T01:53:11 returns 0 results
+2022-03-26 01:53:18,419 - basicLogger - INFO - Timestamp 2022-03-26T01:53:16 returns 0 results
+2022-03-26 01:53:20,704 - basicLogger - INFO - Timestamp 2022-03-26T01:53:16 returns 0 results
+2022-03-26 01:53:23,440 - basicLogger - INFO - Timestamp 2022-03-26T01:53:21 returns 0 results
+2022-03-26 01:53:25,718 - basicLogger - INFO - Timestamp 2022-03-26T01:53:21 returns 0 results
+2022-03-26 01:53:25,897 - basicLogger - INFO - Message: {'type': 'userpassword', 'datetime': '2022-03-26T05:53:24', 'payload': {'description': 'describes discrete purpose of managing this password', 'password': 'password', 'password_hint': 'password hint', 'password_id': '7f4310b6-d9ec-4476-9a01-96e20dea9f8a', 'trace_id': '125057'}}
+2022-03-26 01:53:25,897 - basicLogger - INFO - Storing new password event
+2022-03-26 01:53:27,115 - basicLogger - INFO - Message: {'type': 'userpassword', 'datetime': '2022-03-26T05:53:25', 'payload': {'description': 'describes discrete purpose of managing this password', 'password': 'password', 'password_hint': 'password hint', 'password_id': 'e884c340-8128-4cb3-ba88-3399a17cc7cd', 'trace_id': '131489'}}
+2022-03-26 01:53:27,115 - basicLogger - INFO - Storing new password event
+2022-03-26 01:53:27,437 - basicLogger - INFO - Message: {'type': 'userpassword', 'datetime': '2022-03-26T05:53:25', 'payload': {'description': 'describes discrete purpose of managing this password', 'password': 'password', 'password_hint': 'password hint', 'password_id': '503659cb-2724-4ad4-91a0-71cd34d98219', 'trace_id': '167076'}}
+2022-03-26 01:53:27,437 - basicLogger - INFO - Storing new password event
+2022-03-26 01:53:27,755 - basicLogger - INFO - Message: {'type': 'userpassword', 'datetime': '2022-03-26T05:53:26', 'payload': {'description': 'describes discrete purpose of managing this password', 'password': 'password', 'password_hint': 'password hint', 'password_id': '2868137e-5667-40a8-b9fe-d28f8a2053c2', 'trace_id': '126166'}}
+2022-03-26 01:53:27,755 - basicLogger - INFO - Storing new password event
+2022-03-26 01:53:28,077 - basicLogger - INFO - Message: {'type': 'userpassword', 'datetime': '2022-03-26T05:53:27', 'payload': {'description': 'describes discrete purpose of managing this password', 'password': 'password', 'password_hint': 'password hint', 'password_id': 'd359547a-babb-4c67-b523-07c785d1e2cf', 'trace_id': '114399'}}
+2022-03-26 01:53:28,078 - basicLogger - INFO - Storing new password event
+2022-03-26 01:53:28,422 - basicLogger - INFO - Timestamp 2022-03-26T01:53:26 returns 4 results
+2022-03-26 01:53:30,693 - basicLogger - INFO - Timestamp 2022-03-26T01:53:26 returns 0 results
+2022-03-26 01:53:31,014 - basicLogger - INFO - Message: {'type': 'passworduser', 'datetime': '2022-03-26T05:53:30', 'payload': {'user_id': 100, 'name': 'Gorden Pal', 'email': 'email@email.com', 'password': 'A3A13AC', 'trace_id': '138006'}}
+2022-03-26 01:53:31,015 - basicLogger - INFO - Storing new user event
+2022-03-26 01:53:31,515 - basicLogger - INFO - Message: {'type': 'passworduser', 'datetime': '2022-03-26T05:53:30', 'payload': {'user_id': 100, 'name': 'Gorden Pal', 'email': 'email@email.com', 'password': '23DBDC3', 'trace_id': '191949'}}
+2022-03-26 01:53:31,515 - basicLogger - INFO - Storing new user event
+2022-03-26 01:53:32,053 - basicLogger - INFO - Message: {'type': 'passworduser', 'datetime': '2022-03-26T05:53:31', 'payload': {'user_id': 100, 'name': 'Gorden Pal', 'email': 'email@email.com', 'password': 'ABC22CA', 'trace_id': '109350'}}
+2022-03-26 01:53:32,053 - basicLogger - INFO - Storing new user event
+2022-03-26 01:53:32,644 - basicLogger - INFO - Message: {'type': 'passworduser', 'datetime': '2022-03-26T05:53:31', 'payload': {'user_id': 100, 'name': 'Gorden Pal', 'email': 'email@email.com', 'password': '2BB3ADC', 'trace_id': '134567'}}
+2022-03-26 01:53:32,644 - basicLogger - INFO - Storing new user event
+2022-03-26 01:53:33,269 - basicLogger - INFO - Message: {'type': 'passworduser', 'datetime': '2022-03-26T05:53:32', 'payload': {'user_id': 100, 'name': 'Gorden Pal', 'email': 'email@email.com', 'password': 'CA2DBD3', 'trace_id': '165000'}}
+2022-03-26 01:53:33,270 - basicLogger - INFO - Storing new user event
+2022-03-26 01:53:33,429 - basicLogger - INFO - Timestamp 2022-03-26T01:53:31 returns 0 results
+2022-03-26 01:53:35,710 - basicLogger - INFO - Timestamp 2022-03-26T01:53:31 returns 5 results
+2022-03-26 01:53:36,207 - basicLogger - INFO - Message: {'type': 'userpassword', 'datetime': '2022-03-26T05:53:35', 'payload': {'description': 'describes discrete purpose of managing this password', 'password': 'password', 'password_hint': 'password hint', 'password_id': 'c271cebf-df2a-4b65-821a-306c879d1a51', 'trace_id': '146084'}}
+2022-03-26 01:53:36,207 - basicLogger - INFO - Storing new password event
+2022-03-26 01:53:36,642 - basicLogger - INFO - Message: {'type': 'userpassword', 'datetime': '2022-03-26T05:53:35', 'payload': {'description': 'describes discrete purpose of managing this password', 'password': 'password', 'password_hint': 'password hint', 'password_id': '41a40e9a-7679-4c32-97e1-85a8ea8930a0', 'trace_id': '191871'}}
+2022-03-26 01:53:36,642 - basicLogger - INFO - Storing new password event
+2022-03-26 01:53:37,265 - basicLogger - INFO - Message: {'type': 'userpassword', 'datetime': '2022-03-26T05:53:36', 'payload': {'description': 'describes discrete purpose of managing this password', 'password': 'password', 'password_hint': 'password hint', 'password_id': '21305ae7-050b-42b2-b506-db10342319e0', 'trace_id': '102024'}}
+2022-03-26 01:53:37,265 - basicLogger - INFO - Storing new password event
+2022-03-26 01:53:37,821 - basicLogger - INFO - Message: {'type': 'userpassword', 'datetime': '2022-03-26T05:53:36', 'payload': {'description': 'describes discrete purpose of managing this password', 'password': 'password', 'password_hint': 'password hint', 'password_id': '14021641-7567-4153-a207-a86598ad02e0', 'trace_id': '136447'}}
+2022-03-26 01:53:37,822 - basicLogger - INFO - Storing new password event
+2022-03-26 01:53:38,437 - basicLogger - INFO - Timestamp 2022-03-26T01:53:36 returns 4 results
+2022-03-26 01:53:38,557 - basicLogger - INFO - Message: {'type': 'userpassword', 'datetime': '2022-03-26T05:53:37', 'payload': {'description': 'describes discrete purpose of managing this password', 'password': 'password', 'password_hint': 'password hint', 'password_id': 'c6827afb-3dcb-4d3e-b083-8b5eb1314375', 'trace_id': '139210'}}
+2022-03-26 01:53:38,557 - basicLogger - INFO - Storing new password event
+2022-03-26 01:53:40,693 - basicLogger - INFO - Timestamp 2022-03-26T01:53:36 returns 0 results
+2022-03-26 01:53:41,389 - basicLogger - INFO - Message: {'type': 'passworduser', 'datetime': '2022-03-26T05:53:40', 'payload': {'user_id': 100, 'name': 'Gorden Pal', 'email': 'email@email.com', 'password': '121ACAC', 'trace_id': '124570'}}
+2022-03-26 01:53:41,391 - basicLogger - INFO - Storing new user event
+2022-03-26 01:53:41,894 - basicLogger - INFO - Message: {'type': 'passworduser', 'datetime': '2022-03-26T05:53:40', 'payload': {'user_id': 100, 'name': 'Gorden Pal', 'email': 'email@email.com', 'password': 'DC21CDA', 'trace_id': '146470'}}
+2022-03-26 01:53:41,894 - basicLogger - INFO - Storing new user event
+2022-03-26 01:53:42,411 - basicLogger - INFO - Message: {'type': 'passworduser', 'datetime': '2022-03-26T05:53:41', 'payload': {'user_id': 100, 'name': 'Gorden Pal', 'email': 'email@email.com', 'password': '33AADBD', 'trace_id': '108317'}}
+2022-03-26 01:53:42,411 - basicLogger - INFO - Storing new user event
+2022-03-26 01:53:43,003 - basicLogger - INFO - Message: {'type': 'passworduser', 'datetime': '2022-03-26T05:53:42', 'payload': {'user_id': 100, 'name': 'Gorden Pal', 'email': 'email@email.com', 'password': 'B2AAAC3', 'trace_id': '146956'}}
+2022-03-26 01:53:43,004 - basicLogger - INFO - Storing new user event
+2022-03-26 01:53:43,454 - basicLogger - INFO - Timestamp 2022-03-26T01:53:41 returns 0 results
+2022-03-26 01:53:43,713 - basicLogger - INFO - Message: {'type': 'passworduser', 'datetime': '2022-03-26T05:53:42', 'payload': {'user_id': 100, 'name': 'Gorden Pal', 'email': 'email@email.com', 'password': 'B3ADA1D', 'trace_id': '152775'}}
+2022-03-26 01:53:43,713 - basicLogger - INFO - Storing new user event
+2022-03-26 01:53:45,747 - basicLogger - INFO - Timestamp 2022-03-26T01:53:41 returns 5 results
+2022-03-26 01:53:46,665 - basicLogger - INFO - Message: {'type': 'userpassword', 'datetime': '2022-03-26T05:53:45', 'payload': {'description': 'describes discrete purpose of managing this password', 'password': 'password', 'password_hint': 'password hint', 'password_id': '877e3413-fb85-4357-80af-6e253de366e0', 'trace_id': '184946'}}
+2022-03-26 01:53:46,666 - basicLogger - INFO - Storing new password event
+2022-03-26 01:53:47,005 - basicLogger - INFO - Message: {'type': 'userpassword', 'datetime': '2022-03-26T05:53:46', 'payload': {'description': 'describes discrete purpose of managing this password', 'password': 'password', 'password_hint': 'password hint', 'password_id': 'c9b2cdc0-3d3c-4507-b57d-2a8a82d1230b', 'trace_id': '183239'}}
+2022-03-26 01:53:47,005 - basicLogger - INFO - Storing new password event
+2022-03-26 01:53:47,605 - basicLogger - INFO - Message: {'type': 'userpassword', 'datetime': '2022-03-26T05:53:46', 'payload': {'description': 'describes discrete purpose of managing this password', 'password': 'password', 'password_hint': 'password hint', 'password_id': 'c87b2099-cda1-427c-84a9-10e5e84abdc0', 'trace_id': '152822'}}
+2022-03-26 01:53:47,605 - basicLogger - INFO - Storing new password event
+2022-03-26 01:53:48,184 - basicLogger - INFO - Message: {'type': 'userpassword', 'datetime': '2022-03-26T05:53:47', 'payload': {'description': 'describes discrete purpose of managing this password', 'password': 'password', 'password_hint': 'password hint', 'password_id': '644f8272-03e1-4d30-9c66-5f2c5784fa17', 'trace_id': '122580'}}
+2022-03-26 01:53:48,184 - basicLogger - INFO - Storing new password event
+2022-03-26 01:53:48,455 - basicLogger - INFO - Timestamp 2022-03-26T01:53:46 returns 3 results
+2022-03-26 01:53:48,895 - basicLogger - INFO - Message: {'type': 'userpassword', 'datetime': '2022-03-26T05:53:47', 'payload': {'description': 'describes discrete purpose of managing this password', 'password': 'password', 'password_hint': 'password hint', 'password_id': '33c47955-8abd-45d0-bba5-c06e6d1d08c4', 'trace_id': '101040'}}
+2022-03-26 01:53:48,896 - basicLogger - INFO - Storing new password event
+2022-03-26 01:53:50,738 - basicLogger - INFO - Timestamp 2022-03-26T01:53:46 returns 0 results
+2022-03-26 01:53:51,833 - basicLogger - INFO - Message: {'type': 'passworduser', 'datetime': '2022-03-26T05:53:50', 'payload': {'user_id': 100, 'name': 'Gorden Pal', 'email': 'email@email.com', 'password': 'AC22B2B', 'trace_id': '185184'}}
+2022-03-26 01:53:51,833 - basicLogger - INFO - Storing new user event
+2022-03-26 01:53:52,189 - basicLogger - INFO - Message: {'type': 'passworduser', 'datetime': '2022-03-26T05:53:51', 'payload': {'user_id': 100, 'name': 'Gorden Pal', 'email': 'email@email.com', 'password': '1AA33B1', 'trace_id': '154369'}}
+2022-03-26 01:53:52,189 - basicLogger - INFO - Storing new user event
+2022-03-26 01:53:52,783 - basicLogger - INFO - Message: {'type': 'passworduser', 'datetime': '2022-03-26T05:53:51', 'payload': {'user_id': 100, 'name': 'Gorden Pal', 'email': 'email@email.com', 'password': '131B31D', 'trace_id': '189261'}}
+2022-03-26 01:53:52,783 - basicLogger - INFO - Storing new user event
+2022-03-26 01:53:53,366 - basicLogger - INFO - Message: {'type': 'passworduser', 'datetime': '2022-03-26T05:53:52', 'payload': {'user_id': 100, 'name': 'Gorden Pal', 'email': 'email@email.com', 'password': 'D1AD3B3', 'trace_id': '178566'}}
+2022-03-26 01:53:53,367 - basicLogger - INFO - Storing new user event
+2022-03-26 01:53:53,444 - basicLogger - INFO - Timestamp 2022-03-26T01:53:51 returns 0 results
+2022-03-26 01:53:54,071 - basicLogger - INFO - Message: {'type': 'passworduser', 'datetime': '2022-03-26T05:53:53', 'payload': {'user_id': 100, 'name': 'Gorden Pal', 'email': 'email@email.com', 'password': 'DDD3DCB', 'trace_id': '191661'}}
+2022-03-26 01:53:54,072 - basicLogger - INFO - Storing new user event
+2022-03-26 01:53:55,725 - basicLogger - INFO - Timestamp 2022-03-26T01:53:51 returns 5 results
+2022-03-26 01:53:57,051 - basicLogger - INFO - Message: {'type': 'userpassword', 'datetime': '2022-03-26T05:53:56', 'payload': {'description': 'describes discrete purpose of managing this password', 'password': 'password', 'password_hint': 'password hint', 'password_id': '7c5f7a21-bb31-4cf4-9373-dd53960565fe', 'trace_id': '180756'}}
+2022-03-26 01:53:57,051 - basicLogger - INFO - Storing new password event
+2022-03-26 01:53:57,370 - basicLogger - INFO - Message: {'type': 'userpassword', 'datetime': '2022-03-26T05:53:56', 'payload': {'description': 'describes discrete purpose of managing this password', 'password': 'password', 'password_hint': 'password hint', 'password_id': 'dd9fb786-afdd-42a2-bdf3-43e673637c5a', 'trace_id': '198210'}}
+2022-03-26 01:53:57,370 - basicLogger - INFO - Storing new password event
+2022-03-26 01:53:57,962 - basicLogger - INFO - Message: {'type': 'userpassword', 'datetime': '2022-03-26T05:53:56', 'payload': {'description': 'describes discrete purpose of managing this password', 'password': 'password', 'password_hint': 'password hint', 'password_id': '101d1d8b-4176-4c4a-b21d-bc5033fbc4e6', 'trace_id': '159229'}}
+2022-03-26 01:53:57,962 - basicLogger - INFO - Storing new password event
+2022-03-26 01:53:58,413 - basicLogger - INFO - Timestamp 2022-03-26T01:53:56 returns 3 results
+2022-03-26 01:53:58,554 - basicLogger - INFO - Message: {'type': 'userpassword', 'datetime': '2022-03-26T05:53:57', 'payload': {'description': 'describes discrete purpose of managing this password', 'password': 'password', 'password_hint': 'password hint', 'password_id': '36dec24f-53ca-4d60-9e5e-1d31942aa838', 'trace_id': '197083'}}
+2022-03-26 01:53:58,555 - basicLogger - INFO - Storing new password event
+2022-03-26 01:53:59,255 - basicLogger - INFO - Message: {'type': 'userpassword', 'datetime': '2022-03-26T05:53:58', 'payload': {'description': 'describes discrete purpose of managing this password', 'password': 'password', 'password_hint': 'password hint', 'password_id': '7e23b7e8-006a-470e-9f62-2dc0b2ba0904', 'trace_id': '102931'}}
+2022-03-26 01:53:59,255 - basicLogger - INFO - Storing new password event
+2022-03-26 01:54:00,711 - basicLogger - INFO - Timestamp 2022-03-26T01:53:56 returns 0 results
+2022-03-26 01:54:02,237 - basicLogger - INFO - Message: {'type': 'passworduser', 'datetime': '2022-03-26T05:54:01', 'payload': {'user_id': 100, 'name': 'Gorden Pal', 'email': 'email@email.com', 'password': '22113A1', 'trace_id': '144707'}}
+2022-03-26 01:54:02,237 - basicLogger - INFO - Storing new user event
+2022-03-26 01:54:02,554 - basicLogger - INFO - Message: {'type': 'passworduser', 'datetime': '2022-03-26T05:54:01', 'payload': {'user_id': 100, 'name': 'Gorden Pal', 'email': 'email@email.com', 'password': 'B2131BB', 'trace_id': '174211'}}
+2022-03-26 01:54:02,555 - basicLogger - INFO - Storing new user event
+2022-03-26 01:54:03,143 - basicLogger - INFO - Message: {'type': 'passworduser', 'datetime': '2022-03-26T05:54:02', 'payload': {'user_id': 100, 'name': 'Gorden Pal', 'email': 'email@email.com', 'password': 'CCB3DBA', 'trace_id': '113488'}}
+2022-03-26 01:54:03,144 - basicLogger - INFO - Storing new user event
+2022-03-26 01:54:03,439 - basicLogger - INFO - Timestamp 2022-03-26T01:54:01 returns 0 results
+2022-03-26 01:54:03,738 - basicLogger - INFO - Message: {'type': 'passworduser', 'datetime': '2022-03-26T05:54:02', 'payload': {'user_id': 100, 'name': 'Gorden Pal', 'email': 'email@email.com', 'password': 'A23BDD1', 'trace_id': '164017'}}
+2022-03-26 01:54:03,739 - basicLogger - INFO - Storing new user event
+2022-03-26 01:54:04,438 - basicLogger - INFO - Message: {'type': 'passworduser', 'datetime': '2022-03-26T05:54:03', 'payload': {'user_id': 100, 'name': 'Gorden Pal', 'email': 'email@email.com', 'password': '3CB3DC3', 'trace_id': '107652'}}
+2022-03-26 01:54:04,439 - basicLogger - INFO - Storing new user event
+2022-03-26 01:54:05,719 - basicLogger - INFO - Timestamp 2022-03-26T01:54:01 returns 5 results
+2022-03-26 01:54:07,429 - basicLogger - INFO - Message: {'type': 'userpassword', 'datetime': '2022-03-26T05:54:06', 'payload': {'description': 'describes discrete purpose of managing this password', 'password': 'password', 'password_hint': 'password hint', 'password_id': '2b4707eb-2eaa-4df2-8ef0-9f796689a342', 'trace_id': '137122'}}
+2022-03-26 01:54:07,429 - basicLogger - INFO - Storing new password event
+2022-03-26 01:54:07,760 - basicLogger - INFO - Message: {'type': 'userpassword', 'datetime': '2022-03-26T05:54:06', 'payload': {'description': 'describes discrete purpose of managing this password', 'password': 'password', 'password_hint': 'password hint', 'password_id': 'f723edb0-a9ab-429c-9be7-4ae8933411a1', 'trace_id': '191347'}}
+2022-03-26 01:54:07,760 - basicLogger - INFO - Storing new password event
+2022-03-26 01:54:08,327 - basicLogger - INFO - Message: {'type': 'userpassword', 'datetime': '2022-03-26T05:54:07', 'payload': {'description': 'describes discrete purpose of managing this password', 'password': 'password', 'password_hint': 'password hint', 'password_id': 'e48415f9-7f34-43e8-940c-599024bfe604', 'trace_id': '169237'}}
+2022-03-26 01:54:08,327 - basicLogger - INFO - Storing new password event
+2022-03-26 01:54:08,430 - basicLogger - INFO - Timestamp 2022-03-26T01:54:06 returns 2 results
+2022-03-26 01:54:08,910 - basicLogger - INFO - Message: {'type': 'userpassword', 'datetime': '2022-03-26T05:54:07', 'payload': {'description': 'describes discrete purpose of managing this password', 'password': 'password', 'password_hint': 'password hint', 'password_id': '3c911678-9227-45d5-a30e-e12193a1b424', 'trace_id': '173588'}}
+2022-03-26 01:54:08,910 - basicLogger - INFO - Storing new password event
+2022-03-26 01:54:09,643 - basicLogger - INFO - Message: {'type': 'userpassword', 'datetime': '2022-03-26T05:54:08', 'payload': {'description': 'describes discrete purpose of managing this password', 'password': 'password', 'password_hint': 'password hint', 'password_id': '0b050491-a82f-4de2-bfb7-4c5de7128047', 'trace_id': '155889'}}
+2022-03-26 01:54:09,644 - basicLogger - INFO - Storing new password event
+2022-03-26 01:54:10,678 - basicLogger - INFO - Timestamp 2022-03-26T01:54:06 returns 0 results
+2022-03-26 01:54:12,607 - basicLogger - INFO - Message: {'type': 'passworduser', 'datetime': '2022-03-26T05:54:11', 'payload': {'user_id': 100, 'name': 'Gorden Pal', 'email': 'email@email.com', 'password': 'DB1D3CC', 'trace_id': '111242'}}
+2022-03-26 01:54:12,609 - basicLogger - INFO - Storing new user event
+2022-03-26 01:54:12,930 - basicLogger - INFO - Message: {'type': 'passworduser', 'datetime': '2022-03-26T05:54:11', 'payload': {'user_id': 100, 'name': 'Gorden Pal', 'email': 'email@email.com', 'password': '32D1DA3', 'trace_id': '176296'}}
+2022-03-26 01:54:12,930 - basicLogger - INFO - Storing new user event
+2022-03-26 01:54:13,438 - basicLogger - INFO - Timestamp 2022-03-26T01:54:11 returns 0 results
+2022-03-26 01:54:13,511 - basicLogger - INFO - Message: {'type': 'passworduser', 'datetime': '2022-03-26T05:54:12', 'payload': {'user_id': 100, 'name': 'Gorden Pal', 'email': 'email@email.com', 'password': '1D1D2DD', 'trace_id': '121795'}}
+2022-03-26 01:54:13,511 - basicLogger - INFO - Storing new user event
+2022-03-26 01:54:14,093 - basicLogger - INFO - Message: {'type': 'passworduser', 'datetime': '2022-03-26T05:54:13', 'payload': {'user_id': 100, 'name': 'Gorden Pal', 'email': 'email@email.com', 'password': 'DCA233A', 'trace_id': '183809'}}
+2022-03-26 01:54:14,093 - basicLogger - INFO - Storing new user event
+2022-03-26 01:54:14,837 - basicLogger - INFO - Message: {'type': 'passworduser', 'datetime': '2022-03-26T05:54:13', 'payload': {'user_id': 100, 'name': 'Gorden Pal', 'email': 'email@email.com', 'password': 'D13CA3C', 'trace_id': '109050'}}
+2022-03-26 01:54:14,837 - basicLogger - INFO - Storing new user event
+2022-03-26 01:54:15,764 - basicLogger - INFO - Timestamp 2022-03-26T01:54:11 returns 5 results
+2022-03-26 01:54:18,474 - basicLogger - INFO - Timestamp 2022-03-26T01:54:16 returns 0 results
+2022-03-26 01:54:20,761 - basicLogger - INFO - Timestamp 2022-03-26T01:54:16 returns 0 results
+2022-03-26 01:54:23,396 - basicLogger - INFO - Timestamp 2022-03-26T01:54:21 returns 0 results
+2022-03-26 01:54:25,666 - basicLogger - INFO - Timestamp 2022-03-26T01:54:21 returns 0 results
+2022-03-26 01:54:28,426 - basicLogger - INFO - Timestamp 2022-03-26T01:54:26 returns 0 results
+2022-03-26 01:54:30,692 - basicLogger - INFO - Timestamp 2022-03-26T01:54:26 returns 0 results
+2022-03-26 01:54:33,407 - basicLogger - INFO - Timestamp 2022-03-26T01:54:31 returns 0 results
+2022-03-26 01:54:35,687 - basicLogger - INFO - Timestamp 2022-03-26T01:54:31 returns 0 results
+2022-03-26 01:54:38,421 - basicLogger - INFO - Timestamp 2022-03-26T01:54:36 returns 0 results
+2022-03-26 01:54:40,698 - basicLogger - INFO - Timestamp 2022-03-26T01:54:36 returns 0 results
+2022-03-26 01:54:43,416 - basicLogger - INFO - Timestamp 2022-03-26T01:54:41 returns 0 results
+2022-03-26 01:54:45,716 - basicLogger - INFO - Timestamp 2022-03-26T01:54:41 returns 0 results
+2022-03-26 01:54:48,429 - basicLogger - INFO - Timestamp 2022-03-26T01:54:46 returns 0 results
+2022-03-26 01:54:50,713 - basicLogger - INFO - Timestamp 2022-03-26T01:54:46 returns 0 results
+2022-03-26 01:54:53,434 - basicLogger - INFO - Timestamp 2022-03-26T01:54:51 returns 0 results
+2022-03-26 01:54:55,721 - basicLogger - INFO - Timestamp 2022-03-26T01:54:51 returns 0 results
+2022-03-26 01:54:58,408 - basicLogger - INFO - Timestamp 2022-03-26T01:54:56 returns 0 results
+2022-03-26 01:55:00,708 - basicLogger - INFO - Timestamp 2022-03-26T01:54:56 returns 0 results
+2022-03-26 01:55:03,413 - basicLogger - INFO - Timestamp 2022-03-26T01:55:01 returns 0 results
+2022-03-26 01:55:05,690 - basicLogger - INFO - Timestamp 2022-03-26T01:55:01 returns 0 results
+2022-03-26 01:55:08,442 - basicLogger - INFO - Timestamp 2022-03-26T01:55:06 returns 0 results
+2022-03-26 01:55:10,744 - basicLogger - INFO - Timestamp 2022-03-26T01:55:06 returns 0 results
+2022-03-26 01:55:13,423 - basicLogger - INFO - Timestamp 2022-03-26T01:55:11 returns 0 results
+2022-03-26 01:55:15,722 - basicLogger - INFO - Timestamp 2022-03-26T01:55:11 returns 0 results
+2022-03-26 01:55:18,422 - basicLogger - INFO - Timestamp 2022-03-26T01:55:16 returns 0 results
+2022-03-26 01:55:20,707 - basicLogger - INFO - Timestamp 2022-03-26T01:55:16 returns 0 results
+2022-03-26 01:55:23,414 - basicLogger - INFO - Timestamp 2022-03-26T01:55:21 returns 0 results
+2022-03-26 01:55:25,714 - basicLogger - INFO - Timestamp 2022-03-26T01:55:21 returns 0 results
+2022-03-26 01:55:28,427 - basicLogger - INFO - Timestamp 2022-03-26T01:55:26 returns 0 results
+2022-03-26 01:55:30,725 - basicLogger - INFO - Timestamp 2022-03-26T01:55:26 returns 0 results
+2022-03-26 01:55:33,411 - basicLogger - INFO - Timestamp 2022-03-26T01:55:31 returns 0 results
+2022-03-26 01:55:35,679 - basicLogger - INFO - Timestamp 2022-03-26T01:55:31 returns 0 results
+2022-03-26 01:55:38,423 - basicLogger - INFO - Timestamp 2022-03-26T01:55:36 returns 0 results
+2022-03-26 01:55:40,707 - basicLogger - INFO - Timestamp 2022-03-26T01:55:36 returns 0 results
+2022-03-26 01:55:43,428 - basicLogger - INFO - Timestamp 2022-03-26T01:55:41 returns 0 results
+2022-03-26 01:55:45,708 - basicLogger - INFO - Timestamp 2022-03-26T01:55:41 returns 0 results
+2022-03-26 01:55:48,457 - basicLogger - INFO - Timestamp 2022-03-26T01:55:46 returns 0 results
+2022-03-26 01:55:50,775 - basicLogger - INFO - Timestamp 2022-03-26T01:55:46 returns 0 results
+2022-03-26 01:55:53,432 - basicLogger - INFO - Timestamp 2022-03-26T01:55:51 returns 0 results
+2022-03-26 01:55:55,715 - basicLogger - INFO - Timestamp 2022-03-26T01:55:51 returns 0 results
+2022-03-26 01:55:58,423 - basicLogger - INFO - Timestamp 2022-03-26T01:55:56 returns 0 results
+2022-03-26 01:56:00,701 - basicLogger - INFO - Timestamp 2022-03-26T01:55:56 returns 0 results
+2022-03-26 01:56:03,439 - basicLogger - INFO - Timestamp 2022-03-26T01:56:01 returns 0 results
+2022-03-26 01:56:05,718 - basicLogger - INFO - Timestamp 2022-03-26T01:56:01 returns 0 results
+2022-03-26 01:56:08,400 - basicLogger - INFO - Timestamp 2022-03-26T01:56:06 returns 0 results
+2022-03-26 01:56:10,673 - basicLogger - INFO - Timestamp 2022-03-26T01:56:06 returns 0 results
+2022-03-26 01:56:13,434 - basicLogger - INFO - Timestamp 2022-03-26T01:56:11 returns 0 results
+2022-03-26 01:56:15,729 - basicLogger - INFO - Timestamp 2022-03-26T01:56:11 returns 0 results
+2022-03-26 01:56:18,444 - basicLogger - INFO - Timestamp 2022-03-26T01:56:16 returns 0 results
+2022-03-26 01:56:20,738 - basicLogger - INFO - Timestamp 2022-03-26T01:56:16 returns 0 results
+2022-03-26 01:56:23,439 - basicLogger - INFO - Timestamp 2022-03-26T01:56:21 returns 0 results
+2022-03-26 01:56:25,703 - basicLogger - INFO - Timestamp 2022-03-26T01:56:21 returns 0 results
+2022-03-26 01:56:28,446 - basicLogger - INFO - Timestamp 2022-03-26T01:56:26 returns 0 results
+2022-03-26 01:56:30,743 - basicLogger - INFO - Timestamp 2022-03-26T01:56:26 returns 0 results
+2022-03-26 01:56:33,427 - basicLogger - INFO - Timestamp 2022-03-26T01:56:31 returns 0 results
+2022-03-26 01:56:35,704 - basicLogger - INFO - Timestamp 2022-03-26T01:56:31 returns 0 results
+2022-03-26 01:56:38,442 - basicLogger - INFO - Timestamp 2022-03-26T01:56:36 returns 0 results
+2022-03-26 01:56:40,711 - basicLogger - INFO - Timestamp 2022-03-26T01:56:36 returns 0 results
+2022-03-26 01:56:43,428 - basicLogger - INFO - Timestamp 2022-03-26T01:56:41 returns 0 results
+2022-03-26 01:56:45,714 - basicLogger - INFO - Timestamp 2022-03-26T01:56:41 returns 0 results
+2022-03-26 01:56:48,427 - basicLogger - INFO - Timestamp 2022-03-26T01:56:46 returns 0 results
+2022-03-26 01:56:50,717 - basicLogger - INFO - Timestamp 2022-03-26T01:56:46 returns 0 results
+2022-03-26 01:56:53,433 - basicLogger - INFO - Timestamp 2022-03-26T01:56:51 returns 0 results
+2022-03-26 01:56:55,727 - basicLogger - INFO - Timestamp 2022-03-26T01:56:51 returns 0 results
+2022-03-26 01:56:58,436 - basicLogger - INFO - Timestamp 2022-03-26T01:56:56 returns 0 results
+2022-03-26 01:57:00,721 - basicLogger - INFO - Timestamp 2022-03-26T01:56:56 returns 0 results
+2022-03-26 01:57:03,431 - basicLogger - INFO - Timestamp 2022-03-26T01:57:01 returns 0 results
+2022-03-26 01:57:05,735 - basicLogger - INFO - Timestamp 2022-03-26T01:57:01 returns 0 results
+2022-03-26 01:57:08,412 - basicLogger - INFO - Timestamp 2022-03-26T01:57:06 returns 0 results
+2022-03-26 01:57:10,742 - basicLogger - INFO - Timestamp 2022-03-26T01:57:06 returns 0 results
+2022-03-26 01:57:13,429 - basicLogger - INFO - Timestamp 2022-03-26T01:57:11 returns 0 results
+2022-03-26 01:57:15,718 - basicLogger - INFO - Timestamp 2022-03-26T01:57:11 returns 0 results
+2022-03-26 01:57:18,407 - basicLogger - INFO - Timestamp 2022-03-26T01:57:16 returns 0 results
+2022-03-26 01:57:20,672 - basicLogger - INFO - Timestamp 2022-03-26T01:57:16 returns 0 results
+2022-03-26 01:57:23,421 - basicLogger - INFO - Timestamp 2022-03-26T01:57:21 returns 0 results
+2022-03-26 01:57:25,703 - basicLogger - INFO - Timestamp 2022-03-26T01:57:21 returns 0 results
+2022-03-26 01:57:28,446 - basicLogger - INFO - Timestamp 2022-03-26T01:57:26 returns 0 results
+2022-03-26 01:57:30,708 - basicLogger - INFO - Timestamp 2022-03-26T01:57:26 returns 0 results
+2022-03-26 01:57:33,414 - basicLogger - INFO - Timestamp 2022-03-26T01:57:31 returns 0 results
+2022-03-26 01:57:35,701 - basicLogger - INFO - Timestamp 2022-03-26T01:57:31 returns 0 results
+2022-03-26 01:57:38,425 - basicLogger - INFO - Timestamp 2022-03-26T01:57:36 returns 0 results
+2022-03-26 01:57:40,757 - basicLogger - INFO - Timestamp 2022-03-26T01:57:36 returns 0 results
+2022-03-26 01:57:43,416 - basicLogger - INFO - Timestamp 2022-03-26T01:57:41 returns 0 results
+2022-03-26 01:57:45,688 - basicLogger - INFO - Timestamp 2022-03-26T01:57:41 returns 0 results
+2022-03-26 01:57:48,446 - basicLogger - INFO - Timestamp 2022-03-26T01:57:46 returns 0 results
+2022-03-26 01:57:50,721 - basicLogger - INFO - Timestamp 2022-03-26T01:57:46 returns 0 results
+2022-03-26 01:57:53,434 - basicLogger - INFO - Timestamp 2022-03-26T01:57:51 returns 0 results
+2022-03-26 01:57:55,723 - basicLogger - INFO - Timestamp 2022-03-26T01:57:51 returns 0 results
+2022-03-26 01:57:58,433 - basicLogger - INFO - Timestamp 2022-03-26T01:57:56 returns 0 results
+2022-03-26 01:58:00,712 - basicLogger - INFO - Timestamp 2022-03-26T01:57:56 returns 0 results
+2022-03-26 01:58:03,430 - basicLogger - INFO - Timestamp 2022-03-26T01:58:01 returns 0 results
+2022-03-26 01:58:05,692 - basicLogger - INFO - Timestamp 2022-03-26T01:58:01 returns 0 results
+2022-03-26 01:58:08,435 - basicLogger - INFO - Timestamp 2022-03-26T01:58:06 returns 0 results
+2022-03-26 01:58:10,706 - basicLogger - INFO - Timestamp 2022-03-26T01:58:06 returns 0 results
+2022-03-26 01:58:13,449 - basicLogger - INFO - Timestamp 2022-03-26T01:58:11 returns 0 results
+2022-03-26 01:58:15,743 - basicLogger - INFO - Timestamp 2022-03-26T01:58:11 returns 0 results
+2022-03-26 01:58:18,416 - basicLogger - INFO - Timestamp 2022-03-26T01:58:16 returns 0 results
+2022-03-26 01:58:20,689 - basicLogger - INFO - Timestamp 2022-03-26T01:58:16 returns 0 results
+2022-03-26 01:58:23,433 - basicLogger - INFO - Timestamp 2022-03-26T01:58:21 returns 0 results
+2022-03-26 01:58:25,718 - basicLogger - INFO - Timestamp 2022-03-26T01:58:21 returns 0 results
+2022-03-26 01:58:28,426 - basicLogger - INFO - Timestamp 2022-03-26T01:58:26 returns 0 results
+2022-03-26 01:58:30,712 - basicLogger - INFO - Timestamp 2022-03-26T01:58:26 returns 0 results
+2022-03-26 01:58:33,429 - basicLogger - INFO - Timestamp 2022-03-26T01:58:31 returns 0 results
+2022-03-26 01:58:35,719 - basicLogger - INFO - Timestamp 2022-03-26T01:58:31 returns 0 results
+2022-03-26 01:58:38,438 - basicLogger - INFO - Timestamp 2022-03-26T01:58:36 returns 0 results
+2022-03-26 01:58:40,716 - basicLogger - INFO - Timestamp 2022-03-26T01:58:36 returns 0 results
+2022-03-26 01:58:43,436 - basicLogger - INFO - Timestamp 2022-03-26T01:58:41 returns 0 results
+2022-03-26 01:58:45,727 - basicLogger - INFO - Timestamp 2022-03-26T01:58:41 returns 0 results
+2022-03-26 01:58:48,412 - basicLogger - INFO - Timestamp 2022-03-26T01:58:46 returns 0 results
+2022-03-26 01:58:50,676 - basicLogger - INFO - Timestamp 2022-03-26T01:58:46 returns 0 results
+2022-03-26 01:58:53,465 - basicLogger - INFO - Timestamp 2022-03-26T01:58:51 returns 0 results
+2022-03-26 01:58:55,745 - basicLogger - INFO - Timestamp 2022-03-26T01:58:51 returns 0 results
+2022-03-26 01:58:58,440 - basicLogger - INFO - Timestamp 2022-03-26T01:58:56 returns 0 results
+2022-03-26 01:59:00,724 - basicLogger - INFO - Timestamp 2022-03-26T01:58:56 returns 0 results
+2022-03-26 01:59:03,428 - basicLogger - INFO - Timestamp 2022-03-26T01:59:01 returns 0 results
+2022-03-26 01:59:05,706 - basicLogger - INFO - Timestamp 2022-03-26T01:59:01 returns 0 results
+2022-03-26 01:59:08,442 - basicLogger - INFO - Timestamp 2022-03-26T01:59:06 returns 0 results
+2022-03-26 01:59:10,722 - basicLogger - INFO - Timestamp 2022-03-26T01:59:06 returns 0 results
+2022-03-26 01:59:13,458 - basicLogger - INFO - Timestamp 2022-03-26T01:59:11 returns 0 results
+2022-03-26 01:59:15,732 - basicLogger - INFO - Timestamp 2022-03-26T01:59:11 returns 0 results
+2022-03-26 01:59:18,424 - basicLogger - INFO - Timestamp 2022-03-26T01:59:16 returns 0 results
+2022-03-26 01:59:20,720 - basicLogger - INFO - Timestamp 2022-03-26T01:59:16 returns 0 results
+2022-03-26 01:59:23,425 - basicLogger - INFO - Timestamp 2022-03-26T01:59:21 returns 0 results
+2022-03-26 01:59:25,718 - basicLogger - INFO - Timestamp 2022-03-26T01:59:21 returns 0 results
+2022-03-26 01:59:28,437 - basicLogger - INFO - Timestamp 2022-03-26T01:59:26 returns 0 results
+2022-03-26 01:59:30,709 - basicLogger - INFO - Timestamp 2022-03-26T01:59:26 returns 0 results
+2022-03-26 01:59:33,424 - basicLogger - INFO - Timestamp 2022-03-26T01:59:31 returns 0 results
+2022-03-26 01:59:35,718 - basicLogger - INFO - Timestamp 2022-03-26T01:59:31 returns 0 results
+2022-03-26 01:59:38,440 - basicLogger - INFO - Timestamp 2022-03-26T01:59:36 returns 0 results
+2022-03-26 01:59:40,743 - basicLogger - INFO - Timestamp 2022-03-26T01:59:36 returns 0 results
+2022-03-26 01:59:43,435 - basicLogger - INFO - Timestamp 2022-03-26T01:59:41 returns 0 results
+2022-03-26 01:59:45,725 - basicLogger - INFO - Timestamp 2022-03-26T01:59:41 returns 0 results
+2022-03-26 01:59:48,428 - basicLogger - INFO - Timestamp 2022-03-26T01:59:46 returns 0 results
+2022-03-26 01:59:50,712 - basicLogger - INFO - Timestamp 2022-03-26T01:59:46 returns 0 results
+2022-03-26 01:59:53,438 - basicLogger - INFO - Timestamp 2022-03-26T01:59:51 returns 0 results
+2022-03-26 01:59:55,710 - basicLogger - INFO - Timestamp 2022-03-26T01:59:51 returns 0 results
+2022-03-26 01:59:58,434 - basicLogger - INFO - Timestamp 2022-03-26T01:59:56 returns 0 results
+2022-03-26 02:00:00,722 - basicLogger - INFO - Timestamp 2022-03-26T01:59:56 returns 0 results
+2022-03-26 02:00:03,451 - basicLogger - INFO - Timestamp 2022-03-26T02:00:01 returns 0 results
+2022-03-26 02:00:05,743 - basicLogger - INFO - Timestamp 2022-03-26T02:00:01 returns 0 results
+2022-03-26 02:00:08,438 - basicLogger - INFO - Timestamp 2022-03-26T02:00:06 returns 0 results
+2022-03-26 02:00:10,726 - basicLogger - INFO - Timestamp 2022-03-26T02:00:06 returns 0 results
+2022-03-26 02:00:13,430 - basicLogger - INFO - Timestamp 2022-03-26T02:00:11 returns 0 results
+2022-03-26 02:00:15,711 - basicLogger - INFO - Timestamp 2022-03-26T02:00:11 returns 0 results
+2022-03-26 02:00:18,427 - basicLogger - INFO - Timestamp 2022-03-26T02:00:16 returns 0 results
+2022-03-26 02:00:20,703 - basicLogger - INFO - Timestamp 2022-03-26T02:00:16 returns 0 results
+2022-03-26 02:00:23,428 - basicLogger - INFO - Timestamp 2022-03-26T02:00:21 returns 0 results
+2022-03-26 02:00:25,697 - basicLogger - INFO - Timestamp 2022-03-26T02:00:21 returns 0 results
+2022-03-26 02:00:28,447 - basicLogger - INFO - Timestamp 2022-03-26T02:00:26 returns 0 results
+2022-03-26 02:00:30,726 - basicLogger - INFO - Timestamp 2022-03-26T02:00:26 returns 0 results
+2022-03-26 02:00:33,426 - basicLogger - INFO - Timestamp 2022-03-26T02:00:31 returns 0 results
+2022-03-26 02:00:35,694 - basicLogger - INFO - Timestamp 2022-03-26T02:00:31 returns 0 results
+2022-03-26 02:00:38,422 - basicLogger - INFO - Timestamp 2022-03-26T02:00:36 returns 0 results
+2022-03-26 02:00:40,698 - basicLogger - INFO - Timestamp 2022-03-26T02:00:36 returns 0 results
+2022-03-26 02:00:43,431 - basicLogger - INFO - Timestamp 2022-03-26T02:00:41 returns 0 results
+2022-03-26 02:00:45,710 - basicLogger - INFO - Timestamp 2022-03-26T02:00:41 returns 0 results
+2022-03-26 02:00:48,439 - basicLogger - INFO - Timestamp 2022-03-26T02:00:46 returns 0 results
+2022-03-26 02:00:50,742 - basicLogger - INFO - Timestamp 2022-03-26T02:00:46 returns 0 results
+2022-03-26 02:00:53,442 - basicLogger - INFO - Timestamp 2022-03-26T02:00:51 returns 0 results
+2022-03-26 02:00:55,727 - basicLogger - INFO - Timestamp 2022-03-26T02:00:51 returns 0 results
+2022-03-26 02:00:58,393 - basicLogger - INFO - Timestamp 2022-03-26T02:00:56 returns 0 results
+2022-03-26 02:01:00,677 - basicLogger - INFO - Timestamp 2022-03-26T02:00:56 returns 0 results
+2022-03-26 02:01:03,434 - basicLogger - INFO - Timestamp 2022-03-26T02:01:01 returns 0 results
+2022-03-26 02:01:05,725 - basicLogger - INFO - Timestamp 2022-03-26T02:01:01 returns 0 results
+2022-03-26 02:01:08,437 - basicLogger - INFO - Timestamp 2022-03-26T02:01:06 returns 0 results
+2022-03-26 02:01:10,703 - basicLogger - INFO - Timestamp 2022-03-26T02:01:06 returns 0 results
+2022-03-26 02:01:13,435 - basicLogger - INFO - Timestamp 2022-03-26T02:01:11 returns 0 results
+2022-03-26 02:01:15,711 - basicLogger - INFO - Timestamp 2022-03-26T02:01:11 returns 0 results
+2022-03-26 02:01:18,434 - basicLogger - INFO - Timestamp 2022-03-26T02:01:16 returns 0 results
+2022-03-26 02:01:20,725 - basicLogger - INFO - Timestamp 2022-03-26T02:01:16 returns 0 results
+2022-03-26 02:01:23,427 - basicLogger - INFO - Timestamp 2022-03-26T02:01:21 returns 0 results
+2022-03-26 02:01:25,707 - basicLogger - INFO - Timestamp 2022-03-26T02:01:21 returns 0 results
+2022-03-26 02:01:28,456 - basicLogger - INFO - Timestamp 2022-03-26T02:01:26 returns 0 results
+2022-03-26 02:01:30,732 - basicLogger - INFO - Timestamp 2022-03-26T02:01:26 returns 0 results
+2022-03-26 02:01:33,439 - basicLogger - INFO - Timestamp 2022-03-26T02:01:31 returns 0 results
+2022-03-26 02:01:35,738 - basicLogger - INFO - Timestamp 2022-03-26T02:01:31 returns 0 results
+2022-03-26 02:01:38,431 - basicLogger - INFO - Timestamp 2022-03-26T02:01:36 returns 0 results
+2022-03-26 02:01:40,724 - basicLogger - INFO - Timestamp 2022-03-26T02:01:36 returns 0 results
+2022-03-26 02:01:43,418 - basicLogger - INFO - Timestamp 2022-03-26T02:01:41 returns 0 results
+2022-03-26 02:01:45,693 - basicLogger - INFO - Timestamp 2022-03-26T02:01:41 returns 0 results
+2022-03-26 02:01:48,415 - basicLogger - INFO - Timestamp 2022-03-26T02:01:46 returns 0 results
+2022-03-26 02:01:50,696 - basicLogger - INFO - Timestamp 2022-03-26T02:01:46 returns 0 results
+2022-03-26 02:01:53,435 - basicLogger - INFO - Timestamp 2022-03-26T02:01:51 returns 0 results
+2022-03-26 02:01:55,710 - basicLogger - INFO - Timestamp 2022-03-26T02:01:51 returns 0 results
+2022-03-26 02:01:58,433 - basicLogger - INFO - Timestamp 2022-03-26T02:01:56 returns 0 results
+2022-03-26 02:02:00,718 - basicLogger - INFO - Timestamp 2022-03-26T02:01:56 returns 0 results
+2022-03-26 02:02:03,424 - basicLogger - INFO - Timestamp 2022-03-26T02:02:01 returns 0 results
+2022-03-26 02:02:05,709 - basicLogger - INFO - Timestamp 2022-03-26T02:02:01 returns 0 results
+2022-03-26 02:02:08,418 - basicLogger - INFO - Timestamp 2022-03-26T02:02:06 returns 0 results
+2022-03-26 02:02:10,707 - basicLogger - INFO - Timestamp 2022-03-26T02:02:06 returns 0 results
+2022-03-26 02:02:13,441 - basicLogger - INFO - Timestamp 2022-03-26T02:02:11 returns 0 results
+2022-03-26 02:02:15,728 - basicLogger - INFO - Timestamp 2022-03-26T02:02:11 returns 0 results
+2022-03-26 02:02:18,415 - basicLogger - INFO - Timestamp 2022-03-26T02:02:16 returns 0 results
+2022-03-26 02:02:20,724 - basicLogger - INFO - Timestamp 2022-03-26T02:02:16 returns 0 results
+2022-03-26 02:02:23,455 - basicLogger - INFO - Timestamp 2022-03-26T02:02:21 returns 0 results
+2022-03-26 02:02:25,749 - basicLogger - INFO - Timestamp 2022-03-26T02:02:21 returns 0 results
+2022-03-26 02:02:28,468 - basicLogger - INFO - Timestamp 2022-03-26T02:02:26 returns 0 results
+2022-03-26 02:02:30,740 - basicLogger - INFO - Timestamp 2022-03-26T02:02:26 returns 0 results
+2022-03-26 02:02:33,407 - basicLogger - INFO - Timestamp 2022-03-26T02:02:31 returns 0 results
+2022-03-26 02:02:35,706 - basicLogger - INFO - Timestamp 2022-03-26T02:02:31 returns 0 results
+2022-03-26 02:02:38,412 - basicLogger - INFO - Timestamp 2022-03-26T02:02:36 returns 0 results
+2022-03-26 02:02:40,692 - basicLogger - INFO - Timestamp 2022-03-26T02:02:36 returns 0 results
+2022-03-26 02:02:43,421 - basicLogger - INFO - Timestamp 2022-03-26T02:02:41 returns 0 results
+2022-03-26 02:02:45,716 - basicLogger - INFO - Timestamp 2022-03-26T02:02:41 returns 0 results
+2022-03-26 02:02:48,424 - basicLogger - INFO - Timestamp 2022-03-26T02:02:46 returns 0 results
+2022-03-26 02:02:50,673 - basicLogger - INFO - Timestamp 2022-03-26T02:02:46 returns 0 results
+2022-03-26 02:02:53,434 - basicLogger - INFO - Timestamp 2022-03-26T02:02:51 returns 0 results
+2022-03-26 02:02:55,715 - basicLogger - INFO - Timestamp 2022-03-26T02:02:51 returns 0 results
+2022-03-26 02:02:58,462 - basicLogger - INFO - Timestamp 2022-03-26T02:02:56 returns 0 results
+2022-03-26 02:03:00,739 - basicLogger - INFO - Timestamp 2022-03-26T02:02:56 returns 0 results
+2022-03-26 02:03:03,419 - basicLogger - INFO - Timestamp 2022-03-26T02:03:01 returns 0 results
+2022-03-26 02:03:05,707 - basicLogger - INFO - Timestamp 2022-03-26T02:03:01 returns 0 results
+2022-03-26 02:03:08,430 - basicLogger - INFO - Timestamp 2022-03-26T02:03:06 returns 0 results
+2022-03-26 02:03:10,726 - basicLogger - INFO - Timestamp 2022-03-26T02:03:06 returns 0 results
+2022-03-26 02:03:13,415 - basicLogger - INFO - Timestamp 2022-03-26T02:03:11 returns 0 results
+2022-03-26 02:03:15,701 - basicLogger - INFO - Timestamp 2022-03-26T02:03:11 returns 0 results
+2022-03-26 02:03:18,421 - basicLogger - INFO - Timestamp 2022-03-26T02:03:16 returns 0 results
+2022-03-26 02:03:20,694 - basicLogger - INFO - Timestamp 2022-03-26T02:03:16 returns 0 results
+2022-03-26 02:03:23,434 - basicLogger - INFO - Timestamp 2022-03-26T02:03:21 returns 0 results
+2022-03-26 02:03:25,731 - basicLogger - INFO - Timestamp 2022-03-26T02:03:21 returns 0 results
+2022-03-26 02:03:28,427 - basicLogger - INFO - Timestamp 2022-03-26T02:03:26 returns 0 results
+2022-03-26 02:03:30,745 - basicLogger - INFO - Timestamp 2022-03-26T02:03:26 returns 0 results
+2022-03-26 02:03:33,437 - basicLogger - INFO - Timestamp 2022-03-26T02:03:31 returns 0 results
+2022-03-26 02:03:35,719 - basicLogger - INFO - Timestamp 2022-03-26T02:03:31 returns 0 results
+2022-03-26 02:03:38,433 - basicLogger - INFO - Timestamp 2022-03-26T02:03:36 returns 0 results
+2022-03-26 02:03:40,732 - basicLogger - INFO - Timestamp 2022-03-26T02:03:36 returns 0 results
+2022-03-26 02:03:43,411 - basicLogger - INFO - Timestamp 2022-03-26T02:03:41 returns 0 results
+2022-03-26 02:03:45,705 - basicLogger - INFO - Timestamp 2022-03-26T02:03:41 returns 0 results
+2022-03-26 02:03:48,444 - basicLogger - INFO - Timestamp 2022-03-26T02:03:46 returns 0 results
+2022-03-26 02:03:50,731 - basicLogger - INFO - Timestamp 2022-03-26T02:03:46 returns 0 results
+2022-03-26 02:03:53,450 - basicLogger - INFO - Timestamp 2022-03-26T02:03:51 returns 0 results
+2022-03-26 02:03:55,721 - basicLogger - INFO - Timestamp 2022-03-26T02:03:51 returns 0 results
+2022-03-26 02:03:58,422 - basicLogger - INFO - Timestamp 2022-03-26T02:03:56 returns 0 results
+2022-03-26 02:04:00,728 - basicLogger - INFO - Timestamp 2022-03-26T02:03:56 returns 0 results
+2022-03-26 02:04:03,424 - basicLogger - INFO - Timestamp 2022-03-26T02:04:01 returns 0 results
+2022-03-26 02:04:05,720 - basicLogger - INFO - Timestamp 2022-03-26T02:04:01 returns 0 results
+2022-03-26 02:04:08,408 - basicLogger - INFO - Timestamp 2022-03-26T02:04:06 returns 0 results
+2022-03-26 02:04:10,678 - basicLogger - INFO - Timestamp 2022-03-26T02:04:06 returns 0 results
+2022-03-26 02:04:13,437 - basicLogger - INFO - Timestamp 2022-03-26T02:04:11 returns 0 results
+2022-03-26 02:04:15,734 - basicLogger - INFO - Timestamp 2022-03-26T02:04:11 returns 0 results
+2022-03-26 02:04:18,421 - basicLogger - INFO - Timestamp 2022-03-26T02:04:16 returns 0 results
+2022-03-26 02:04:20,702 - basicLogger - INFO - Timestamp 2022-03-26T02:04:16 returns 0 results
+2022-03-26 02:04:23,432 - basicLogger - INFO - Timestamp 2022-03-26T02:04:21 returns 0 results
+2022-03-26 02:04:25,700 - basicLogger - INFO - Timestamp 2022-03-26T02:04:21 returns 0 results
+2022-03-26 02:04:28,428 - basicLogger - INFO - Timestamp 2022-03-26T02:04:26 returns 0 results
+2022-03-26 02:04:30,718 - basicLogger - INFO - Timestamp 2022-03-26T02:04:26 returns 0 results
+2022-03-26 02:04:33,421 - basicLogger - INFO - Timestamp 2022-03-26T02:04:31 returns 0 results
+2022-03-26 02:04:35,731 - basicLogger - INFO - Timestamp 2022-03-26T02:04:31 returns 0 results
+2022-03-26 02:04:38,443 - basicLogger - INFO - Timestamp 2022-03-26T02:04:36 returns 0 results
+2022-03-26 02:04:40,755 - basicLogger - INFO - Timestamp 2022-03-26T02:04:36 returns 0 results
+2022-03-26 02:04:43,434 - basicLogger - INFO - Timestamp 2022-03-26T02:04:41 returns 0 results
+2022-03-26 02:04:45,744 - basicLogger - INFO - Timestamp 2022-03-26T02:04:41 returns 0 results
+2022-03-26 02:04:48,407 - basicLogger - INFO - Timestamp 2022-03-26T02:04:46 returns 0 results
+2022-03-26 02:04:50,675 - basicLogger - INFO - Timestamp 2022-03-26T02:04:46 returns 0 results
+2022-03-26 02:04:53,404 - basicLogger - INFO - Timestamp 2022-03-26T02:04:51 returns 0 results
+2022-03-26 02:04:55,678 - basicLogger - INFO - Timestamp 2022-03-26T02:04:51 returns 0 results
+2022-03-26 02:04:58,425 - basicLogger - INFO - Timestamp 2022-03-26T02:04:56 returns 0 results
+2022-03-26 02:05:00,735 - basicLogger - INFO - Timestamp 2022-03-26T02:04:56 returns 0 results
+2022-03-26 02:05:03,399 - basicLogger - INFO - Timestamp 2022-03-26T02:05:01 returns 0 results
+2022-03-26 02:05:05,671 - basicLogger - INFO - Timestamp 2022-03-26T02:05:01 returns 0 results
+2022-03-26 02:05:08,437 - basicLogger - INFO - Timestamp 2022-03-26T02:05:06 returns 0 results
+2022-03-26 02:05:10,703 - basicLogger - INFO - Timestamp 2022-03-26T02:05:06 returns 0 results
+2022-03-26 02:05:13,417 - basicLogger - INFO - Timestamp 2022-03-26T02:05:11 returns 0 results
+2022-03-26 02:05:15,702 - basicLogger - INFO - Timestamp 2022-03-26T02:05:11 returns 0 results
+2022-03-26 02:05:18,404 - basicLogger - INFO - Timestamp 2022-03-26T02:05:16 returns 0 results
+2022-03-26 02:05:20,686 - basicLogger - INFO - Timestamp 2022-03-26T02:05:16 returns 0 results
+2022-03-26 02:05:23,419 - basicLogger - INFO - Timestamp 2022-03-26T02:05:21 returns 0 results
+2022-03-26 02:05:25,713 - basicLogger - INFO - Timestamp 2022-03-26T02:05:21 returns 0 results
+2022-03-26 02:05:28,425 - basicLogger - INFO - Timestamp 2022-03-26T02:05:26 returns 0 results
+2022-03-26 02:05:30,708 - basicLogger - INFO - Timestamp 2022-03-26T02:05:26 returns 0 results
+2022-03-26 02:05:33,448 - basicLogger - INFO - Timestamp 2022-03-26T02:05:31 returns 0 results
+2022-03-26 02:05:35,743 - basicLogger - INFO - Timestamp 2022-03-26T02:05:31 returns 0 results
+2022-03-26 02:05:38,419 - basicLogger - INFO - Timestamp 2022-03-26T02:05:36 returns 0 results
+2022-03-26 02:05:40,697 - basicLogger - INFO - Timestamp 2022-03-26T02:05:36 returns 0 results
+2022-03-26 02:05:43,460 - basicLogger - INFO - Timestamp 2022-03-26T02:05:41 returns 0 results
+2022-03-26 02:05:45,757 - basicLogger - INFO - Timestamp 2022-03-26T02:05:41 returns 0 results
+2022-03-26 02:05:48,441 - basicLogger - INFO - Timestamp 2022-03-26T02:05:46 returns 0 results
+2022-03-26 02:05:50,707 - basicLogger - INFO - Timestamp 2022-03-26T02:05:46 returns 0 results
+2022-03-26 02:05:53,435 - basicLogger - INFO - Timestamp 2022-03-26T02:05:51 returns 0 results
+2022-03-26 02:05:55,735 - basicLogger - INFO - Timestamp 2022-03-26T02:05:51 returns 0 results
+2022-03-26 02:05:58,412 - basicLogger - INFO - Timestamp 2022-03-26T02:05:56 returns 0 results
+2022-03-26 02:06:00,692 - basicLogger - INFO - Timestamp 2022-03-26T02:05:56 returns 0 results
+2022-03-26 02:06:03,417 - basicLogger - INFO - Timestamp 2022-03-26T02:06:01 returns 0 results
+2022-03-26 02:06:05,758 - basicLogger - INFO - Timestamp 2022-03-26T02:06:01 returns 0 results
+2022-03-26 02:06:08,447 - basicLogger - INFO - Timestamp 2022-03-26T02:06:06 returns 0 results
+2022-03-26 02:06:10,768 - basicLogger - INFO - Timestamp 2022-03-26T02:06:06 returns 0 results
+2022-03-26 02:06:13,433 - basicLogger - INFO - Timestamp 2022-03-26T02:06:11 returns 0 results
+2022-03-26 02:06:15,726 - basicLogger - INFO - Timestamp 2022-03-26T02:06:11 returns 0 results
+2022-03-26 02:06:18,437 - basicLogger - INFO - Timestamp 2022-03-26T02:06:16 returns 0 results
+2022-03-26 02:06:20,727 - basicLogger - INFO - Timestamp 2022-03-26T02:06:16 returns 0 results
+2022-03-26 02:06:23,444 - basicLogger - INFO - Timestamp 2022-03-26T02:06:21 returns 0 results
+2022-03-26 02:06:25,734 - basicLogger - INFO - Timestamp 2022-03-26T02:06:21 returns 0 results
+2022-03-26 02:06:28,446 - basicLogger - INFO - Timestamp 2022-03-26T02:06:26 returns 0 results
+2022-03-26 02:06:30,736 - basicLogger - INFO - Timestamp 2022-03-26T02:06:26 returns 0 results
+2022-03-26 02:06:33,448 - basicLogger - INFO - Timestamp 2022-03-26T02:06:31 returns 0 results
+2022-03-26 02:06:35,743 - basicLogger - INFO - Timestamp 2022-03-26T02:06:31 returns 0 results
+2022-03-26 02:06:38,429 - basicLogger - INFO - Timestamp 2022-03-26T02:06:36 returns 0 results
+2022-03-26 02:06:40,736 - basicLogger - INFO - Timestamp 2022-03-26T02:06:36 returns 0 results
+2022-03-26 02:06:43,431 - basicLogger - INFO - Timestamp 2022-03-26T02:06:41 returns 0 results
+2022-03-26 02:06:45,717 - basicLogger - INFO - Timestamp 2022-03-26T02:06:41 returns 0 results
+2022-03-26 02:06:48,437 - basicLogger - INFO - Timestamp 2022-03-26T02:06:46 returns 0 results
+2022-03-26 02:06:50,749 - basicLogger - INFO - Timestamp 2022-03-26T02:06:46 returns 0 results
+2022-03-26 02:06:53,416 - basicLogger - INFO - Timestamp 2022-03-26T02:06:51 returns 0 results
+2022-03-26 02:06:55,695 - basicLogger - INFO - Timestamp 2022-03-26T02:06:51 returns 0 results
+2022-03-26 02:06:58,459 - basicLogger - INFO - Timestamp 2022-03-26T02:06:56 returns 0 results
+2022-03-26 02:07:00,744 - basicLogger - INFO - Timestamp 2022-03-26T02:06:56 returns 0 results
+2022-03-26 02:07:03,414 - basicLogger - INFO - Timestamp 2022-03-26T02:07:01 returns 0 results
+2022-03-26 02:07:05,713 - basicLogger - INFO - Timestamp 2022-03-26T02:07:01 returns 0 results
+2022-03-26 02:07:08,416 - basicLogger - INFO - Timestamp 2022-03-26T02:07:06 returns 0 results
+2022-03-26 02:07:10,687 - basicLogger - INFO - Timestamp 2022-03-26T02:07:06 returns 0 results
+2022-03-26 02:07:13,497 - basicLogger - INFO - Timestamp 2022-03-26T02:07:11 returns 0 results
+2022-03-26 02:07:15,812 - basicLogger - INFO - Timestamp 2022-03-26T02:07:11 returns 0 results
+2022-03-26 02:07:18,402 - basicLogger - INFO - Timestamp 2022-03-26T02:07:16 returns 0 results
+2022-03-26 02:07:20,697 - basicLogger - INFO - Timestamp 2022-03-26T02:07:16 returns 0 results
+2022-03-26 02:07:23,434 - basicLogger - INFO - Timestamp 2022-03-26T02:07:21 returns 0 results
+2022-03-26 02:07:25,711 - basicLogger - INFO - Timestamp 2022-03-26T02:07:21 returns 0 results
+2022-03-26 02:07:28,447 - basicLogger - INFO - Timestamp 2022-03-26T02:07:26 returns 0 results
+2022-03-26 02:07:30,744 - basicLogger - INFO - Timestamp 2022-03-26T02:07:26 returns 0 results
+2022-03-26 02:07:33,419 - basicLogger - INFO - Timestamp 2022-03-26T02:07:31 returns 0 results
+2022-03-26 02:07:35,707 - basicLogger - INFO - Timestamp 2022-03-26T02:07:31 returns 0 results
+2022-03-26 02:07:38,420 - basicLogger - INFO - Timestamp 2022-03-26T02:07:36 returns 0 results
+2022-03-26 02:07:40,684 - basicLogger - INFO - Timestamp 2022-03-26T02:07:36 returns 0 results
+2022-03-26 02:07:43,409 - basicLogger - INFO - Timestamp 2022-03-26T02:07:41 returns 0 results
+2022-03-26 02:07:45,674 - basicLogger - INFO - Timestamp 2022-03-26T02:07:41 returns 0 results
+2022-03-26 02:07:48,431 - basicLogger - INFO - Timestamp 2022-03-26T02:07:46 returns 0 results
+2022-03-26 02:07:50,689 - basicLogger - INFO - Timestamp 2022-03-26T02:07:46 returns 0 results
+2022-03-26 02:07:53,445 - basicLogger - INFO - Timestamp 2022-03-26T02:07:51 returns 0 results
+2022-03-26 02:07:55,717 - basicLogger - INFO - Timestamp 2022-03-26T02:07:51 returns 0 results
+2022-03-26 02:07:58,412 - basicLogger - INFO - Timestamp 2022-03-26T02:07:56 returns 0 results
+2022-03-26 02:08:00,687 - basicLogger - INFO - Timestamp 2022-03-26T02:07:56 returns 0 results
+2022-03-26 02:08:03,425 - basicLogger - INFO - Timestamp 2022-03-26T02:08:01 returns 0 results
+2022-03-26 02:08:05,723 - basicLogger - INFO - Timestamp 2022-03-26T02:08:01 returns 0 results
+2022-03-26 02:08:08,422 - basicLogger - INFO - Timestamp 2022-03-26T02:08:06 returns 0 results
+2022-03-26 02:08:10,697 - basicLogger - INFO - Timestamp 2022-03-26T02:08:06 returns 0 results
+2022-03-26 02:08:13,402 - basicLogger - INFO - Timestamp 2022-03-26T02:08:11 returns 0 results
+2022-03-26 02:08:15,701 - basicLogger - INFO - Timestamp 2022-03-26T02:08:11 returns 0 results
+2022-03-26 02:08:18,422 - basicLogger - INFO - Timestamp 2022-03-26T02:08:16 returns 0 results
+2022-03-26 02:08:20,689 - basicLogger - INFO - Timestamp 2022-03-26T02:08:16 returns 0 results
+2022-03-26 02:08:23,428 - basicLogger - INFO - Timestamp 2022-03-26T02:08:21 returns 0 results
+2022-03-26 02:08:25,694 - basicLogger - INFO - Timestamp 2022-03-26T02:08:21 returns 0 results
+2022-03-26 02:08:28,419 - basicLogger - INFO - Timestamp 2022-03-26T02:08:26 returns 0 results
+2022-03-26 02:08:30,691 - basicLogger - INFO - Timestamp 2022-03-26T02:08:26 returns 0 results
+2022-03-26 02:08:33,425 - basicLogger - INFO - Timestamp 2022-03-26T02:08:31 returns 0 results
+2022-03-26 02:08:35,691 - basicLogger - INFO - Timestamp 2022-03-26T02:08:31 returns 0 results
+2022-03-26 02:08:38,424 - basicLogger - INFO - Timestamp 2022-03-26T02:08:36 returns 0 results
+2022-03-26 02:08:40,709 - basicLogger - INFO - Timestamp 2022-03-26T02:08:36 returns 0 results
+2022-03-26 02:08:43,423 - basicLogger - INFO - Timestamp 2022-03-26T02:08:41 returns 0 results
+2022-03-26 02:08:45,699 - basicLogger - INFO - Timestamp 2022-03-26T02:08:41 returns 0 results
+2022-03-26 02:08:48,453 - basicLogger - INFO - Timestamp 2022-03-26T02:08:46 returns 0 results
+2022-03-26 02:08:50,751 - basicLogger - INFO - Timestamp 2022-03-26T02:08:46 returns 0 results
+2022-03-26 02:08:53,432 - basicLogger - INFO - Timestamp 2022-03-26T02:08:51 returns 0 results
+2022-03-26 02:08:55,708 - basicLogger - INFO - Timestamp 2022-03-26T02:08:51 returns 0 results
+2022-03-26 02:08:58,411 - basicLogger - INFO - Timestamp 2022-03-26T02:08:56 returns 0 results
+2022-03-26 02:09:00,678 - basicLogger - INFO - Timestamp 2022-03-26T02:08:56 returns 0 results
+2022-03-26 02:09:03,417 - basicLogger - INFO - Timestamp 2022-03-26T02:09:01 returns 0 results
+2022-03-26 02:09:05,714 - basicLogger - INFO - Timestamp 2022-03-26T02:09:01 returns 0 results
+2022-03-26 02:09:08,418 - basicLogger - INFO - Timestamp 2022-03-26T02:09:06 returns 0 results
+2022-03-26 02:09:10,710 - basicLogger - INFO - Timestamp 2022-03-26T02:09:06 returns 0 results
+2022-03-26 02:09:13,438 - basicLogger - INFO - Timestamp 2022-03-26T02:09:11 returns 0 results
+2022-03-26 02:09:15,718 - basicLogger - INFO - Timestamp 2022-03-26T02:09:11 returns 0 results
+2022-03-26 02:09:18,424 - basicLogger - INFO - Timestamp 2022-03-26T02:09:16 returns 0 results
+2022-03-26 02:09:20,706 - basicLogger - INFO - Timestamp 2022-03-26T02:09:16 returns 0 results
+2022-03-26 02:09:23,435 - basicLogger - INFO - Timestamp 2022-03-26T02:09:21 returns 0 results
+2022-03-26 02:09:25,703 - basicLogger - INFO - Timestamp 2022-03-26T02:09:21 returns 0 results
+2022-03-26 02:09:28,432 - basicLogger - INFO - Timestamp 2022-03-26T02:09:26 returns 0 results
+2022-03-26 02:09:30,704 - basicLogger - INFO - Timestamp 2022-03-26T02:09:26 returns 0 results
+2022-03-26 02:09:33,434 - basicLogger - INFO - Timestamp 2022-03-26T02:09:31 returns 0 results
+2022-03-26 02:09:35,735 - basicLogger - INFO - Timestamp 2022-03-26T02:09:31 returns 0 results
+2022-03-26 02:09:38,413 - basicLogger - INFO - Timestamp 2022-03-26T02:09:36 returns 0 results
+2022-03-26 02:09:40,679 - basicLogger - INFO - Timestamp 2022-03-26T02:09:36 returns 0 results
+2022-03-26 02:09:43,432 - basicLogger - INFO - Timestamp 2022-03-26T02:09:41 returns 0 results
+2022-03-26 02:09:45,719 - basicLogger - INFO - Timestamp 2022-03-26T02:09:41 returns 0 results
+2022-03-26 02:09:48,425 - basicLogger - INFO - Timestamp 2022-03-26T02:09:46 returns 0 results
+2022-03-26 02:09:50,694 - basicLogger - INFO - Timestamp 2022-03-26T02:09:46 returns 0 results
+2022-03-26 02:09:53,442 - basicLogger - INFO - Timestamp 2022-03-26T02:09:51 returns 0 results
+2022-03-26 02:09:55,712 - basicLogger - INFO - Timestamp 2022-03-26T02:09:51 returns 0 results
+2022-03-26 02:09:58,416 - basicLogger - INFO - Timestamp 2022-03-26T02:09:56 returns 0 results
+2022-03-26 02:10:00,698 - basicLogger - INFO - Timestamp 2022-03-26T02:09:56 returns 0 results
+2022-03-26 02:10:03,427 - basicLogger - INFO - Timestamp 2022-03-26T02:10:01 returns 0 results
+2022-03-26 02:10:05,728 - basicLogger - INFO - Timestamp 2022-03-26T02:10:01 returns 0 results
+2022-03-26 02:10:08,421 - basicLogger - INFO - Timestamp 2022-03-26T02:10:06 returns 0 results
+2022-03-26 02:10:10,705 - basicLogger - INFO - Timestamp 2022-03-26T02:10:06 returns 0 results
+2022-03-26 02:10:13,433 - basicLogger - INFO - Timestamp 2022-03-26T02:10:11 returns 0 results
+2022-03-26 02:10:15,707 - basicLogger - INFO - Timestamp 2022-03-26T02:10:11 returns 0 results
+2022-03-26 02:10:18,451 - basicLogger - INFO - Timestamp 2022-03-26T02:10:16 returns 0 results
+2022-03-26 02:10:20,717 - basicLogger - INFO - Timestamp 2022-03-26T02:10:16 returns 0 results
+2022-03-26 02:10:23,433 - basicLogger - INFO - Timestamp 2022-03-26T02:10:21 returns 0 results
+2022-03-26 02:10:25,711 - basicLogger - INFO - Timestamp 2022-03-26T02:10:21 returns 0 results
+2022-03-26 02:10:28,440 - basicLogger - INFO - Timestamp 2022-03-26T02:10:26 returns 0 results
+2022-03-26 02:10:30,714 - basicLogger - INFO - Timestamp 2022-03-26T02:10:26 returns 0 results
+2022-03-26 02:10:33,442 - basicLogger - INFO - Timestamp 2022-03-26T02:10:31 returns 0 results
+2022-03-26 02:10:35,725 - basicLogger - INFO - Timestamp 2022-03-26T02:10:31 returns 0 results
+2022-03-26 02:10:38,453 - basicLogger - INFO - Timestamp 2022-03-26T02:10:36 returns 0 results
+2022-03-26 02:10:40,744 - basicLogger - INFO - Timestamp 2022-03-26T02:10:36 returns 0 results
+2022-03-26 02:10:43,469 - basicLogger - INFO - Timestamp 2022-03-26T02:10:41 returns 0 results
+2022-03-26 02:10:45,772 - basicLogger - INFO - Timestamp 2022-03-26T02:10:41 returns 0 results
+2022-03-26 02:10:48,477 - basicLogger - INFO - Timestamp 2022-03-26T02:10:46 returns 0 results
+2022-03-26 02:10:50,747 - basicLogger - INFO - Timestamp 2022-03-26T02:10:46 returns 0 results
+2022-03-26 02:10:53,486 - basicLogger - INFO - Timestamp 2022-03-26T02:10:51 returns 0 results
+2022-03-26 02:10:55,777 - basicLogger - INFO - Timestamp 2022-03-26T02:10:51 returns 0 results
+2022-03-26 02:10:58,437 - basicLogger - INFO - Timestamp 2022-03-26T02:10:56 returns 0 results
+2022-03-26 02:11:00,729 - basicLogger - INFO - Timestamp 2022-03-26T02:10:56 returns 0 results
+2022-03-26 02:11:03,419 - basicLogger - INFO - Timestamp 2022-03-26T02:11:01 returns 0 results
+2022-03-26 02:11:05,700 - basicLogger - INFO - Timestamp 2022-03-26T02:11:01 returns 0 results
+2022-03-26 02:11:08,427 - basicLogger - INFO - Timestamp 2022-03-26T02:11:06 returns 0 results
+2022-03-26 02:11:10,708 - basicLogger - INFO - Timestamp 2022-03-26T02:11:06 returns 0 results
+2022-03-26 02:11:13,458 - basicLogger - INFO - Timestamp 2022-03-26T02:11:11 returns 0 results
+2022-03-26 02:11:15,750 - basicLogger - INFO - Timestamp 2022-03-26T02:11:11 returns 0 results
+2022-03-26 02:11:18,433 - basicLogger - INFO - Timestamp 2022-03-26T02:11:16 returns 0 results
+2022-03-26 02:11:20,713 - basicLogger - INFO - Timestamp 2022-03-26T02:11:16 returns 0 results
+2022-03-26 02:11:23,429 - basicLogger - INFO - Timestamp 2022-03-26T02:11:21 returns 0 results
+2022-03-26 02:11:25,705 - basicLogger - INFO - Timestamp 2022-03-26T02:11:21 returns 0 results
+2022-03-26 02:11:28,448 - basicLogger - INFO - Timestamp 2022-03-26T02:11:26 returns 0 results
+2022-03-26 02:11:30,733 - basicLogger - INFO - Timestamp 2022-03-26T02:11:26 returns 0 results
+2022-03-26 02:11:33,442 - basicLogger - INFO - Timestamp 2022-03-26T02:11:31 returns 0 results
+2022-03-26 02:11:35,746 - basicLogger - INFO - Timestamp 2022-03-26T02:11:31 returns 0 results
+2022-03-26 02:11:38,418 - basicLogger - INFO - Timestamp 2022-03-26T02:11:36 returns 0 results
+2022-03-26 02:11:40,706 - basicLogger - INFO - Timestamp 2022-03-26T02:11:36 returns 0 results
+2022-03-26 02:11:43,448 - basicLogger - INFO - Timestamp 2022-03-26T02:11:41 returns 0 results
+2022-03-26 02:11:45,700 - basicLogger - INFO - Timestamp 2022-03-26T02:11:41 returns 0 results
+2022-03-26 02:11:48,447 - basicLogger - INFO - Timestamp 2022-03-26T02:11:46 returns 0 results
+2022-03-26 02:11:50,746 - basicLogger - INFO - Timestamp 2022-03-26T02:11:46 returns 0 results
+2022-03-26 02:11:53,439 - basicLogger - INFO - Timestamp 2022-03-26T02:11:51 returns 0 results
+2022-03-26 02:11:55,719 - basicLogger - INFO - Timestamp 2022-03-26T02:11:51 returns 0 results
+2022-03-26 02:11:58,414 - basicLogger - INFO - Timestamp 2022-03-26T02:11:56 returns 0 results
+2022-03-26 02:12:00,706 - basicLogger - INFO - Timestamp 2022-03-26T02:11:56 returns 0 results
+2022-03-26 02:12:03,432 - basicLogger - INFO - Timestamp 2022-03-26T02:12:01 returns 0 results
+2022-03-26 02:12:05,740 - basicLogger - INFO - Timestamp 2022-03-26T02:12:01 returns 0 results
+2022-03-26 02:12:08,426 - basicLogger - INFO - Timestamp 2022-03-26T02:12:06 returns 0 results
+2022-03-26 02:12:10,717 - basicLogger - INFO - Timestamp 2022-03-26T02:12:06 returns 0 results
+2022-03-26 02:12:13,429 - basicLogger - INFO - Timestamp 2022-03-26T02:12:11 returns 0 results
+2022-03-26 02:12:15,727 - basicLogger - INFO - Timestamp 2022-03-26T02:12:11 returns 0 results
+2022-03-26 02:12:18,430 - basicLogger - INFO - Timestamp 2022-03-26T02:12:16 returns 0 results
+2022-03-26 02:12:20,717 - basicLogger - INFO - Timestamp 2022-03-26T02:12:16 returns 0 results
+2022-03-26 02:12:23,433 - basicLogger - INFO - Timestamp 2022-03-26T02:12:21 returns 0 results
+2022-03-26 02:12:25,754 - basicLogger - INFO - Timestamp 2022-03-26T02:12:21 returns 0 results
+2022-03-26 02:12:28,439 - basicLogger - INFO - Timestamp 2022-03-26T02:12:26 returns 0 results
+2022-03-26 02:12:30,713 - basicLogger - INFO - Timestamp 2022-03-26T02:12:26 returns 0 results
+2022-03-26 02:12:33,423 - basicLogger - INFO - Timestamp 2022-03-26T02:12:31 returns 0 results
+2022-03-26 02:12:35,696 - basicLogger - INFO - Timestamp 2022-03-26T02:12:31 returns 0 results
+2022-03-26 02:12:38,463 - basicLogger - INFO - Timestamp 2022-03-26T02:12:36 returns 0 results
+2022-03-26 02:12:40,745 - basicLogger - INFO - Timestamp 2022-03-26T02:12:36 returns 0 results
+2022-03-26 02:12:43,422 - basicLogger - INFO - Timestamp 2022-03-26T02:12:41 returns 0 results
+2022-03-26 02:12:45,714 - basicLogger - INFO - Timestamp 2022-03-26T02:12:41 returns 0 results
+2022-03-26 02:12:48,404 - basicLogger - INFO - Timestamp 2022-03-26T02:12:46 returns 0 results
+2022-03-26 02:12:50,677 - basicLogger - INFO - Timestamp 2022-03-26T02:12:46 returns 0 results
+2022-03-26 02:12:53,443 - basicLogger - INFO - Timestamp 2022-03-26T02:12:51 returns 0 results
+2022-03-26 02:12:55,728 - basicLogger - INFO - Timestamp 2022-03-26T02:12:51 returns 0 results
+2022-03-26 02:12:58,435 - basicLogger - INFO - Timestamp 2022-03-26T02:12:56 returns 0 results
+2022-03-26 02:13:00,733 - basicLogger - INFO - Timestamp 2022-03-26T02:12:56 returns 0 results
+2022-03-26 02:13:03,437 - basicLogger - INFO - Timestamp 2022-03-26T02:13:01 returns 0 results
+2022-03-26 02:13:05,690 - basicLogger - INFO - Timestamp 2022-03-26T02:13:01 returns 0 results
+2022-03-26 02:13:08,444 - basicLogger - INFO - Timestamp 2022-03-26T02:13:06 returns 0 results
+2022-03-26 02:13:10,754 - basicLogger - INFO - Timestamp 2022-03-26T02:13:06 returns 0 results
+2022-03-26 02:13:13,401 - basicLogger - INFO - Timestamp 2022-03-26T02:13:11 returns 0 results
+2022-03-26 02:13:15,697 - basicLogger - INFO - Timestamp 2022-03-26T02:13:11 returns 0 results
+2022-03-26 02:13:18,430 - basicLogger - INFO - Timestamp 2022-03-26T02:13:16 returns 0 results
+2022-03-26 02:13:20,718 - basicLogger - INFO - Timestamp 2022-03-26T02:13:16 returns 0 results
+2022-03-26 02:13:23,451 - basicLogger - INFO - Timestamp 2022-03-26T02:13:21 returns 0 results
+2022-03-26 02:13:25,738 - basicLogger - INFO - Timestamp 2022-03-26T02:13:21 returns 0 results
+2022-03-26 02:13:28,434 - basicLogger - INFO - Timestamp 2022-03-26T02:13:26 returns 0 results
+2022-03-26 02:13:30,708 - basicLogger - INFO - Timestamp 2022-03-26T02:13:26 returns 0 results
+2022-03-26 02:13:33,401 - basicLogger - INFO - Timestamp 2022-03-26T02:13:31 returns 0 results
+2022-03-26 02:13:35,689 - basicLogger - INFO - Timestamp 2022-03-26T02:13:31 returns 0 results
+2022-03-26 02:13:38,421 - basicLogger - INFO - Timestamp 2022-03-26T02:13:36 returns 0 results
+2022-03-26 02:13:40,695 - basicLogger - INFO - Timestamp 2022-03-26T02:13:36 returns 0 results
+2022-03-26 02:13:43,418 - basicLogger - INFO - Timestamp 2022-03-26T02:13:41 returns 0 results
+2022-03-26 02:13:45,702 - basicLogger - INFO - Timestamp 2022-03-26T02:13:41 returns 0 results
+2022-03-26 02:13:48,436 - basicLogger - INFO - Timestamp 2022-03-26T02:13:46 returns 0 results
+2022-03-26 02:13:50,716 - basicLogger - INFO - Timestamp 2022-03-26T02:13:46 returns 0 results
+2022-03-26 02:13:53,430 - basicLogger - INFO - Timestamp 2022-03-26T02:13:51 returns 0 results
+2022-03-26 02:13:55,707 - basicLogger - INFO - Timestamp 2022-03-26T02:13:51 returns 0 results
+2022-03-26 02:13:58,414 - basicLogger - INFO - Timestamp 2022-03-26T02:13:56 returns 0 results
+2022-03-26 02:14:00,704 - basicLogger - INFO - Timestamp 2022-03-26T02:13:56 returns 0 results
+2022-03-26 02:14:03,427 - basicLogger - INFO - Timestamp 2022-03-26T02:14:01 returns 0 results
+2022-03-26 02:14:05,721 - basicLogger - INFO - Timestamp 2022-03-26T02:14:01 returns 0 results
+2022-03-26 02:14:08,437 - basicLogger - INFO - Timestamp 2022-03-26T02:14:06 returns 0 results
+2022-03-26 02:14:10,729 - basicLogger - INFO - Timestamp 2022-03-26T02:14:06 returns 0 results
+2022-03-26 02:14:13,449 - basicLogger - INFO - Timestamp 2022-03-26T02:14:11 returns 0 results
+2022-03-26 02:14:15,738 - basicLogger - INFO - Timestamp 2022-03-26T02:14:11 returns 0 results
+2022-03-26 02:14:18,441 - basicLogger - INFO - Timestamp 2022-03-26T02:14:16 returns 0 results
+2022-03-26 02:14:20,749 - basicLogger - INFO - Timestamp 2022-03-26T02:14:16 returns 0 results
+2022-03-26 02:14:23,428 - basicLogger - INFO - Timestamp 2022-03-26T02:14:21 returns 0 results
+2022-03-26 02:14:25,673 - basicLogger - INFO - Timestamp 2022-03-26T02:14:21 returns 0 results
+2022-03-26 02:14:28,406 - basicLogger - INFO - Timestamp 2022-03-26T02:14:26 returns 0 results
+2022-03-26 02:14:30,690 - basicLogger - INFO - Timestamp 2022-03-26T02:14:26 returns 0 results
+2022-03-26 02:14:33,420 - basicLogger - INFO - Timestamp 2022-03-26T02:14:31 returns 0 results
+2022-03-26 02:14:35,730 - basicLogger - INFO - Timestamp 2022-03-26T02:14:31 returns 0 results
+2022-03-26 02:14:38,428 - basicLogger - INFO - Timestamp 2022-03-26T02:14:36 returns 0 results
+2022-03-26 02:14:40,725 - basicLogger - INFO - Timestamp 2022-03-26T02:14:36 returns 0 results
+2022-03-26 02:14:43,428 - basicLogger - INFO - Timestamp 2022-03-26T02:14:41 returns 0 results
+2022-03-26 02:14:45,730 - basicLogger - INFO - Timestamp 2022-03-26T02:14:41 returns 0 results
+2022-03-26 02:14:48,415 - basicLogger - INFO - Timestamp 2022-03-26T02:14:46 returns 0 results
+2022-03-26 02:14:50,694 - basicLogger - INFO - Timestamp 2022-03-26T02:14:46 returns 0 results
+2022-03-26 02:14:53,419 - basicLogger - INFO - Timestamp 2022-03-26T02:14:51 returns 0 results
+2022-03-26 02:14:55,718 - basicLogger - INFO - Timestamp 2022-03-26T02:14:51 returns 0 results
+2022-03-26 02:14:58,414 - basicLogger - INFO - Timestamp 2022-03-26T02:14:56 returns 0 results
+2022-03-26 02:15:00,694 - basicLogger - INFO - Timestamp 2022-03-26T02:14:56 returns 0 results
+2022-03-26 02:15:03,442 - basicLogger - INFO - Timestamp 2022-03-26T02:15:01 returns 0 results
+2022-03-26 02:15:05,727 - basicLogger - INFO - Timestamp 2022-03-26T02:15:01 returns 0 results
+2022-03-26 02:15:08,447 - basicLogger - INFO - Timestamp 2022-03-26T02:15:06 returns 0 results
+2022-03-26 02:15:10,737 - basicLogger - INFO - Timestamp 2022-03-26T02:15:06 returns 0 results
+2022-03-26 02:15:13,441 - basicLogger - INFO - Timestamp 2022-03-26T02:15:11 returns 0 results
+2022-03-26 02:15:15,710 - basicLogger - INFO - Timestamp 2022-03-26T02:15:11 returns 0 results
+2022-03-26 02:15:18,431 - basicLogger - INFO - Timestamp 2022-03-26T02:15:16 returns 0 results
+2022-03-26 02:15:20,710 - basicLogger - INFO - Timestamp 2022-03-26T02:15:16 returns 0 results
+2022-03-26 02:15:23,440 - basicLogger - INFO - Timestamp 2022-03-26T02:15:21 returns 0 results
+2022-03-26 02:15:25,721 - basicLogger - INFO - Timestamp 2022-03-26T02:15:21 returns 0 results
+2022-03-26 02:15:28,423 - basicLogger - INFO - Timestamp 2022-03-26T02:15:26 returns 0 results
+2022-03-26 02:15:30,714 - basicLogger - INFO - Timestamp 2022-03-26T02:15:26 returns 0 results
+2022-03-26 02:15:33,426 - basicLogger - INFO - Timestamp 2022-03-26T02:15:31 returns 0 results
+2022-03-26 02:15:35,710 - basicLogger - INFO - Timestamp 2022-03-26T02:15:31 returns 0 results
+2022-03-26 02:15:38,432 - basicLogger - INFO - Timestamp 2022-03-26T02:15:36 returns 0 results
+2022-03-26 02:15:40,737 - basicLogger - INFO - Timestamp 2022-03-26T02:15:36 returns 0 results
+2022-03-26 02:15:43,414 - basicLogger - INFO - Timestamp 2022-03-26T02:15:41 returns 0 results
+2022-03-26 02:15:45,690 - basicLogger - INFO - Timestamp 2022-03-26T02:15:41 returns 0 results
+2022-03-26 02:15:48,422 - basicLogger - INFO - Timestamp 2022-03-26T02:15:46 returns 0 results
+2022-03-26 02:15:50,701 - basicLogger - INFO - Timestamp 2022-03-26T02:15:46 returns 0 results
+2022-03-26 02:15:53,427 - basicLogger - INFO - Timestamp 2022-03-26T02:15:51 returns 0 results
+2022-03-26 02:15:55,699 - basicLogger - INFO - Timestamp 2022-03-26T02:15:51 returns 0 results
+2022-03-26 02:15:58,418 - basicLogger - INFO - Timestamp 2022-03-26T02:15:56 returns 0 results
+2022-03-26 02:16:00,689 - basicLogger - INFO - Timestamp 2022-03-26T02:15:56 returns 0 results
+2022-03-26 02:16:03,417 - basicLogger - INFO - Timestamp 2022-03-26T02:16:01 returns 0 results
+2022-03-26 02:16:05,688 - basicLogger - INFO - Timestamp 2022-03-26T02:16:01 returns 0 results
+2022-03-26 02:16:08,450 - basicLogger - INFO - Timestamp 2022-03-26T02:16:06 returns 0 results
+2022-03-26 02:16:10,729 - basicLogger - INFO - Timestamp 2022-03-26T02:16:06 returns 0 results
+2022-03-26 02:16:13,453 - basicLogger - INFO - Timestamp 2022-03-26T02:16:11 returns 0 results
+2022-03-26 02:16:15,726 - basicLogger - INFO - Timestamp 2022-03-26T02:16:11 returns 0 results
+2022-03-26 02:16:18,424 - basicLogger - INFO - Timestamp 2022-03-26T02:16:16 returns 0 results
+2022-03-26 02:16:20,723 - basicLogger - INFO - Timestamp 2022-03-26T02:16:16 returns 0 results
+2022-03-26 02:16:23,423 - basicLogger - INFO - Timestamp 2022-03-26T02:16:21 returns 0 results
+2022-03-26 02:16:25,699 - basicLogger - INFO - Timestamp 2022-03-26T02:16:21 returns 0 results
+2022-03-26 02:16:28,435 - basicLogger - INFO - Timestamp 2022-03-26T02:16:26 returns 0 results
+2022-03-26 02:16:30,725 - basicLogger - INFO - Timestamp 2022-03-26T02:16:26 returns 0 results
+2022-03-26 02:16:33,421 - basicLogger - INFO - Timestamp 2022-03-26T02:16:31 returns 0 results
+2022-03-26 02:16:35,703 - basicLogger - INFO - Timestamp 2022-03-26T02:16:31 returns 0 results
+2022-03-26 02:16:38,423 - basicLogger - INFO - Timestamp 2022-03-26T02:16:36 returns 0 results
+2022-03-26 02:16:40,728 - basicLogger - INFO - Timestamp 2022-03-26T02:16:36 returns 0 results
+2022-03-26 02:16:43,423 - basicLogger - INFO - Timestamp 2022-03-26T02:16:41 returns 0 results
+2022-03-26 02:16:45,713 - basicLogger - INFO - Timestamp 2022-03-26T02:16:41 returns 0 results
+2022-03-26 02:16:48,455 - basicLogger - INFO - Timestamp 2022-03-26T02:16:46 returns 0 results
+2022-03-26 02:16:50,705 - basicLogger - INFO - Timestamp 2022-03-26T02:16:46 returns 0 results
+2022-03-26 02:16:53,431 - basicLogger - INFO - Timestamp 2022-03-26T02:16:51 returns 0 results
+2022-03-26 02:16:55,720 - basicLogger - INFO - Timestamp 2022-03-26T02:16:51 returns 0 results
+2022-03-26 02:16:58,436 - basicLogger - INFO - Timestamp 2022-03-26T02:16:56 returns 0 results
+2022-03-26 02:17:00,734 - basicLogger - INFO - Timestamp 2022-03-26T02:16:56 returns 0 results
+2022-03-26 02:17:03,427 - basicLogger - INFO - Timestamp 2022-03-26T02:17:01 returns 0 results
+2022-03-26 02:17:05,714 - basicLogger - INFO - Timestamp 2022-03-26T02:17:01 returns 0 results
+2022-03-26 02:17:08,442 - basicLogger - INFO - Timestamp 2022-03-26T02:17:06 returns 0 results
+2022-03-26 02:17:10,832 - basicLogger - INFO - Timestamp 2022-03-26T02:17:06 returns 0 results
+2022-03-26 02:17:13,426 - basicLogger - INFO - Timestamp 2022-03-26T02:17:11 returns 0 results
+2022-03-26 02:17:15,709 - basicLogger - INFO - Timestamp 2022-03-26T02:17:11 returns 0 results
+2022-03-26 02:17:18,426 - basicLogger - INFO - Timestamp 2022-03-26T02:17:16 returns 0 results
+2022-03-26 02:17:20,709 - basicLogger - INFO - Timestamp 2022-03-26T02:17:16 returns 0 results
+2022-03-26 02:17:23,424 - basicLogger - INFO - Timestamp 2022-03-26T02:17:21 returns 0 results
+2022-03-26 02:17:25,687 - basicLogger - INFO - Timestamp 2022-03-26T02:17:21 returns 0 results
+2022-03-26 02:17:28,423 - basicLogger - INFO - Timestamp 2022-03-26T02:17:26 returns 0 results
+2022-03-26 02:17:30,725 - basicLogger - INFO - Timestamp 2022-03-26T02:17:26 returns 0 results
+2022-03-26 02:17:33,433 - basicLogger - INFO - Timestamp 2022-03-26T02:17:31 returns 0 results
+2022-03-26 02:17:35,723 - basicLogger - INFO - Timestamp 2022-03-26T02:17:31 returns 0 results
+2022-03-26 02:17:38,447 - basicLogger - INFO - Timestamp 2022-03-26T02:17:36 returns 0 results
+2022-03-26 02:17:40,724 - basicLogger - INFO - Timestamp 2022-03-26T02:17:36 returns 0 results
+2022-03-26 02:17:43,456 - basicLogger - INFO - Timestamp 2022-03-26T02:17:41 returns 0 results
+2022-03-26 02:17:45,725 - basicLogger - INFO - Timestamp 2022-03-26T02:17:41 returns 0 results
+2022-03-26 02:17:48,424 - basicLogger - INFO - Timestamp 2022-03-26T02:17:46 returns 0 results
+2022-03-26 02:17:50,708 - basicLogger - INFO - Timestamp 2022-03-26T02:17:46 returns 0 results
+2022-03-26 02:17:53,416 - basicLogger - INFO - Timestamp 2022-03-26T02:17:51 returns 0 results
+2022-03-26 02:17:55,684 - basicLogger - INFO - Timestamp 2022-03-26T02:17:51 returns 0 results
+2022-03-26 02:17:58,427 - basicLogger - INFO - Timestamp 2022-03-26T02:17:56 returns 0 results
+2022-03-26 02:18:00,720 - basicLogger - INFO - Timestamp 2022-03-26T02:17:56 returns 0 results
+2022-03-26 02:18:03,442 - basicLogger - INFO - Timestamp 2022-03-26T02:18:01 returns 0 results
+2022-03-26 02:18:05,711 - basicLogger - INFO - Timestamp 2022-03-26T02:18:01 returns 0 results
+2022-03-26 02:18:08,419 - basicLogger - INFO - Timestamp 2022-03-26T02:18:06 returns 0 results
+2022-03-26 02:18:10,714 - basicLogger - INFO - Timestamp 2022-03-26T02:18:06 returns 0 results
+2022-03-26 02:18:13,446 - basicLogger - INFO - Timestamp 2022-03-26T02:18:11 returns 0 results
+2022-03-26 02:18:15,725 - basicLogger - INFO - Timestamp 2022-03-26T02:18:11 returns 0 results
+2022-03-26 02:18:18,416 - basicLogger - INFO - Timestamp 2022-03-26T02:18:16 returns 0 results
+2022-03-26 02:18:20,704 - basicLogger - INFO - Timestamp 2022-03-26T02:18:16 returns 0 results
+2022-03-26 02:18:23,460 - basicLogger - INFO - Timestamp 2022-03-26T02:18:21 returns 0 results
+2022-03-26 02:18:25,745 - basicLogger - INFO - Timestamp 2022-03-26T02:18:21 returns 0 results
+2022-03-26 02:18:28,466 - basicLogger - INFO - Timestamp 2022-03-26T02:18:26 returns 0 results
+2022-03-26 02:18:30,753 - basicLogger - INFO - Timestamp 2022-03-26T02:18:26 returns 0 results
+2022-03-26 02:18:33,431 - basicLogger - INFO - Timestamp 2022-03-26T02:18:31 returns 0 results
+2022-03-26 02:18:35,710 - basicLogger - INFO - Timestamp 2022-03-26T02:18:31 returns 0 results
+2022-03-26 02:18:38,428 - basicLogger - INFO - Timestamp 2022-03-26T02:18:36 returns 0 results
+2022-03-26 02:18:40,705 - basicLogger - INFO - Timestamp 2022-03-26T02:18:36 returns 0 results
+2022-03-26 02:18:43,448 - basicLogger - INFO - Timestamp 2022-03-26T02:18:41 returns 0 results
+2022-03-26 02:18:45,710 - basicLogger - INFO - Timestamp 2022-03-26T02:18:41 returns 0 results
+2022-03-26 02:18:48,420 - basicLogger - INFO - Timestamp 2022-03-26T02:18:46 returns 0 results
+2022-03-26 02:18:50,811 - basicLogger - INFO - Timestamp 2022-03-26T02:18:46 returns 0 results
+2022-03-26 02:18:53,419 - basicLogger - INFO - Timestamp 2022-03-26T02:18:51 returns 0 results
+2022-03-26 02:18:55,701 - basicLogger - INFO - Timestamp 2022-03-26T02:18:51 returns 0 results
+2022-03-26 02:18:58,419 - basicLogger - INFO - Timestamp 2022-03-26T02:18:56 returns 0 results
+2022-03-26 02:19:00,698 - basicLogger - INFO - Timestamp 2022-03-26T02:18:56 returns 0 results
+2022-03-26 02:19:03,452 - basicLogger - INFO - Timestamp 2022-03-26T02:19:01 returns 0 results
+2022-03-26 02:19:05,736 - basicLogger - INFO - Timestamp 2022-03-26T02:19:01 returns 0 results
+2022-03-26 02:19:08,461 - basicLogger - INFO - Timestamp 2022-03-26T02:19:06 returns 0 results
+2022-03-26 02:19:10,745 - basicLogger - INFO - Timestamp 2022-03-26T02:19:06 returns 0 results
+2022-03-26 02:19:13,472 - basicLogger - INFO - Timestamp 2022-03-26T02:19:11 returns 0 results
+2022-03-26 02:19:15,762 - basicLogger - INFO - Timestamp 2022-03-26T02:19:11 returns 0 results
+2022-03-26 02:19:18,481 - basicLogger - INFO - Timestamp 2022-03-26T02:19:16 returns 0 results
+2022-03-26 02:19:20,782 - basicLogger - INFO - Timestamp 2022-03-26T02:19:16 returns 0 results
+2022-03-26 02:19:23,432 - basicLogger - INFO - Timestamp 2022-03-26T02:19:21 returns 0 results
+2022-03-26 02:19:25,721 - basicLogger - INFO - Timestamp 2022-03-26T02:19:21 returns 0 results
+2022-03-26 02:19:28,417 - basicLogger - INFO - Timestamp 2022-03-26T02:19:26 returns 0 results
+2022-03-26 02:19:30,707 - basicLogger - INFO - Timestamp 2022-03-26T02:19:26 returns 0 results
+2022-03-26 02:19:33,436 - basicLogger - INFO - Timestamp 2022-03-26T02:19:31 returns 0 results
+2022-03-26 02:19:35,731 - basicLogger - INFO - Timestamp 2022-03-26T02:19:31 returns 0 results
+2022-03-26 02:19:38,444 - basicLogger - INFO - Timestamp 2022-03-26T02:19:36 returns 0 results
+2022-03-26 02:19:40,744 - basicLogger - INFO - Timestamp 2022-03-26T02:19:36 returns 0 results
+2022-03-26 02:19:43,437 - basicLogger - INFO - Timestamp 2022-03-26T02:19:41 returns 0 results
+2022-03-26 02:19:45,730 - basicLogger - INFO - Timestamp 2022-03-26T02:19:41 returns 0 results
+2022-03-26 02:19:48,438 - basicLogger - INFO - Timestamp 2022-03-26T02:19:46 returns 0 results
+2022-03-26 02:19:50,731 - basicLogger - INFO - Timestamp 2022-03-26T02:19:46 returns 0 results
+2022-03-26 02:19:53,474 - basicLogger - INFO - Timestamp 2022-03-26T02:19:51 returns 0 results
+2022-03-26 02:19:55,761 - basicLogger - INFO - Timestamp 2022-03-26T02:19:51 returns 0 results
+2022-03-26 02:19:58,448 - basicLogger - INFO - Timestamp 2022-03-26T02:19:56 returns 0 results
+2022-03-26 02:20:00,745 - basicLogger - INFO - Timestamp 2022-03-26T02:19:56 returns 0 results
+2022-03-26 02:20:03,430 - basicLogger - INFO - Timestamp 2022-03-26T02:20:01 returns 0 results
+2022-03-26 02:20:05,728 - basicLogger - INFO - Timestamp 2022-03-26T02:20:01 returns 0 results
+2022-03-26 02:20:08,418 - basicLogger - INFO - Timestamp 2022-03-26T02:20:06 returns 0 results
+2022-03-26 02:20:10,684 - basicLogger - INFO - Timestamp 2022-03-26T02:20:06 returns 0 results
+2022-03-26 02:20:13,516 - basicLogger - INFO - Timestamp 2022-03-26T02:20:11 returns 0 results
+2022-03-26 02:20:15,875 - basicLogger - INFO - Timestamp 2022-03-26T02:20:11 returns 0 results
+2022-03-26 02:20:18,437 - basicLogger - INFO - Timestamp 2022-03-26T02:20:16 returns 0 results
+2022-03-26 02:20:20,715 - basicLogger - INFO - Timestamp 2022-03-26T02:20:16 returns 0 results
+2022-03-26 02:20:23,458 - basicLogger - INFO - Timestamp 2022-03-26T02:20:21 returns 0 results
+2022-03-26 02:20:25,752 - basicLogger - INFO - Timestamp 2022-03-26T02:20:21 returns 0 results
+2022-03-26 02:20:28,407 - basicLogger - INFO - Timestamp 2022-03-26T02:20:26 returns 0 results
+2022-03-26 02:20:30,696 - basicLogger - INFO - Timestamp 2022-03-26T02:20:26 returns 0 results
+2022-03-26 02:20:33,432 - basicLogger - INFO - Timestamp 2022-03-26T02:20:31 returns 0 results
+2022-03-26 02:20:35,707 - basicLogger - INFO - Timestamp 2022-03-26T02:20:31 returns 0 results
+2022-03-26 02:20:38,423 - basicLogger - INFO - Timestamp 2022-03-26T02:20:36 returns 0 results
+2022-03-26 02:20:40,727 - basicLogger - INFO - Timestamp 2022-03-26T02:20:36 returns 0 results
+2022-03-26 02:20:43,414 - basicLogger - INFO - Timestamp 2022-03-26T02:20:41 returns 0 results
+2022-03-26 02:20:45,737 - basicLogger - INFO - Timestamp 2022-03-26T02:20:41 returns 0 results
+2022-03-26 02:20:48,446 - basicLogger - INFO - Timestamp 2022-03-26T02:20:46 returns 0 results
+2022-03-26 02:20:50,739 - basicLogger - INFO - Timestamp 2022-03-26T02:20:46 returns 0 results
+2022-03-26 02:20:53,431 - basicLogger - INFO - Timestamp 2022-03-26T02:20:51 returns 0 results
+2022-03-26 02:20:55,712 - basicLogger - INFO - Timestamp 2022-03-26T02:20:51 returns 0 results
+2022-03-26 02:20:58,421 - basicLogger - INFO - Timestamp 2022-03-26T02:20:56 returns 0 results
+2022-03-26 02:21:00,702 - basicLogger - INFO - Timestamp 2022-03-26T02:20:56 returns 0 results
+2022-03-26 02:21:03,428 - basicLogger - INFO - Timestamp 2022-03-26T02:21:01 returns 0 results
+2022-03-26 02:21:05,737 - basicLogger - INFO - Timestamp 2022-03-26T02:21:01 returns 0 results
+2022-03-26 02:21:08,418 - basicLogger - INFO - Timestamp 2022-03-26T02:21:06 returns 0 results
+2022-03-26 02:21:10,702 - basicLogger - INFO - Timestamp 2022-03-26T02:21:06 returns 0 results
+2022-03-26 02:21:13,420 - basicLogger - INFO - Timestamp 2022-03-26T02:21:11 returns 0 results
+2022-03-26 02:21:15,713 - basicLogger - INFO - Timestamp 2022-03-26T02:21:11 returns 0 results
+2022-03-26 02:21:18,428 - basicLogger - INFO - Timestamp 2022-03-26T02:21:16 returns 0 results
+2022-03-26 02:21:20,745 - basicLogger - INFO - Timestamp 2022-03-26T02:21:16 returns 0 results
+2022-03-26 02:21:23,397 - basicLogger - INFO - Timestamp 2022-03-26T02:21:21 returns 0 results
+2022-03-26 02:21:25,675 - basicLogger - INFO - Timestamp 2022-03-26T02:21:21 returns 0 results
+2022-03-26 02:21:28,442 - basicLogger - INFO - Timestamp 2022-03-26T02:21:26 returns 0 results
+2022-03-26 02:21:30,732 - basicLogger - INFO - Timestamp 2022-03-26T02:21:26 returns 0 results
+2022-03-26 02:21:33,438 - basicLogger - INFO - Timestamp 2022-03-26T02:21:31 returns 0 results
+2022-03-26 02:21:35,700 - basicLogger - INFO - Timestamp 2022-03-26T02:21:31 returns 0 results
+2022-03-26 02:21:38,446 - basicLogger - INFO - Timestamp 2022-03-26T02:21:36 returns 0 results
+2022-03-26 02:21:40,735 - basicLogger - INFO - Timestamp 2022-03-26T02:21:36 returns 0 results
+2022-03-26 02:21:43,432 - basicLogger - INFO - Timestamp 2022-03-26T02:21:41 returns 0 results
+2022-03-26 02:21:45,721 - basicLogger - INFO - Timestamp 2022-03-26T02:21:41 returns 0 results
+2022-03-26 02:21:48,419 - basicLogger - INFO - Timestamp 2022-03-26T02:21:46 returns 0 results
+2022-03-26 02:21:50,707 - basicLogger - INFO - Timestamp 2022-03-26T02:21:46 returns 0 results
+2022-03-26 02:21:53,444 - basicLogger - INFO - Timestamp 2022-03-26T02:21:51 returns 0 results
+2022-03-26 02:21:55,710 - basicLogger - INFO - Timestamp 2022-03-26T02:21:51 returns 0 results
+2022-03-26 02:21:58,433 - basicLogger - INFO - Timestamp 2022-03-26T02:21:56 returns 0 results
+2022-03-26 02:22:00,723 - basicLogger - INFO - Timestamp 2022-03-26T02:21:56 returns 0 results
+2022-03-26 02:22:03,448 - basicLogger - INFO - Timestamp 2022-03-26T02:22:01 returns 0 results
+2022-03-26 02:22:05,704 - basicLogger - INFO - Timestamp 2022-03-26T02:22:01 returns 0 results
+2022-03-26 02:22:08,421 - basicLogger - INFO - Timestamp 2022-03-26T02:22:06 returns 0 results
+2022-03-26 02:22:10,680 - basicLogger - INFO - Timestamp 2022-03-26T02:22:06 returns 0 results
+2022-03-26 02:22:13,652 - basicLogger - INFO - Timestamp 2022-03-26T02:22:11 returns 0 results
+2022-03-26 02:22:15,988 - basicLogger - INFO - Timestamp 2022-03-26T02:22:11 returns 0 results
+2022-03-26 02:22:18,417 - basicLogger - INFO - Timestamp 2022-03-26T02:22:16 returns 0 results
+2022-03-26 02:22:20,711 - basicLogger - INFO - Timestamp 2022-03-26T02:22:16 returns 0 results
+2022-03-26 02:22:23,430 - basicLogger - INFO - Timestamp 2022-03-26T02:22:21 returns 0 results
+2022-03-26 02:22:25,734 - basicLogger - INFO - Timestamp 2022-03-26T02:22:21 returns 0 results
+2022-03-26 02:22:28,452 - basicLogger - INFO - Timestamp 2022-03-26T02:22:26 returns 0 results
+2022-03-26 02:22:30,747 - basicLogger - INFO - Timestamp 2022-03-26T02:22:26 returns 0 results
+2022-03-26 02:22:33,420 - basicLogger - INFO - Timestamp 2022-03-26T02:22:31 returns 0 results
+2022-03-26 02:22:35,702 - basicLogger - INFO - Timestamp 2022-03-26T02:22:31 returns 0 results
+2022-03-26 02:22:38,433 - basicLogger - INFO - Timestamp 2022-03-26T02:22:36 returns 0 results
+2022-03-26 02:22:40,777 - basicLogger - INFO - Timestamp 2022-03-26T02:22:36 returns 0 results
+2022-03-26 02:22:43,436 - basicLogger - INFO - Timestamp 2022-03-26T02:22:41 returns 0 results
+2022-03-26 02:22:45,713 - basicLogger - INFO - Timestamp 2022-03-26T02:22:41 returns 0 results
+2022-03-26 02:22:48,424 - basicLogger - INFO - Timestamp 2022-03-26T02:22:46 returns 0 results
+2022-03-26 02:22:50,711 - basicLogger - INFO - Timestamp 2022-03-26T02:22:46 returns 0 results
+2022-03-26 02:22:53,436 - basicLogger - INFO - Timestamp 2022-03-26T02:22:51 returns 0 results
+2022-03-26 02:22:55,700 - basicLogger - INFO - Timestamp 2022-03-26T02:22:51 returns 0 results
+2022-03-26 02:22:58,457 - basicLogger - INFO - Timestamp 2022-03-26T02:22:56 returns 0 results
+2022-03-26 02:23:00,741 - basicLogger - INFO - Timestamp 2022-03-26T02:22:56 returns 0 results
+2022-03-26 02:23:03,432 - basicLogger - INFO - Timestamp 2022-03-26T02:23:01 returns 0 results
+2022-03-26 02:23:05,714 - basicLogger - INFO - Timestamp 2022-03-26T02:23:01 returns 0 results
+2022-03-26 02:23:08,434 - basicLogger - INFO - Timestamp 2022-03-26T02:23:06 returns 0 results
+2022-03-26 02:23:10,722 - basicLogger - INFO - Timestamp 2022-03-26T02:23:06 returns 0 results
+2022-03-26 02:23:13,449 - basicLogger - INFO - Timestamp 2022-03-26T02:23:11 returns 0 results
+2022-03-26 02:23:15,737 - basicLogger - INFO - Timestamp 2022-03-26T02:23:11 returns 0 results
+2022-03-26 02:23:18,417 - basicLogger - INFO - Timestamp 2022-03-26T02:23:16 returns 0 results
+2022-03-26 02:23:20,707 - basicLogger - INFO - Timestamp 2022-03-26T02:23:16 returns 0 results
+2022-03-26 02:23:23,417 - basicLogger - INFO - Timestamp 2022-03-26T02:23:21 returns 0 results
+2022-03-26 02:23:25,692 - basicLogger - INFO - Timestamp 2022-03-26T02:23:21 returns 0 results
+2022-03-26 02:23:28,424 - basicLogger - INFO - Timestamp 2022-03-26T02:23:26 returns 0 results
+2022-03-26 02:23:30,725 - basicLogger - INFO - Timestamp 2022-03-26T02:23:26 returns 0 results
+2022-03-26 02:23:33,437 - basicLogger - INFO - Timestamp 2022-03-26T02:23:31 returns 0 results
+2022-03-26 02:23:35,708 - basicLogger - INFO - Timestamp 2022-03-26T02:23:31 returns 0 results
+2022-03-26 02:23:38,464 - basicLogger - INFO - Timestamp 2022-03-26T02:23:36 returns 0 results
+2022-03-26 02:23:40,768 - basicLogger - INFO - Timestamp 2022-03-26T02:23:36 returns 0 results
+2022-03-26 02:23:43,443 - basicLogger - INFO - Timestamp 2022-03-26T02:23:41 returns 0 results
+2022-03-26 02:23:45,750 - basicLogger - INFO - Timestamp 2022-03-26T02:23:41 returns 0 results
+2022-03-26 02:23:48,446 - basicLogger - INFO - Timestamp 2022-03-26T02:23:46 returns 0 results
+2022-03-26 02:23:50,733 - basicLogger - INFO - Timestamp 2022-03-26T02:23:46 returns 0 results
+2022-03-26 02:23:53,447 - basicLogger - INFO - Timestamp 2022-03-26T02:23:51 returns 0 results
+2022-03-26 02:23:55,737 - basicLogger - INFO - Timestamp 2022-03-26T02:23:51 returns 0 results
+2022-03-26 02:23:58,437 - basicLogger - INFO - Timestamp 2022-03-26T02:23:56 returns 0 results
+2022-03-26 02:24:00,732 - basicLogger - INFO - Timestamp 2022-03-26T02:23:56 returns 0 results
+2022-03-26 02:24:03,412 - basicLogger - INFO - Timestamp 2022-03-26T02:24:01 returns 0 results
+2022-03-26 02:24:05,709 - basicLogger - INFO - Timestamp 2022-03-26T02:24:01 returns 0 results
+2022-03-26 02:24:08,422 - basicLogger - INFO - Timestamp 2022-03-26T02:24:06 returns 0 results
+2022-03-26 02:24:10,709 - basicLogger - INFO - Timestamp 2022-03-26T02:24:06 returns 0 results
+2022-03-26 02:24:13,433 - basicLogger - INFO - Timestamp 2022-03-26T02:24:11 returns 0 results
+2022-03-26 02:24:15,696 - basicLogger - INFO - Timestamp 2022-03-26T02:24:11 returns 0 results
+2022-03-26 02:24:18,437 - basicLogger - INFO - Timestamp 2022-03-26T02:24:16 returns 0 results
+2022-03-26 02:24:20,716 - basicLogger - INFO - Timestamp 2022-03-26T02:24:16 returns 0 results
+2022-03-26 02:24:23,412 - basicLogger - INFO - Timestamp 2022-03-26T02:24:21 returns 0 results
+2022-03-26 02:24:25,707 - basicLogger - INFO - Timestamp 2022-03-26T02:24:21 returns 0 results
+2022-03-26 02:24:28,405 - basicLogger - INFO - Timestamp 2022-03-26T02:24:26 returns 0 results
+2022-03-26 02:24:30,696 - basicLogger - INFO - Timestamp 2022-03-26T02:24:26 returns 0 results
+2022-03-26 02:24:33,430 - basicLogger - INFO - Timestamp 2022-03-26T02:24:31 returns 0 results
+2022-03-26 02:24:35,735 - basicLogger - INFO - Timestamp 2022-03-26T02:24:31 returns 0 results
+2022-03-26 02:24:38,437 - basicLogger - INFO - Timestamp 2022-03-26T02:24:36 returns 0 results
+2022-03-26 02:24:40,723 - basicLogger - INFO - Timestamp 2022-03-26T02:24:36 returns 0 results
+2022-03-26 02:24:43,406 - basicLogger - INFO - Timestamp 2022-03-26T02:24:41 returns 0 results
+2022-03-26 02:24:45,679 - basicLogger - INFO - Timestamp 2022-03-26T02:24:41 returns 0 results
+2022-03-26 02:24:48,395 - basicLogger - INFO - Timestamp 2022-03-26T02:24:46 returns 0 results
+2022-03-26 02:24:50,668 - basicLogger - INFO - Timestamp 2022-03-26T02:24:46 returns 0 results
+2022-03-26 02:24:53,411 - basicLogger - INFO - Timestamp 2022-03-26T02:24:51 returns 0 results
+2022-03-26 02:24:55,704 - basicLogger - INFO - Timestamp 2022-03-26T02:24:51 returns 0 results
+2022-03-26 02:24:58,440 - basicLogger - INFO - Timestamp 2022-03-26T02:24:56 returns 0 results
+2022-03-26 02:25:00,700 - basicLogger - INFO - Timestamp 2022-03-26T02:24:56 returns 0 results
+2022-03-26 02:25:03,458 - basicLogger - INFO - Timestamp 2022-03-26T02:25:01 returns 0 results
+2022-03-26 02:25:05,728 - basicLogger - INFO - Timestamp 2022-03-26T02:25:01 returns 0 results
+2022-03-26 02:25:08,418 - basicLogger - INFO - Timestamp 2022-03-26T02:25:06 returns 0 results
+2022-03-26 02:25:10,683 - basicLogger - INFO - Timestamp 2022-03-26T02:25:06 returns 0 results
+2022-03-26 02:25:13,446 - basicLogger - INFO - Timestamp 2022-03-26T02:25:11 returns 0 results
+2022-03-26 02:25:15,740 - basicLogger - INFO - Timestamp 2022-03-26T02:25:11 returns 0 results
+2022-03-26 02:25:18,429 - basicLogger - INFO - Timestamp 2022-03-26T02:25:16 returns 0 results
+2022-03-26 02:25:20,717 - basicLogger - INFO - Timestamp 2022-03-26T02:25:16 returns 0 results
+2022-03-26 02:25:23,416 - basicLogger - INFO - Timestamp 2022-03-26T02:25:21 returns 0 results
+2022-03-26 02:25:25,713 - basicLogger - INFO - Timestamp 2022-03-26T02:25:21 returns 0 results
+2022-03-26 02:25:28,428 - basicLogger - INFO - Timestamp 2022-03-26T02:25:26 returns 0 results
+2022-03-26 02:25:30,719 - basicLogger - INFO - Timestamp 2022-03-26T02:25:26 returns 0 results
+2022-03-26 02:25:33,396 - basicLogger - INFO - Timestamp 2022-03-26T02:25:31 returns 0 results

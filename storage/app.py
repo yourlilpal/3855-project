@@ -39,35 +39,6 @@ logger.info("Connecting to DB. Hostname:{}, Port:{}".format(hostname, port))
 # DB_SESSION = sessionmaker(bind=DB_ENGINE)
 
 
-def process_messages():
-    """ Process event messages """
-    process_hostname = "%s:%d" % (app_config["events"]["hostname"],
-                                  app_config["events"]["port"])
-    logger.info("Access process hostname")
-    client = KafkaClient(hosts=process_hostname)
-    logger.info("Access client")
-    topic = client.topics[str.encode(app_config["events"]["topic"])]
-    logger.info("Access topics")
-    consumer = topic.get_simple_consumer(consumer_group=b'event_group',
-                                         reset_offset_on_start=False,
-                                         auto_offset_reset=OffsetType.LATEST)
-    logger.info("Access consumer")
-    for msg in consumer:
-        msg_str = msg.value.decode('utf-8')
-        msg = json.loads(msg_str)
-        logger.info("Message: %s" % msg)
-
-        payload = msg["payload"]
-
-        if msg["type"] == "passworduser":
-            logger.info("Storing new user event")
-            create_new_user(payload)
-        elif msg["type"] == "userpassword":
-            logger.info("Storing new password event")
-            add_new_password(payload)
-        consumer.commit_offsets()
-
-
 def create_new_user(body):
     """ Initialize a password manager user """
 
@@ -118,12 +89,15 @@ def get_password_user(timestamp):
 
     session = DB_SESSION()
     timestamp_datetime = datetime.datetime.strptime(timestamp, "%Y-%m-%dT%H:%M:%S")
-
+    logger.info("timestamp:{}".format(timestamp_datetime))
     readings = session.query(Passworduser).filter(Passworduser.date_created >= timestamp_datetime)
     results_list = []
+
     for reading in readings:
         results_list.append(reading.to_dict())
+        logger.info("append reading:{}".format(reading))
         # print(results_list)
+    logger.info("reading:{}".format(results_list))
     session.close()
 
     logger.info("Timestamp %s returns %d results" %
@@ -148,6 +122,34 @@ def get_user_password(timestamp):
                 (timestamp, len(results_list)))
     return results_list, 200
 
+
+def process_messages():
+    """ Process event messages """
+    process_hostname = "%s:%d" % (app_config["events"]["hostname"],
+                                  app_config["events"]["port"])
+    logger.info("Access process hostname")
+    client = KafkaClient(hosts=process_hostname)
+    logger.info("Access client")
+    topic = client.topics[str.encode(app_config["events"]["topic"])]
+    logger.info("Access topics")
+    consumer = topic.get_simple_consumer(consumer_group=b'event_group',
+                                         reset_offset_on_start=False,
+                                         auto_offset_reset=OffsetType.LATEST)
+    logger.info("Access consumer")
+    for msg in consumer:
+        msg_str = msg.value.decode('utf-8')
+        msg = json.loads(msg_str)
+        logger.info("Message: %s" % msg)
+
+        payload = msg["payload"]
+
+        if msg["type"] == "passworduser":
+            logger.info("Storing new user event")
+            create_new_user(payload)
+        elif msg["type"] == "userpassword":
+            logger.info("Storing new password event")
+            add_new_password(payload)
+        consumer.commit_offsets()
 
 app = connexion.FlaskApp(__name__, specification_dir='')
 app.add_api("openapi.yaml", strict_validation=True, validate_responses=True)
