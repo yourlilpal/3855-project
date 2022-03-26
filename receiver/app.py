@@ -14,6 +14,8 @@ HEADERS = {'Content-Type': 'application/json'}
 
 with open('app_conf.yml', 'r') as f:
     app_config = yaml.safe_load(f.read())
+    password_user = app_config["passworduser"]["url"]
+    user_password = app_config["userpasswords"]["url"]
     kafka_server = app_config["events"]["hostname"]
     kafka_port = app_config["events"]["port"]
     event_topic = app_config["events"]["topic"]
@@ -36,7 +38,9 @@ def make_file():
 def create_new_user(body):
     """This will add a user to Password Manager"""
     trace_id = random.randint(100000, 200000)
+    event_name = password_user.split("/")[-1]
     body['trace_id'] = str(trace_id)
+    logger.info("Received event {} reading with a trace id of {}".format(event_name, trace_id))
     # trace_id = body['trace_id']
     client = KafkaClient(hosts='{}:{}'.format(kafka_server, kafka_port))
     topic = client.topics[str.encode(event_topic)]
@@ -65,6 +69,8 @@ def add_new_password(body):
 
     trace_id = random.randint(100000, 200000)
     body['trace_id'] = str(trace_id)
+    event_name = user_password.split("/")[-1]
+    logger.info("Received event {} reading with a trace id of {}".format(event_name, trace_id))
     client = KafkaClient(hosts='{}:{}'.format(kafka_server, kafka_port))
     topic = client.topics[str.encode(event_topic)]
     producer = topic.get_sync_producer()

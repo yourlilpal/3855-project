@@ -62,7 +62,7 @@ def process_messages():
         if msg["type"] == "passworduser":
             logger.info("Storing new user event")
             create_new_user(payload)
-        elif msg["type"] == "userpasswords":
+        elif msg["type"] == "userpassword":
             logger.info("Storing new password event")
             add_new_password(payload)
         consumer.commit_offsets()
