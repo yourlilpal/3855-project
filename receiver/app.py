@@ -49,7 +49,7 @@ def create_new_user(body):
     msg = {"type": "passworduser",
            "datetime":
                datetime.datetime.now().strftime(
-                   "%Y-%m-%dT%H:%M:%S"),
+                   "%Y-%m-%dT%H:%M:%SZ"),
            "payload": body}
     msg_str = json.dumps(msg)
     logger.info("Received event %s request with a unique id of %s"
@@ -78,7 +78,7 @@ def add_new_password(body):
     msg = {"type": "userpassword",
            "datetime":
                datetime.datetime.now().strftime(
-                   "%Y-%m-%dT%H:%M:%S"),
+                   "%Y-%m-%dT%H:%M:%SZ"),
            "payload": body}
     msg_str = json.dumps(msg)
     logger.info("Received event %s request with a unique id of %s"
