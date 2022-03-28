@@ -10896,3 +10896,172 @@
 2022-03-28 18:24:11,125 - basicLogger - INFO - Timestamp 2022-03-28T18:24:08Z returns 0 results
 2022-03-28 18:24:13,398 - basicLogger - INFO - Timestamp 2022-03-28T18:24:08Z returns 0 results
 2022-03-28 18:24:16,110 - basicLogger - INFO - Timestamp 2022-03-28T18:24:13Z returns 0 results
+2022-03-28 18:35:24,822 - basicLogger - INFO - Connecting to DB. Hostname:kafka-3855.eastus2.cloudapp.azure.com, Port:3306
+2022-03-28 18:35:24,852 - basicLogger - INFO - Connecting to DB. Hostname:kafka-3855.eastus2.cloudapp.azure.com, Port:3306
+2022-03-28 18:35:24,879 - basicLogger - INFO - Access process hostname
+2022-03-28 18:35:25,196 - basicLogger - INFO - Access client
+2022-03-28 18:35:25,364 - basicLogger - INFO - Access topics
+2022-03-28 18:35:28,036 - basicLogger - INFO - Access consumer
+2022-03-28 18:35:32,876 - basicLogger - INFO - Message: {'type': 'userpassword', 'datetime': '2022-03-28T22:35:31', 'payload': {'description': 'describes discrete purpose of managing this password', 'password': 'password', 'password_hint': 'password hint', 'password_id': 'eae20882-838a-4d55-b513-baba3669c199', 'trace_id': '193640'}}
+2022-03-28 18:35:32,877 - basicLogger - INFO - Storing new password event
+2022-03-28 18:35:34,126 - basicLogger - INFO - Message: {'type': 'userpassword', 'datetime': '2022-03-28T22:35:32', 'payload': {'description': 'describes discrete purpose of managing this password', 'password': 'password', 'password_hint': 'password hint', 'password_id': 'c46d175c-2c59-4dfd-8b9f-45ab804776f4', 'trace_id': '138745'}}
+2022-03-28 18:35:34,127 - basicLogger - INFO - Storing new password event
+2022-03-28 18:35:34,540 - basicLogger - INFO - Message: {'type': 'userpassword', 'datetime': '2022-03-28T22:35:32', 'payload': {'description': 'describes discrete purpose of managing this password', 'password': 'password', 'password_hint': 'password hint', 'password_id': '293d46d9-db04-47eb-b004-eef1432ca469', 'trace_id': '190176'}}
+2022-03-28 18:35:34,541 - basicLogger - INFO - Storing new password event
+2022-03-28 18:35:34,935 - basicLogger - INFO - Message: {'type': 'userpassword', 'datetime': '2022-03-28T22:35:33', 'payload': {'description': 'describes discrete purpose of managing this password', 'password': 'password', 'password_hint': 'password hint', 'password_id': '75d5f24e-714b-43d5-9e63-42925eff4fe5', 'trace_id': '191331'}}
+2022-03-28 18:35:34,935 - basicLogger - INFO - Storing new password event
+2022-03-28 18:35:35,315 - basicLogger - INFO - Message: {'type': 'userpassword', 'datetime': '2022-03-28T22:35:33', 'payload': {'description': 'describes discrete purpose of managing this password', 'password': 'password', 'password_hint': 'password hint', 'password_id': '44cd9fd3-c39e-447d-ab85-a5f407c680fd', 'trace_id': '101834'}}
+2022-03-28 18:35:35,315 - basicLogger - INFO - Storing new password event
+2022-03-28 18:35:35,921 - basicLogger - INFO - Timestamp 2022-03-28T18:35:32Z returns 5 results
+2022-03-28 18:35:37,969 - basicLogger - INFO - current time:2022-03-28 18:35:32
+2022-03-28 18:35:38,044 - basicLogger - INFO - reading list:[]
+2022-03-28 18:35:38,117 - basicLogger - INFO - Message: {'type': 'passworduser', 'datetime': '2022-03-28T22:35:36', 'payload': {'user_id': 100, 'name': 'Gorden Pal', 'email': 'email@email.com', 'password': 'C21C3C3', 'trace_id': '190439'}}
+2022-03-28 18:35:38,118 - basicLogger - INFO - Storing new user event
+2022-03-28 18:35:38,185 - basicLogger - INFO - Timestamp 2022-03-28T18:35:32Z returns 0 results
+2022-03-28 18:35:38,603 - basicLogger - INFO - Message: {'type': 'passworduser', 'datetime': '2022-03-28T22:35:37', 'payload': {'user_id': 100, 'name': 'Gorden Pal', 'email': 'email@email.com', 'password': 'DD13B2A', 'trace_id': '128086'}}
+2022-03-28 18:35:38,604 - basicLogger - INFO - Storing new user event
+2022-03-28 18:35:39,315 - basicLogger - INFO - Message: {'type': 'passworduser', 'datetime': '2022-03-28T22:35:38', 'payload': {'user_id': 100, 'name': 'Gorden Pal', 'email': 'email@email.com', 'password': '213DA33', 'trace_id': '192640'}}
+2022-03-28 18:35:39,316 - basicLogger - INFO - Storing new user event
+2022-03-28 18:35:39,974 - basicLogger - INFO - Message: {'type': 'passworduser', 'datetime': '2022-03-28T22:35:38', 'payload': {'user_id': 100, 'name': 'Gorden Pal', 'email': 'email@email.com', 'password': 'C2BC3BA', 'trace_id': '124413'}}
+2022-03-28 18:35:39,974 - basicLogger - INFO - Storing new user event
+2022-03-28 18:35:40,436 - basicLogger - INFO - Message: {'type': 'passworduser', 'datetime': '2022-03-28T22:35:39', 'payload': {'user_id': 100, 'name': 'Gorden Pal', 'email': 'email@email.com', 'password': '3311AA3', 'trace_id': '127306'}}
+2022-03-28 18:35:40,437 - basicLogger - INFO - Storing new user event
+2022-03-28 18:35:43,212 - basicLogger - INFO - Message: {'type': 'userpassword', 'datetime': '2022-03-28T22:35:41', 'payload': {'description': 'describes discrete purpose of managing this password', 'password': 'password', 'password_hint': 'password hint', 'password_id': 'ca98ef0b-a0c2-4f1d-9517-53ef41bf3370', 'trace_id': '183730'}}
+2022-03-28 18:35:43,213 - basicLogger - INFO - Storing new password event
+2022-03-28 18:35:43,772 - basicLogger - INFO - Message: {'type': 'userpassword', 'datetime': '2022-03-28T22:35:42', 'payload': {'description': 'describes discrete purpose of managing this password', 'password': 'password', 'password_hint': 'password hint', 'password_id': 'a9938c27-f4a1-4fe4-97a9-791f7fe6f802', 'trace_id': '156340'}}
+2022-03-28 18:35:43,772 - basicLogger - INFO - Storing new password event
+2022-03-28 18:35:44,482 - basicLogger - INFO - Message: {'type': 'userpassword', 'datetime': '2022-03-28T22:35:43', 'payload': {'description': 'describes discrete purpose of managing this password', 'password': 'password', 'password_hint': 'password hint', 'password_id': 'c6b3a6a0-eb24-405f-bed3-4f3ae32f81ef', 'trace_id': '135611'}}
+2022-03-28 18:35:44,482 - basicLogger - INFO - Storing new password event
+2022-03-28 18:35:44,669 - basicLogger - INFO - Timestamp 2022-03-28T18:35:42Z returns 2 results
+2022-03-28 18:35:45,136 - basicLogger - INFO - Message: {'type': 'userpassword', 'datetime': '2022-03-28T22:35:43', 'payload': {'description': 'describes discrete purpose of managing this password', 'password': 'password', 'password_hint': 'password hint', 'password_id': 'bb684925-82c3-481b-8021-a1624f764e58', 'trace_id': '152665'}}
+2022-03-28 18:35:45,136 - basicLogger - INFO - Storing new password event
+2022-03-28 18:35:45,603 - basicLogger - INFO - Message: {'type': 'userpassword', 'datetime': '2022-03-28T22:35:44', 'payload': {'description': 'describes discrete purpose of managing this password', 'password': 'password', 'password_hint': 'password hint', 'password_id': '706c870d-c99c-4d60-9ce8-2592c9fec2de', 'trace_id': '131510'}}
+2022-03-28 18:35:45,603 - basicLogger - INFO - Storing new password event
+2022-03-28 18:35:46,716 - basicLogger - INFO - current time:2022-03-28 18:35:42
+2022-03-28 18:35:46,791 - basicLogger - INFO - reading list:[]
+2022-03-28 18:35:46,936 - basicLogger - INFO - Timestamp 2022-03-28T18:35:42Z returns 0 results
+2022-03-28 18:35:48,379 - basicLogger - INFO - Message: {'type': 'passworduser', 'datetime': '2022-03-28T22:35:47', 'payload': {'user_id': 100, 'name': 'Gorden Pal', 'email': 'email@email.com', 'password': 'A13A22C', 'trace_id': '156621'}}
+2022-03-28 18:35:48,380 - basicLogger - INFO - Storing new user event
+2022-03-28 18:35:49,071 - basicLogger - INFO - Message: {'type': 'passworduser', 'datetime': '2022-03-28T22:35:47', 'payload': {'user_id': 100, 'name': 'Gorden Pal', 'email': 'email@email.com', 'password': '33AC1A2', 'trace_id': '133357'}}
+2022-03-28 18:35:49,071 - basicLogger - INFO - Storing new user event
+2022-03-28 18:35:49,677 - basicLogger - INFO - Timestamp 2022-03-28T18:35:47Z returns 0 results
+2022-03-28 18:35:49,723 - basicLogger - INFO - Message: {'type': 'passworduser', 'datetime': '2022-03-28T22:35:48', 'payload': {'user_id': 100, 'name': 'Gorden Pal', 'email': 'email@email.com', 'password': 'A32DBBA', 'trace_id': '182664'}}
+2022-03-28 18:35:49,723 - basicLogger - INFO - Storing new user event
+2022-03-28 18:35:50,234 - basicLogger - INFO - Message: {'type': 'passworduser', 'datetime': '2022-03-28T22:35:48', 'payload': {'user_id': 100, 'name': 'Gorden Pal', 'email': 'email@email.com', 'password': 'DACD3B1', 'trace_id': '122999'}}
+2022-03-28 18:35:50,234 - basicLogger - INFO - Storing new user event
+2022-03-28 18:35:50,744 - basicLogger - INFO - Message: {'type': 'passworduser', 'datetime': '2022-03-28T22:35:49', 'payload': {'user_id': 100, 'name': 'Gorden Pal', 'email': 'email@email.com', 'password': 'CABBD1C', 'trace_id': '100155'}}
+2022-03-28 18:35:50,745 - basicLogger - INFO - Storing new user event
+2022-03-28 18:35:51,727 - basicLogger - INFO - current time:2022-03-28 18:35:47
+2022-03-28 18:35:51,800 - basicLogger - INFO - reading:<create_account.Passworduser object at 0x000001ED727905E0>
+2022-03-28 18:35:51,801 - basicLogger - INFO - reading:<create_account.Passworduser object at 0x000001ED72790550>
+2022-03-28 18:35:51,801 - basicLogger - INFO - reading:<create_account.Passworduser object at 0x000001ED72790670>
+2022-03-28 18:35:51,802 - basicLogger - INFO - reading:<create_account.Passworduser object at 0x000001ED727906D0>
+2022-03-28 18:35:51,802 - basicLogger - INFO - reading:<create_account.Passworduser object at 0x000001ED72790730>
+2022-03-28 18:35:51,802 - basicLogger - INFO - reading list:[{'id': 300, 'user_id': 100, 'name': 'Gorden Pal', 'password': 'A13A22C', 'email': 'email@email.com', 'date_created': '2022-03-28 18:35:48.380475', 'trace_id': '156621'}, {'id': 301, 'user_id': 100, 'name': 'Gorden Pal', 'password': '33AC1A2', 'email': 'email@email.com', 'date_created': '2022-03-28 18:35:49.072384', 'trace_id': '133357'}, {'id': 302, 'user_id': 100, 'name': 'Gorden Pal', 'password': 'A32DBBA', 'email': 'email@email.com', 'date_created': '2022-03-28 18:35:49.723847', 'trace_id': '182664'}, {'id': 303, 'user_id': 100, 'name': 'Gorden Pal', 'password': 'DACD3B1', 'email': 'email@email.com', 'date_created': '2022-03-28 18:35:50.235319', 'trace_id': '122999'}, {'id': 304, 'user_id': 100, 'name': 'Gorden Pal', 'password': 'CABBD1C', 'email': 'email@email.com', 'date_created': '2022-03-28 18:35:50.745488', 'trace_id': '100155'}]
+2022-03-28 18:35:51,943 - basicLogger - INFO - Timestamp 2022-03-28T18:35:47Z returns 5 results
+2022-03-28 18:35:53,641 - basicLogger - INFO - Message: {'type': 'userpassword', 'datetime': '2022-03-28T22:35:52', 'payload': {'description': 'describes discrete purpose of managing this password', 'password': 'password', 'password_hint': 'password hint', 'password_id': '9a45a0f3-a5b5-4010-ad32-6d20fee9d65a', 'trace_id': '113482'}}
+2022-03-28 18:35:53,641 - basicLogger - INFO - Storing new password event
+2022-03-28 18:35:54,109 - basicLogger - INFO - Message: {'type': 'userpassword', 'datetime': '2022-03-28T22:35:52', 'payload': {'description': 'describes discrete purpose of managing this password', 'password': 'password', 'password_hint': 'password hint', 'password_id': 'd17a1e65-8fa6-42c0-8fcc-b9c1b4fd53dc', 'trace_id': '163321'}}
+2022-03-28 18:35:54,109 - basicLogger - INFO - Storing new password event
+2022-03-28 18:35:54,662 - basicLogger - INFO - Timestamp 2022-03-28T18:35:52Z returns 2 results
+2022-03-28 18:35:54,811 - basicLogger - INFO - Message: {'type': 'userpassword', 'datetime': '2022-03-28T22:35:53', 'payload': {'description': 'describes discrete purpose of managing this password', 'password': 'password', 'password_hint': 'password hint', 'password_id': 'b0c4b18b-e92d-47ec-b989-6414116efdb6', 'trace_id': '176056'}}
+2022-03-28 18:35:54,811 - basicLogger - INFO - Storing new password event
+2022-03-28 18:35:55,474 - basicLogger - INFO - Message: {'type': 'userpassword', 'datetime': '2022-03-28T22:35:54', 'payload': {'description': 'describes discrete purpose of managing this password', 'password': 'password', 'password_hint': 'password hint', 'password_id': 'b59a0095-ce7f-4b26-b28f-0b3b13733a99', 'trace_id': '191497'}}
+2022-03-28 18:35:55,474 - basicLogger - INFO - Storing new password event
+2022-03-28 18:35:55,942 - basicLogger - INFO - Message: {'type': 'userpassword', 'datetime': '2022-03-28T22:35:54', 'payload': {'description': 'describes discrete purpose of managing this password', 'password': 'password', 'password_hint': 'password hint', 'password_id': '27804725-ac2d-460d-9d84-d793b7ec92a7', 'trace_id': '142246'}}
+2022-03-28 18:35:55,942 - basicLogger - INFO - Storing new password event
+2022-03-28 18:35:56,686 - basicLogger - INFO - current time:2022-03-28 18:35:52
+2022-03-28 18:35:56,758 - basicLogger - INFO - reading list:[]
+2022-03-28 18:35:56,902 - basicLogger - INFO - Timestamp 2022-03-28T18:35:52Z returns 0 results
+2022-03-28 18:35:58,730 - basicLogger - INFO - Message: {'type': 'passworduser', 'datetime': '2022-03-28T22:35:57', 'payload': {'user_id': 100, 'name': 'Gorden Pal', 'email': 'email@email.com', 'password': '2D221DB', 'trace_id': '117048'}}
+2022-03-28 18:35:58,731 - basicLogger - INFO - Storing new user event
+2022-03-28 18:35:59,280 - basicLogger - INFO - Message: {'type': 'passworduser', 'datetime': '2022-03-28T22:35:58', 'payload': {'user_id': 100, 'name': 'Gorden Pal', 'email': 'email@email.com', 'password': '32CBCC3', 'trace_id': '102187'}}
+2022-03-28 18:35:59,280 - basicLogger - INFO - Storing new user event
+2022-03-28 18:35:59,675 - basicLogger - INFO - Timestamp 2022-03-28T18:35:57Z returns 0 results
+2022-03-28 18:35:59,976 - basicLogger - INFO - Message: {'type': 'passworduser', 'datetime': '2022-03-28T22:35:58', 'payload': {'user_id': 100, 'name': 'Gorden Pal', 'email': 'email@email.com', 'password': 'D3CD3BC', 'trace_id': '118089'}}
+2022-03-28 18:35:59,977 - basicLogger - INFO - Storing new user event
+2022-03-28 18:36:00,640 - basicLogger - INFO - Message: {'type': 'passworduser', 'datetime': '2022-03-28T22:35:59', 'payload': {'user_id': 100, 'name': 'Gorden Pal', 'email': 'email@email.com', 'password': 'ACAADDC', 'trace_id': '124491'}}
+2022-03-28 18:36:00,640 - basicLogger - INFO - Storing new user event
+2022-03-28 18:36:01,111 - basicLogger - INFO - Message: {'type': 'passworduser', 'datetime': '2022-03-28T22:35:59', 'payload': {'user_id': 100, 'name': 'Gorden Pal', 'email': 'email@email.com', 'password': '1AB2DA3', 'trace_id': '162010'}}
+2022-03-28 18:36:01,111 - basicLogger - INFO - Storing new user event
+2022-03-28 18:36:01,712 - basicLogger - INFO - current time:2022-03-28 18:35:57
+2022-03-28 18:36:01,787 - basicLogger - INFO - reading:<create_account.Passworduser object at 0x000001ED72713D30>
+2022-03-28 18:36:01,787 - basicLogger - INFO - reading:<create_account.Passworduser object at 0x000001ED727133D0>
+2022-03-28 18:36:01,788 - basicLogger - INFO - reading:<create_account.Passworduser object at 0x000001ED72713F40>
+2022-03-28 18:36:01,788 - basicLogger - INFO - reading:<create_account.Passworduser object at 0x000001ED727134F0>
+2022-03-28 18:36:01,789 - basicLogger - INFO - reading:<create_account.Passworduser object at 0x000001ED72713850>
+2022-03-28 18:36:01,789 - basicLogger - INFO - reading list:[{'id': 305, 'user_id': 100, 'name': 'Gorden Pal', 'password': '2D221DB', 'email': 'email@email.com', 'date_created': '2022-03-28 18:35:58.731312', 'trace_id': '117048'}, {'id': 306, 'user_id': 100, 'name': 'Gorden Pal', 'password': '32CBCC3', 'email': 'email@email.com', 'date_created': '2022-03-28 18:35:59.281484', 'trace_id': '102187'}, {'id': 307, 'user_id': 100, 'name': 'Gorden Pal', 'password': 'D3CD3BC', 'email': 'email@email.com', 'date_created': '2022-03-28 18:35:59.977331', 'trace_id': '118089'}, {'id': 308, 'user_id': 100, 'name': 'Gorden Pal', 'password': 'ACAADDC', 'email': 'email@email.com', 'date_created': '2022-03-28 18:36:00.640877', 'trace_id': '124491'}, {'id': 309, 'user_id': 100, 'name': 'Gorden Pal', 'password': '1AB2DA3', 'email': 'email@email.com', 'date_created': '2022-03-28 18:36:01.111336', 'trace_id': '162010'}]
+2022-03-28 18:36:01,930 - basicLogger - INFO - Timestamp 2022-03-28T18:35:57Z returns 5 results
+2022-03-28 18:36:04,021 - basicLogger - INFO - Message: {'type': 'userpassword', 'datetime': '2022-03-28T22:36:02', 'payload': {'description': 'describes discrete purpose of managing this password', 'password': 'password', 'password_hint': 'password hint', 'password_id': '70ec63cf-5c6b-463b-af7c-d576190051de', 'trace_id': '143710'}}
+2022-03-28 18:36:04,021 - basicLogger - INFO - Storing new password event
+2022-03-28 18:36:04,494 - basicLogger - INFO - Message: {'type': 'userpassword', 'datetime': '2022-03-28T22:36:03', 'payload': {'description': 'describes discrete purpose of managing this password', 'password': 'password', 'password_hint': 'password hint', 'password_id': '7ae9f8c6-5135-4c98-8d29-0f07200068a4', 'trace_id': '196298'}}
+2022-03-28 18:36:04,494 - basicLogger - INFO - Storing new password event
+2022-03-28 18:36:04,671 - basicLogger - INFO - Timestamp 2022-03-28T18:36:02Z returns 1 results
+2022-03-28 18:36:05,151 - basicLogger - INFO - Message: {'type': 'userpassword', 'datetime': '2022-03-28T22:36:03', 'payload': {'description': 'describes discrete purpose of managing this password', 'password': 'password', 'password_hint': 'password hint', 'password_id': 'c61c348c-d89d-4fde-8aa7-2938e4ebf339', 'trace_id': '192867'}}
+2022-03-28 18:36:05,151 - basicLogger - INFO - Storing new password event
+2022-03-28 18:36:05,809 - basicLogger - INFO - Message: {'type': 'userpassword', 'datetime': '2022-03-28T22:36:04', 'payload': {'description': 'describes discrete purpose of managing this password', 'password': 'password', 'password_hint': 'password hint', 'password_id': '4a8622e4-4101-4085-ace0-d91e544c7926', 'trace_id': '108660'}}
+2022-03-28 18:36:05,809 - basicLogger - INFO - Storing new password event
+2022-03-28 18:36:06,278 - basicLogger - INFO - Message: {'type': 'userpassword', 'datetime': '2022-03-28T22:36:04', 'payload': {'description': 'describes discrete purpose of managing this password', 'password': 'password', 'password_hint': 'password hint', 'password_id': '8f1af8b8-3990-4832-8b72-22d26edfaa43', 'trace_id': '185993'}}
+2022-03-28 18:36:06,279 - basicLogger - INFO - Storing new password event
+2022-03-28 18:36:06,709 - basicLogger - INFO - current time:2022-03-28 18:36:02
+2022-03-28 18:36:06,780 - basicLogger - INFO - reading list:[]
+2022-03-28 18:36:06,922 - basicLogger - INFO - Timestamp 2022-03-28T18:36:02Z returns 0 results
+2022-03-28 18:36:09,191 - basicLogger - INFO - Message: {'type': 'passworduser', 'datetime': '2022-03-28T22:36:07', 'payload': {'user_id': 100, 'name': 'Gorden Pal', 'email': 'email@email.com', 'password': '22D32BC', 'trace_id': '142494'}}
+2022-03-28 18:36:09,192 - basicLogger - INFO - Storing new user event
+2022-03-28 18:36:09,658 - basicLogger - INFO - Message: {'type': 'passworduser', 'datetime': '2022-03-28T22:36:08', 'payload': {'user_id': 100, 'name': 'Gorden Pal', 'email': 'email@email.com', 'password': 'DBBDCB2', 'trace_id': '189884'}}
+2022-03-28 18:36:09,658 - basicLogger - INFO - Storing new user event
+2022-03-28 18:36:09,669 - basicLogger - INFO - Timestamp 2022-03-28T18:36:07Z returns 0 results
+2022-03-28 18:36:10,317 - basicLogger - INFO - Message: {'type': 'passworduser', 'datetime': '2022-03-28T22:36:09', 'payload': {'user_id': 100, 'name': 'Gorden Pal', 'email': 'email@email.com', 'password': 'A122212', 'trace_id': '103409'}}
+2022-03-28 18:36:10,317 - basicLogger - INFO - Storing new user event
+2022-03-28 18:36:10,976 - basicLogger - INFO - Message: {'type': 'passworduser', 'datetime': '2022-03-28T22:36:09', 'payload': {'user_id': 100, 'name': 'Gorden Pal', 'email': 'email@email.com', 'password': 'B2331CB', 'trace_id': '195379'}}
+2022-03-28 18:36:10,976 - basicLogger - INFO - Storing new user event
+2022-03-28 18:36:11,446 - basicLogger - INFO - Message: {'type': 'passworduser', 'datetime': '2022-03-28T22:36:10', 'payload': {'user_id': 100, 'name': 'Gorden Pal', 'email': 'email@email.com', 'password': 'C12ABA3', 'trace_id': '111223'}}
+2022-03-28 18:36:11,446 - basicLogger - INFO - Storing new user event
+2022-03-28 18:36:11,705 - basicLogger - INFO - current time:2022-03-28 18:36:07
+2022-03-28 18:36:11,781 - basicLogger - INFO - reading:<create_account.Passworduser object at 0x000001ED72750880>
+2022-03-28 18:36:11,781 - basicLogger - INFO - reading:<create_account.Passworduser object at 0x000001ED727502B0>
+2022-03-28 18:36:11,782 - basicLogger - INFO - reading:<create_account.Passworduser object at 0x000001ED72750A00>
+2022-03-28 18:36:11,782 - basicLogger - INFO - reading:<create_account.Passworduser object at 0x000001ED72750DF0>
+2022-03-28 18:36:11,782 - basicLogger - INFO - reading:<create_account.Passworduser object at 0x000001ED72750E50>
+2022-03-28 18:36:11,783 - basicLogger - INFO - reading list:[{'id': 310, 'user_id': 100, 'name': 'Gorden Pal', 'password': '22D32BC', 'email': 'email@email.com', 'date_created': '2022-03-28 18:36:09.193331', 'trace_id': '142494'}, {'id': 311, 'user_id': 100, 'name': 'Gorden Pal', 'password': 'DBBDCB2', 'email': 'email@email.com', 'date_created': '2022-03-28 18:36:09.658507', 'trace_id': '189884'}, {'id': 312, 'user_id': 100, 'name': 'Gorden Pal', 'password': 'A122212', 'email': 'email@email.com', 'date_created': '2022-03-28 18:36:10.318195', 'trace_id': '103409'}, {'id': 313, 'user_id': 100, 'name': 'Gorden Pal', 'password': 'B2331CB', 'email': 'email@email.com', 'date_created': '2022-03-28 18:36:10.976838', 'trace_id': '195379'}, {'id': 314, 'user_id': 100, 'name': 'Gorden Pal', 'password': 'C12ABA3', 'email': 'email@email.com', 'date_created': '2022-03-28 18:36:11.446000', 'trace_id': '111223'}]
+2022-03-28 18:36:11,924 - basicLogger - INFO - Timestamp 2022-03-28T18:36:07Z returns 5 results
+2022-03-28 18:36:14,358 - basicLogger - INFO - Message: {'type': 'userpassword', 'datetime': '2022-03-28T22:36:13', 'payload': {'description': 'describes discrete purpose of managing this password', 'password': 'password', 'password_hint': 'password hint', 'password_id': 'fdd21876-5cfe-4049-b426-b9061f4d5054', 'trace_id': '113052'}}
+2022-03-28 18:36:14,358 - basicLogger - INFO - Storing new password event
+2022-03-28 18:36:14,677 - basicLogger - INFO - Timestamp 2022-03-28T18:36:12Z returns 1 results
+2022-03-28 18:36:14,831 - basicLogger - INFO - Message: {'type': 'userpassword', 'datetime': '2022-03-28T22:36:13', 'payload': {'description': 'describes discrete purpose of managing this password', 'password': 'password', 'password_hint': 'password hint', 'password_id': 'a3c7896c-e254-43e7-8815-23c50d84accc', 'trace_id': '163473'}}
+2022-03-28 18:36:14,831 - basicLogger - INFO - Storing new password event
+2022-03-28 18:36:15,489 - basicLogger - INFO - Message: {'type': 'userpassword', 'datetime': '2022-03-28T22:36:14', 'payload': {'description': 'describes discrete purpose of managing this password', 'password': 'password', 'password_hint': 'password hint', 'password_id': '14c9e961-d6b6-47b3-91d8-a33f0efad69b', 'trace_id': '177787'}}
+2022-03-28 18:36:15,490 - basicLogger - INFO - Storing new password event
+2022-03-28 18:36:16,142 - basicLogger - INFO - Message: {'type': 'userpassword', 'datetime': '2022-03-28T22:36:14', 'payload': {'description': 'describes discrete purpose of managing this password', 'password': 'password', 'password_hint': 'password hint', 'password_id': 'b859080c-2ef5-43fb-af8c-7712481c9093', 'trace_id': '131473'}}
+2022-03-28 18:36:16,142 - basicLogger - INFO - Storing new password event
+2022-03-28 18:36:16,635 - basicLogger - INFO - Message: {'type': 'userpassword', 'datetime': '2022-03-28T22:36:15', 'payload': {'description': 'describes discrete purpose of managing this password', 'password': 'password', 'password_hint': 'password hint', 'password_id': '8683604c-d2fe-477f-a41e-62bb39461934', 'trace_id': '117916'}}
+2022-03-28 18:36:16,635 - basicLogger - INFO - Storing new password event
+2022-03-28 18:36:16,728 - basicLogger - INFO - current time:2022-03-28 18:36:12
+2022-03-28 18:36:16,803 - basicLogger - INFO - reading list:[]
+2022-03-28 18:36:16,944 - basicLogger - INFO - Timestamp 2022-03-28T18:36:12Z returns 0 results
+2022-03-28 18:36:19,531 - basicLogger - INFO - Message: {'type': 'passworduser', 'datetime': '2022-03-28T22:36:18', 'payload': {'user_id': 100, 'name': 'Gorden Pal', 'email': 'email@email.com', 'password': 'BCAC1D2', 'trace_id': '142345'}}
+2022-03-28 18:36:19,532 - basicLogger - INFO - Storing new user event
+2022-03-28 18:36:19,670 - basicLogger - INFO - Timestamp 2022-03-28T18:36:17Z returns 0 results
+2022-03-28 18:36:20,003 - basicLogger - INFO - Message: {'type': 'passworduser', 'datetime': '2022-03-28T22:36:18', 'payload': {'user_id': 100, 'name': 'Gorden Pal', 'email': 'email@email.com', 'password': 'A1AA32A', 'trace_id': '189070'}}
+2022-03-28 18:36:20,003 - basicLogger - INFO - Storing new user event
+2022-03-28 18:36:20,672 - basicLogger - INFO - Message: {'type': 'passworduser', 'datetime': '2022-03-28T22:36:19', 'payload': {'user_id': 100, 'name': 'Gorden Pal', 'email': 'email@email.com', 'password': 'D322ACD', 'trace_id': '143244'}}
+2022-03-28 18:36:20,672 - basicLogger - INFO - Storing new user event
+2022-03-28 18:36:21,330 - basicLogger - INFO - Message: {'type': 'passworduser', 'datetime': '2022-03-28T22:36:20', 'payload': {'user_id': 100, 'name': 'Gorden Pal', 'email': 'email@email.com', 'password': '2BCAC2D', 'trace_id': '154247'}}
+2022-03-28 18:36:21,330 - basicLogger - INFO - Storing new user event
+2022-03-28 18:36:21,710 - basicLogger - INFO - current time:2022-03-28 18:36:17
+2022-03-28 18:36:21,783 - basicLogger - INFO - reading:<create_account.Passworduser object at 0x000001ED72790790>
+2022-03-28 18:36:21,784 - basicLogger - INFO - reading:<create_account.Passworduser object at 0x000001ED72790C70>
+2022-03-28 18:36:21,784 - basicLogger - INFO - reading:<create_account.Passworduser object at 0x000001ED727908E0>
+2022-03-28 18:36:21,785 - basicLogger - INFO - reading:<create_account.Passworduser object at 0x000001ED72790400>
+2022-03-28 18:36:21,785 - basicLogger - INFO - reading list:[{'id': 315, 'user_id': 100, 'name': 'Gorden Pal', 'password': 'BCAC1D2', 'email': 'email@email.com', 'date_created': '2022-03-28 18:36:19.532853', 'trace_id': '142345'}, {'id': 316, 'user_id': 100, 'name': 'Gorden Pal', 'password': 'A1AA32A', 'email': 'email@email.com', 'date_created': '2022-03-28 18:36:20.004159', 'trace_id': '189070'}, {'id': 317, 'user_id': 100, 'name': 'Gorden Pal', 'password': 'D322ACD', 'email': 'email@email.com', 'date_created': '2022-03-28 18:36:20.672873', 'trace_id': '143244'}, {'id': 318, 'user_id': 100, 'name': 'Gorden Pal', 'password': '2BCAC2D', 'email': 'email@email.com', 'date_created': '2022-03-28 18:36:21.332024', 'trace_id': '154247'}]
+2022-03-28 18:36:21,795 - basicLogger - INFO - Message: {'type': 'passworduser', 'datetime': '2022-03-28T22:36:20', 'payload': {'user_id': 100, 'name': 'Gorden Pal', 'email': 'email@email.com', 'password': '3C12D32', 'trace_id': '188928'}}
+2022-03-28 18:36:21,795 - basicLogger - INFO - Storing new user event
+2022-03-28 18:36:21,926 - basicLogger - INFO - Timestamp 2022-03-28T18:36:17Z returns 4 results
+2022-03-28 18:36:24,666 - basicLogger - INFO - Timestamp 2022-03-28T18:36:22Z returns 0 results
+2022-03-28 18:36:26,724 - basicLogger - INFO - current time:2022-03-28 18:36:22
+2022-03-28 18:36:26,796 - basicLogger - INFO - reading list:[]
+2022-03-28 18:36:26,938 - basicLogger - INFO - Timestamp 2022-03-28T18:36:22Z returns 0 results
+2022-03-28 18:36:29,698 - basicLogger - INFO - Timestamp 2022-03-28T18:36:27Z returns 0 results
+2022-03-28 18:36:31,728 - basicLogger - INFO - current time:2022-03-28 18:36:27
+2022-03-28 18:36:31,800 - basicLogger - INFO - reading list:[]
+2022-03-28 18:36:31,941 - basicLogger - INFO - Timestamp 2022-03-28T18:36:27Z returns 0 results
