@@ -1,9 +1,8 @@
 import random
-
 from sqlalchemy import Column, Integer, String, DateTime
 from base import Base
 import datetime
-import random
+
 
 class Passworduser(Base):
     """ Password Manager user """

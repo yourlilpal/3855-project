@@ -88,7 +88,7 @@ def get_password_user(timestamp):
     """ Gets user password readings after the timestamp """
 
     session = DB_SESSION()
-    timestamp_datetime = datetime.datetime.strptime(timestamp, "%Y-%m-%dT%H:%M:%S")
+    timestamp_datetime = datetime.datetime.strptime(timestamp, "%Y-%m-%dT%H:%M:%SZ")
     logger.info("timestamp:{}".format(timestamp_datetime))
     readings = session.query(Passworduser).filter(Passworduser.date_created >= timestamp_datetime)
     results_list = []
@@ -109,7 +109,7 @@ def get_user_password(timestamp):
     """ Gets user password readings after the timestamp """
 
     session = DB_SESSION()
-    timestamp_datetime = datetime.datetime.strptime(timestamp, "%Y-%m-%dT%H:%M:%S")
+    timestamp_datetime = datetime.datetime.strptime(timestamp, "%Y-%m-%dT%H:%M:%SZ")
 
     readings = session.query(Userpasswords).filter(Userpasswords.date_created >= timestamp_datetime)
     results_list = []
