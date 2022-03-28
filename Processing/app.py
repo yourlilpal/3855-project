@@ -41,7 +41,7 @@ def populate_stats():
             "num_of_password": 0,
             "trace_id": 0,
             "max_length_password": 0,
-            "last_updated": datetime.datetime.now().strftime("%Y-%m-%dT%H:%M:%S")
+            "last_updated": datetime.datetime.now().strftime("%Y-%m-%dT%H:%M:%SZ")
         }
     else:
         stats = results.to_dict()
@@ -142,7 +142,7 @@ def get_stats():
             "num_of_password": 0,
             "max_length_password": 0,
             "trace_id": 0,
-            "last_updated": datetime.datetime.now().strftime("%Y-%m-%dT%H:%M:%S")
+            "last_updated": datetime.datetime.now().strftime("%Y-%m-%dT%H:%M:%SZ")
         }
     else:
         stats = results.to_dict()
