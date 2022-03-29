@@ -90,14 +90,14 @@ def get_password_user(timestamp):
     session = DB_SESSION()
     timestamp_datetime = datetime.datetime.strptime(timestamp, "%Y-%m-%dT%H:%M:%SZ")
     # timestamp_datetime2 = datetime.strptime(str(datetime.now()), "%Y-%m-%d %H:%M:%S.%f").strftime("%Y-%m-%d %H:%M:%S.%f")
-    logger.info("password user current time:{}".format(timestamp_datetime))
+    # logger.info("password user current time:{}".format(timestamp_datetime))
     readings = session.query(Passworduser).filter(Passworduser.date_created >= timestamp_datetime)
     results_list = []
     for reading in readings:
         results_list.append(reading.to_dict())
-        logger.info("user reading:{}".format(reading))
+        # logger.info("user reading:{}".format(reading))
         # print(results_list)
-    logger.info("user reading list:{}".format(results_list))
+    # logger.info("user reading list:{}".format(results_list))
     session.close()
 
     logger.info("User Timestamp %s returns %d results" %
@@ -110,14 +110,14 @@ def get_user_password(timestamp):
 
     session = DB_SESSION()
     timestamp_datetime = datetime.datetime.strptime(timestamp, "%Y-%m-%dT%H:%M:%SZ")
-    logger.info("user password current time:{}".format(timestamp_datetime))
+    # logger.info("user password current time:{}".format(timestamp_datetime))
     readings = session.query(Userpasswords).filter(Userpasswords.date_created >= timestamp_datetime)
     results_list = []
     for reading in readings:
         results_list.append(reading.to_dict())
-        logger.info("password reading:{}".format(reading))
+        # logger.info("password reading:{}".format(reading))
         # print(results_list)
-    logger.info("password reading list:{}".format(results_list))
+    # logger.info("password reading list:{}".format(results_list))
     session.close()
 
     logger.info("Password Timestamp %s returns %d results" %
