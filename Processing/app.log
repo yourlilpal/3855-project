@@ -1182,3 +1182,106 @@
 2022-03-29 18:37:21,220 - basicLogger - INFO - Populate total count of passwords: 35. Stored into Datebase.
 2022-03-29 18:37:21,220 - basicLogger - INFO - Populate max length of password. Stored into Datebase.
 2022-03-29 18:37:21,673 - basicLogger - INFO - Start Periodic Processing
+2022-03-29 18:58:59,090 - basicLogger - INFO - Start Periodic Processing
+2022-03-29 18:59:05,446 - basicLogger - INFO - Received 0 events with a status code of 200.
+2022-03-29 18:59:05,447 - basicLogger - INFO - Received 0 events with a status code of 200.
+2022-03-29 18:59:05,447 - basicLogger - INFO - Populate total count of user: 0. Stored into Datebase.
+2022-03-29 18:59:05,447 - basicLogger - INFO - Populate total count of passwords: 0. Stored into Datebase.
+2022-03-29 18:59:05,447 - basicLogger - INFO - Populate max length of password. Stored into Datebase.
+2022-03-29 18:59:09,087 - basicLogger - INFO - Start Periodic Processing
+2022-03-29 18:59:13,896 - basicLogger - ERROR - Received a status code of 500.
+2022-03-29 18:59:13,896 - basicLogger - INFO - Received 0 events with a status code of 200.
+2022-03-29 18:59:13,897 - basicLogger - INFO - Populate total count of user: 4. Stored into Datebase.
+2022-03-29 18:59:13,897 - basicLogger - INFO - Populate total count of passwords: 0. Stored into Datebase.
+2022-03-29 18:59:13,897 - basicLogger - INFO - Populate max length of password. Stored into Datebase.
+2022-03-29 18:59:14,102 - basicLogger - INFO - Start Periodic Processing
+2022-03-29 18:59:18,548 - basicLogger - ERROR - Received a status code of 500.
+2022-03-29 18:59:18,548 - basicLogger - INFO - Received 0 events with a status code of 200.
+2022-03-29 18:59:18,548 - basicLogger - INFO - Populate total count of user: 4. Stored into Datebase.
+2022-03-29 18:59:18,548 - basicLogger - INFO - Populate total count of passwords: 0. Stored into Datebase.
+2022-03-29 18:59:18,548 - basicLogger - INFO - Populate max length of password. Stored into Datebase.
+2022-03-29 18:59:19,094 - basicLogger - INFO - Start Periodic Processing
+2022-03-29 18:59:23,870 - basicLogger - ERROR - Received a status code of 500.
+2022-03-29 18:59:23,871 - basicLogger - INFO - Received 0 events with a status code of 200.
+2022-03-29 18:59:23,871 - basicLogger - INFO - Populate total count of user: 4. Stored into Datebase.
+2022-03-29 18:59:23,872 - basicLogger - INFO - Populate total count of passwords: 0. Stored into Datebase.
+2022-03-29 18:59:23,872 - basicLogger - INFO - Populate max length of password. Stored into Datebase.
+2022-03-29 18:59:24,094 - basicLogger - INFO - Start Periodic Processing
+2022-03-29 18:59:28,414 - basicLogger - ERROR - Received a status code of 500.
+2022-03-29 18:59:28,415 - basicLogger - ERROR - Received a status code of 500.
+2022-03-29 18:59:28,415 - basicLogger - INFO - Populate total count of user: 4. Stored into Datebase.
+2022-03-29 18:59:28,416 - basicLogger - INFO - Populate total count of passwords: 4. Stored into Datebase.
+2022-03-29 18:59:28,416 - basicLogger - INFO - Populate max length of password. Stored into Datebase.
+2022-03-29 18:59:29,098 - basicLogger - INFO - Start Periodic Processing
+2022-03-29 18:59:33,812 - basicLogger - ERROR - Received a status code of 500.
+2022-03-29 18:59:33,813 - basicLogger - ERROR - Received a status code of 500.
+2022-03-29 18:59:33,813 - basicLogger - INFO - Populate total count of user: 4. Stored into Datebase.
+2022-03-29 18:59:33,813 - basicLogger - INFO - Populate total count of passwords: 4. Stored into Datebase.
+2022-03-29 18:59:33,813 - basicLogger - INFO - Populate max length of password. Stored into Datebase.
+2022-03-29 18:59:34,090 - basicLogger - INFO - Start Periodic Processing
+2022-03-29 18:59:38,937 - basicLogger - ERROR - Received a status code of 500.
+2022-03-29 18:59:38,937 - basicLogger - INFO - Received 0 events with a status code of 200.
+2022-03-29 18:59:38,938 - basicLogger - INFO - Populate total count of user: 4. Stored into Datebase.
+2022-03-29 18:59:38,938 - basicLogger - INFO - Populate total count of passwords: 0. Stored into Datebase.
+2022-03-29 18:59:38,938 - basicLogger - INFO - Populate max length of password. Stored into Datebase.
+2022-03-29 18:59:39,101 - basicLogger - INFO - Start Periodic Processing
+2022-03-29 18:59:43,841 - basicLogger - ERROR - Received a status code of 500.
+2022-03-29 18:59:43,841 - basicLogger - ERROR - Received a status code of 500.
+2022-03-29 18:59:43,841 - basicLogger - INFO - Populate total count of user: 4. Stored into Datebase.
+2022-03-29 18:59:43,841 - basicLogger - INFO - Populate total count of passwords: 4. Stored into Datebase.
+2022-03-29 18:59:43,841 - basicLogger - INFO - Populate max length of password. Stored into Datebase.
+2022-03-29 18:59:44,096 - basicLogger - INFO - Start Periodic Processing
+2022-03-29 18:59:48,835 - basicLogger - ERROR - Received a status code of 500.
+2022-03-29 18:59:48,836 - basicLogger - INFO - Received 0 events with a status code of 200.
+2022-03-29 18:59:48,836 - basicLogger - INFO - Populate total count of user: 4. Stored into Datebase.
+2022-03-29 18:59:48,837 - basicLogger - INFO - Populate total count of passwords: 0. Stored into Datebase.
+2022-03-29 18:59:48,837 - basicLogger - INFO - Populate max length of password. Stored into Datebase.
+2022-03-29 18:59:49,095 - basicLogger - INFO - Start Periodic Processing
+2022-03-29 18:59:53,638 - basicLogger - INFO - Received 0 events with a status code of 200.
+2022-03-29 18:59:53,638 - basicLogger - INFO - Received 0 events with a status code of 200.
+2022-03-29 18:59:53,639 - basicLogger - INFO - Populate total count of user: 0. Stored into Datebase.
+2022-03-29 18:59:53,639 - basicLogger - INFO - Populate total count of passwords: 0. Stored into Datebase.
+2022-03-29 18:59:53,639 - basicLogger - INFO - Populate max length of password. Stored into Datebase.
+2022-03-29 18:59:54,097 - basicLogger - INFO - Start Periodic Processing
+2022-03-29 18:59:58,617 - basicLogger - INFO - Received 0 events with a status code of 200.
+2022-03-29 18:59:58,617 - basicLogger - INFO - Received 0 events with a status code of 200.
+2022-03-29 18:59:58,617 - basicLogger - INFO - Populate total count of user: 0. Stored into Datebase.
+2022-03-29 18:59:58,618 - basicLogger - INFO - Populate total count of passwords: 0. Stored into Datebase.
+2022-03-29 18:59:58,618 - basicLogger - INFO - Populate max length of password. Stored into Datebase.
+2022-03-29 18:59:59,087 - basicLogger - INFO - Start Periodic Processing
+2022-03-29 19:00:03,659 - basicLogger - INFO - Received 0 events with a status code of 200.
+2022-03-29 19:00:03,659 - basicLogger - INFO - Received 0 events with a status code of 200.
+2022-03-29 19:00:03,659 - basicLogger - INFO - Populate total count of user: 0. Stored into Datebase.
+2022-03-29 19:00:03,659 - basicLogger - INFO - Populate total count of passwords: 0. Stored into Datebase.
+2022-03-29 19:00:03,659 - basicLogger - INFO - Populate max length of password. Stored into Datebase.
+2022-03-29 19:00:04,099 - basicLogger - INFO - Start Periodic Processing
+2022-03-29 19:00:08,986 - basicLogger - INFO - Received 0 events with a status code of 200.
+2022-03-29 19:00:08,986 - basicLogger - INFO - Received 0 events with a status code of 200.
+2022-03-29 19:00:08,986 - basicLogger - INFO - Populate total count of user: 0. Stored into Datebase.
+2022-03-29 19:00:08,986 - basicLogger - INFO - Populate total count of passwords: 0. Stored into Datebase.
+2022-03-29 19:00:08,987 - basicLogger - INFO - Populate max length of password. Stored into Datebase.
+2022-03-29 19:00:09,089 - basicLogger - INFO - Start Periodic Processing
+2022-03-29 19:00:13,595 - basicLogger - INFO - Received 0 events with a status code of 200.
+2022-03-29 19:00:13,596 - basicLogger - INFO - Received 0 events with a status code of 200.
+2022-03-29 19:00:13,596 - basicLogger - INFO - Populate total count of user: 0. Stored into Datebase.
+2022-03-29 19:00:13,596 - basicLogger - INFO - Populate total count of passwords: 0. Stored into Datebase.
+2022-03-29 19:00:13,597 - basicLogger - INFO - Populate max length of password. Stored into Datebase.
+2022-03-29 19:00:14,095 - basicLogger - INFO - Start Periodic Processing
+2022-03-29 19:00:18,639 - basicLogger - INFO - Received 0 events with a status code of 200.
+2022-03-29 19:00:18,639 - basicLogger - INFO - Received 0 events with a status code of 200.
+2022-03-29 19:00:18,639 - basicLogger - INFO - Populate total count of user: 0. Stored into Datebase.
+2022-03-29 19:00:18,639 - basicLogger - INFO - Populate total count of passwords: 0. Stored into Datebase.
+2022-03-29 19:00:18,639 - basicLogger - INFO - Populate max length of password. Stored into Datebase.
+2022-03-29 19:00:19,102 - basicLogger - INFO - Start Periodic Processing
+2022-03-29 19:00:23,626 - basicLogger - INFO - Received 0 events with a status code of 200.
+2022-03-29 19:00:23,628 - basicLogger - INFO - Received 0 events with a status code of 200.
+2022-03-29 19:00:23,628 - basicLogger - INFO - Populate total count of user: 0. Stored into Datebase.
+2022-03-29 19:00:23,628 - basicLogger - INFO - Populate total count of passwords: 0. Stored into Datebase.
+2022-03-29 19:00:23,629 - basicLogger - INFO - Populate max length of password. Stored into Datebase.
+2022-03-29 19:00:24,097 - basicLogger - INFO - Start Periodic Processing
+2022-03-29 19:00:28,635 - basicLogger - INFO - Received 0 events with a status code of 200.
+2022-03-29 19:00:28,635 - basicLogger - INFO - Received 0 events with a status code of 200.
+2022-03-29 19:00:28,635 - basicLogger - INFO - Populate total count of user: 0. Stored into Datebase.
+2022-03-29 19:00:28,635 - basicLogger - INFO - Populate total count of passwords: 0. Stored into Datebase.
+2022-03-29 19:00:28,636 - basicLogger - INFO - Populate max length of password. Stored into Datebase.
+2022-03-29 19:00:29,100 - basicLogger - INFO - Start Periodic Processing

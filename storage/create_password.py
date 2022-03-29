@@ -35,7 +35,7 @@ class Userpasswords(Base):
         dict['password'] = self.password
         dict['password_hint'] = self.password_hint
         dict['description'] = self.description
-        dict['date_created'] = self.date_created.strftime("%Y-%m-%dT%H:%M:%SZ")
+        dict['date_created'] = self.date_created
         dict['trace_id'] = self.trace_id
 
         return dict
