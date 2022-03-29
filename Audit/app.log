@@ -1,0 +1,24 @@
+2022-03-22 14:58:14,884 - basicLogger - INFO - Retrieving User at index 2
+2022-03-22 15:01:14,422 - basicLogger - INFO - Retrieving User at index 1
+2022-03-22 15:01:15,423 - basicLogger - ERROR - Could not find User at index 1
+2022-03-22 15:06:18,270 - basicLogger - INFO - Retrieving User at index 0
+2022-03-22 15:06:34,172 - basicLogger - INFO - Retrieving User at index 1
+2022-03-22 15:06:35,248 - basicLogger - ERROR - Could not find User at index 1
+2022-03-22 15:09:29,950 - basicLogger - INFO - Retrieving User at index 99
+2022-03-22 15:09:39,685 - basicLogger - INFO - Retrieving User at index 100
+2022-03-22 15:09:46,520 - basicLogger - INFO - Retrieving User at index 101
+2022-03-22 15:09:47,783 - basicLogger - ERROR - Could not find User at index 101
+2022-03-22 15:10:02,842 - basicLogger - INFO - Retrieving Password at index 99
+2022-03-22 15:10:04,101 - basicLogger - ERROR - Could not find Password at index 99
+2022-03-22 15:10:14,029 - basicLogger - INFO - Retrieving Password at index 98
+2022-03-22 15:10:15,281 - basicLogger - ERROR - Could not find Password at index 98
+2022-03-22 15:10:20,866 - basicLogger - INFO - Retrieving Password at index 1
+2022-03-22 15:10:22,126 - basicLogger - ERROR - Could not find Password at index 1
+2022-03-22 15:11:21,999 - basicLogger - INFO - Retrieving Password at index 1
+2022-03-22 15:11:30,874 - basicLogger - INFO - Retrieving Password at index 98
+2022-03-22 15:11:35,115 - basicLogger - INFO - Retrieving Password at index 99
+2022-03-22 15:11:39,639 - basicLogger - INFO - Retrieving Password at index 100
+2022-03-22 15:11:40,906 - basicLogger - ERROR - Could not find Password at index 100
+2022-03-22 15:12:04,021 - basicLogger - INFO - Retrieving Password at index 1
+2022-03-22 15:12:09,549 - basicLogger - INFO - Retrieving Password at index 100
+2022-03-22 15:12:10,784 - basicLogger - ERROR - Could not find Password at index 100
