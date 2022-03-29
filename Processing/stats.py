@@ -29,6 +29,6 @@ class Stats(Base):
         dict['num_of_password'] = self.num_of_password
         dict['max_length_password'] = self.max_length_password
         dict['trace_id'] = self.trace_id
-        dict['last_updated'] = self.last_updated.strftime("%Y-%m-%dT%H:%M:%S")
+        dict['last_updated'] = self.last_updated.strftime("%Y-%m-%dT%H:%M:%SZ")
 
         return dict
