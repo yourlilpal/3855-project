@@ -89,11 +89,11 @@ def get_password_user(timestamp):
 
     session = DB_SESSION()
     # timestamp_datetime = datetime.datetime.strptime(timestamp, "%Y-%m-%dT%H:%M:%SZ")
-    timestamp_datetime = datetime.now().strftime("%Y-%m-%dT%H:%M:%SZ")
-    stamp = datetime.strptime(timestamp_datetime, "%Y-%m-%dT%H:%M:%SZ")
+    timestamp_datetime = timestamp.strftime("%Y-%m-%dT%H:%M:%SZ")
+    # stamp = datetime.strptime(timestamp_datetime, "%Y-%m-%dT%H:%M:%SZ")
     # timestamp_datetime2 = datetime.strptime(str(datetime.now()), "%Y-%m-%d %H:%M:%S.%f").strftime("%Y-%m-%d %H:%M:%S.%f")
     # logger.info("password user current time:{}".format(timestamp_datetime))
-    readings = session.query(Passworduser).filter(Passworduser.date_created >= stamp)
+    readings = session.query(Passworduser).filter(Passworduser.date_created >= timestamp_datetime)
     results_list = []
     for reading in readings:
         results_list.append(reading.to_dict())
