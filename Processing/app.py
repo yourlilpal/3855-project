@@ -56,7 +56,6 @@ def populate_stats():
     passworduser_dict = json.loads(get_name.text)
     userpassword_dict = json.loads(get_password.text)
 
-
     if get_name.status_code != 200:
         logger.error("Received a status code of {}.".format(get_name.status_code,))
     elif get_name.json() == 0:
