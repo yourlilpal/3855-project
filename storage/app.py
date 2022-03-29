@@ -6,7 +6,7 @@ from sqlalchemy.orm import sessionmaker
 from base import Base
 from create_account import Passworduser
 from create_password import Userpasswords
-from datetime import datetime
+import datetime
 import yaml
 import logging, logging.config
 from pykafka import KafkaClient
@@ -88,8 +88,8 @@ def get_password_user(timestamp):
     """ Gets user password readings after the timestamp """
 
     session = DB_SESSION()
-    # timestamp_datetime = datetime.datetime.strptime(timestamp, "%Y-%m-%dT%H:%M:%SZ")
-    timestamp_datetime = timestamp.strftime("%Y-%m-%dT%H:%M:%SZ")
+    timestamp_datetime = datetime.datetime.strptime(timestamp, "%Y-%m-%dT%H:%M:%SZ")
+    # timestamp_datetime = timestamp.strftime("%Y-%m-%dT%H:%M:%SZ")
     # stamp = datetime.strptime(timestamp_datetime, "%Y-%m-%dT%H:%M:%SZ")
     # timestamp_datetime2 = datetime.strptime(str(datetime.now()), "%Y-%m-%d %H:%M:%S.%f").strftime("%Y-%m-%d %H:%M:%S.%f")
     # logger.info("password user current time:{}".format(timestamp_datetime))
@@ -111,7 +111,7 @@ def get_user_password(timestamp):
     """ Gets user password readings after the timestamp """
 
     session = DB_SESSION()
-    timestamp_datetime = datetime.strptime(timestamp, "%Y-%m-%dT%H:%M:%SZ")
+    timestamp_datetime = datetime.datetime.strptime(timestamp, "%Y-%m-%dT%H:%M:%SZ")
     logger.info("user password current time:{}".format(timestamp_datetime))
     readings = session.query(Userpasswords).filter(Userpasswords.date_created >= timestamp_datetime)
     # logger.info("user password reading:{}".format(readings))
