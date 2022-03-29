@@ -112,7 +112,7 @@ def get_user_password(timestamp):
     timestamp_datetime = datetime.datetime.strptime(timestamp, "%Y-%m-%dT%H:%M:%SZ")
     logger.info("user password current time:{}".format(timestamp_datetime))
     readings = session.query(Userpasswords).filter(Userpasswords.date_created >= timestamp_datetime)
-    logger.info("user password reading:{}".format(readings))
+    # logger.info("user password reading:{}".format(readings))
     results_list = []
     for reading in readings:
         results_list.append(reading.to_dict())
