@@ -22,7 +22,7 @@ class Passworduser(Base):
         """ Initializes a user of password manager """
         self.user_id = user_id
         self.name = name
-        self.date_created = datetime.datetime.now().strftime("%Y-%m-%dT%H:%M:%SZ")  # Sets the date/time record is created
+        self.date_created = datetime.datetime.now()  # Sets the date/time record is created
         self.password = password
         self.email = email
         self.trace_id = trace_id
@@ -35,7 +35,7 @@ class Passworduser(Base):
         dict['name'] = self.name
         dict['password'] = self.password
         dict['email'] = self.email
-        dict['date_created'] = self.date_created
+        dict['date_created'] = self.date_created.strftime("%Y-%m-%dT%H:%M:%SZ")
         dict['trace_id'] = self.trace_id
 
         return dict

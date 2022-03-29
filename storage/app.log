@@ -489,3 +489,541 @@ WHERE user_password.date_created >= %(date_created_1)s
 2022-03-29 17:53:59,130 - basicLogger - INFO - User Timestamp 2022-03-29T17:53:54Z returns 25 results
 2022-03-29 17:54:01,616 - basicLogger - INFO - user password current time:2022-03-29 17:53:59
 2022-03-29 17:54:01,829 - basicLogger - INFO - Password Timestamp 2022-03-29T17:53:59Z returns 25 results
+2022-03-29 18:26:29,716 - basicLogger - INFO - Connecting to DB. Hostname:kafka-3855.eastus2.cloudapp.azure.com, Port:3306
+2022-03-29 18:26:29,747 - basicLogger - INFO - Connecting to DB. Hostname:kafka-3855.eastus2.cloudapp.azure.com, Port:3306
+2022-03-29 18:26:29,773 - basicLogger - INFO - Access process hostname
+2022-03-29 18:26:30,060 - basicLogger - INFO - Access client
+2022-03-29 18:26:30,204 - basicLogger - INFO - Access topics
+2022-03-29 18:26:30,441 - basicLogger - INFO - Access consumer
+2022-03-29 18:26:38,720 - basicLogger - INFO - user password current time:2022-03-29 18:26:36
+2022-03-29 18:26:39,729 - basicLogger - INFO - Password Timestamp 2022-03-29T18:26:36Z returns 0 results
+2022-03-29 18:26:41,979 - basicLogger - INFO - User Timestamp 2022-03-29T18:26:36Z returns 0 results
+2022-03-29 18:26:48,735 - basicLogger - INFO - user password current time:2022-03-29 18:26:46
+2022-03-29 18:26:49,092 - basicLogger - INFO - Password Timestamp 2022-03-29T18:26:46Z returns 0 results
+2022-03-29 18:26:50,439 - basicLogger - INFO - Message: {'type': 'userpassword', 'datetime': '2022-03-29T22:26:49', 'payload': {'description': 'describes discrete purpose of managing this password', 'password': 'password', 'password_hint': 'password hint', 'password_id': '00f9cb05-750f-48dd-82c3-2612902e6879', 'trace_id': '138544'}}
+2022-03-29 18:26:50,439 - basicLogger - INFO - Storing new password event
+2022-03-29 18:26:51,350 - basicLogger - INFO - User Timestamp 2022-03-29T18:26:46Z returns 0 results
+2022-03-29 18:26:51,522 - basicLogger - INFO - Message: {'type': 'userpassword', 'datetime': '2022-03-29T22:26:49', 'payload': {'description': 'describes discrete purpose of managing this password', 'password': 'password', 'password_hint': 'password hint', 'password_id': '07dfd7ac-5342-4295-b957-ef76041d46dc', 'trace_id': '164787'}}
+2022-03-29 18:26:51,522 - basicLogger - INFO - Storing new password event
+2022-03-29 18:26:51,814 - basicLogger - INFO - Message: {'type': 'userpassword', 'datetime': '2022-03-29T22:26:50', 'payload': {'description': 'describes discrete purpose of managing this password', 'password': 'password', 'password_hint': 'password hint', 'password_id': '8529c898-65df-470c-a213-3619d75fdca7', 'trace_id': '104082'}}
+2022-03-29 18:26:51,814 - basicLogger - INFO - Storing new password event
+2022-03-29 18:26:52,102 - basicLogger - INFO - Message: {'type': 'userpassword', 'datetime': '2022-03-29T22:26:50', 'payload': {'description': 'describes discrete purpose of managing this password', 'password': 'password', 'password_hint': 'password hint', 'password_id': '24460ad7-5c22-49c7-aad8-265301d9c42a', 'trace_id': '135854'}}
+2022-03-29 18:26:52,102 - basicLogger - INFO - Storing new password event
+2022-03-29 18:26:52,392 - basicLogger - INFO - Message: {'type': 'userpassword', 'datetime': '2022-03-29T22:26:50', 'payload': {'description': 'describes discrete purpose of managing this password', 'password': 'password', 'password_hint': 'password hint', 'password_id': '0d67f30e-80bb-4746-89f8-4d45af80ecf7', 'trace_id': '165426'}}
+2022-03-29 18:26:52,393 - basicLogger - INFO - Storing new password event
+2022-03-29 18:26:53,726 - basicLogger - INFO - user password current time:2022-03-29 18:26:51
+2022-03-29 18:26:53,940 - basicLogger - INFO - Password Timestamp 2022-03-29T18:26:51Z returns 5 results
+2022-03-29 18:26:55,441 - basicLogger - INFO - Message: {'type': 'passworduser', 'datetime': '2022-03-29T22:26:54', 'payload': {'user_id': 100, 'name': 'Gorden Pal', 'email': 'email@email.com', 'password': 'BD22C3D', 'trace_id': '168244'}}
+2022-03-29 18:26:55,442 - basicLogger - INFO - Storing new user event
+2022-03-29 18:26:55,735 - basicLogger - INFO - Message: {'type': 'passworduser', 'datetime': '2022-03-29T22:26:55', 'payload': {'user_id': 100, 'name': 'Gorden Pal', 'email': 'email@email.com', 'password': 'BC333D3', 'trace_id': '133663'}}
+2022-03-29 18:26:55,735 - basicLogger - INFO - Storing new user event
+2022-03-29 18:26:56,023 - basicLogger - INFO - Message: {'type': 'passworduser', 'datetime': '2022-03-29T22:26:55', 'payload': {'user_id': 100, 'name': 'Gorden Pal', 'email': 'email@email.com', 'password': 'C31B2CA', 'trace_id': '142656'}}
+2022-03-29 18:26:56,023 - basicLogger - INFO - Storing new user event
+2022-03-29 18:26:56,217 - basicLogger - INFO - User Timestamp 2022-03-29T18:26:51Z returns 2 results
+2022-03-29 18:26:56,309 - basicLogger - INFO - Message: {'type': 'passworduser', 'datetime': '2022-03-29T22:26:55', 'payload': {'user_id': 100, 'name': 'Gorden Pal', 'email': 'email@email.com', 'password': '3B2CD2D', 'trace_id': '110618'}}
+2022-03-29 18:26:56,309 - basicLogger - INFO - Storing new user event
+2022-03-29 18:26:56,598 - basicLogger - INFO - Message: {'type': 'passworduser', 'datetime': '2022-03-29T22:26:55', 'payload': {'user_id': 100, 'name': 'Gorden Pal', 'email': 'email@email.com', 'password': 'A33BDAB', 'trace_id': '103580'}}
+2022-03-29 18:26:56,598 - basicLogger - INFO - Storing new user event
+2022-03-29 18:26:58,742 - basicLogger - INFO - user password current time:2022-03-29 18:26:56
+2022-03-29 18:26:59,041 - basicLogger - INFO - Password Timestamp 2022-03-29T18:26:56Z returns 5 results
+2022-03-29 18:27:00,687 - basicLogger - INFO - Message: {'type': 'userpassword', 'datetime': '2022-03-29T22:27:00', 'payload': {'description': 'describes discrete purpose of managing this password', 'password': 'password', 'password_hint': 'password hint', 'password_id': '900f0bed-5390-4dc5-8cdd-fb2e8780df95', 'trace_id': '173581'}}
+2022-03-29 18:27:00,687 - basicLogger - INFO - Storing new password event
+2022-03-29 18:27:00,977 - basicLogger - INFO - Message: {'type': 'userpassword', 'datetime': '2022-03-29T22:27:00', 'payload': {'description': 'describes discrete purpose of managing this password', 'password': 'password', 'password_hint': 'password hint', 'password_id': 'ed2a55a5-015d-47cc-8956-55b3eedd183b', 'trace_id': '135622'}}
+2022-03-29 18:27:00,977 - basicLogger - INFO - Storing new password event
+2022-03-29 18:27:01,267 - basicLogger - INFO - Message: {'type': 'userpassword', 'datetime': '2022-03-29T22:27:00', 'payload': {'description': 'describes discrete purpose of managing this password', 'password': 'password', 'password_hint': 'password hint', 'password_id': '05912b75-43d8-40c8-b5c7-73f43fe99178', 'trace_id': '156783'}}
+2022-03-29 18:27:01,268 - basicLogger - INFO - Storing new password event
+2022-03-29 18:27:01,279 - basicLogger - INFO - User Timestamp 2022-03-29T18:26:56Z returns 5 results
+2022-03-29 18:27:01,563 - basicLogger - INFO - Message: {'type': 'userpassword', 'datetime': '2022-03-29T22:27:00', 'payload': {'description': 'describes discrete purpose of managing this password', 'password': 'password', 'password_hint': 'password hint', 'password_id': '2f77830c-5c43-4d9d-8f95-0e6772b6f66f', 'trace_id': '104502'}}
+2022-03-29 18:27:01,563 - basicLogger - INFO - Storing new password event
+2022-03-29 18:27:01,852 - basicLogger - INFO - Message: {'type': 'userpassword', 'datetime': '2022-03-29T22:27:00', 'payload': {'description': 'describes discrete purpose of managing this password', 'password': 'password', 'password_hint': 'password hint', 'password_id': '290d39ac-94d7-4a06-8d96-b6cd45b75095', 'trace_id': '193933'}}
+2022-03-29 18:27:01,852 - basicLogger - INFO - Storing new password event
+2022-03-29 18:27:03,712 - basicLogger - INFO - user password current time:2022-03-29 18:27:01
+2022-03-29 18:27:03,930 - basicLogger - INFO - Password Timestamp 2022-03-29T18:27:01Z returns 10 results
+2022-03-29 18:27:05,770 - basicLogger - INFO - Message: {'type': 'passworduser', 'datetime': '2022-03-29T22:27:05', 'payload': {'user_id': 100, 'name': 'Gorden Pal', 'email': 'email@email.com', 'password': '11AD2C1', 'trace_id': '158828'}}
+2022-03-29 18:27:05,771 - basicLogger - INFO - Storing new user event
+2022-03-29 18:27:06,060 - basicLogger - INFO - Message: {'type': 'passworduser', 'datetime': '2022-03-29T22:27:05', 'payload': {'user_id': 100, 'name': 'Gorden Pal', 'email': 'email@email.com', 'password': 'DBB121B', 'trace_id': '139946'}}
+2022-03-29 18:27:06,061 - basicLogger - INFO - Storing new user event
+2022-03-29 18:27:06,192 - basicLogger - INFO - User Timestamp 2022-03-29T18:27:01Z returns 6 results
+2022-03-29 18:27:06,347 - basicLogger - INFO - Message: {'type': 'passworduser', 'datetime': '2022-03-29T22:27:05', 'payload': {'user_id': 100, 'name': 'Gorden Pal', 'email': 'email@email.com', 'password': 'DC113AC', 'trace_id': '130287'}}
+2022-03-29 18:27:06,347 - basicLogger - INFO - Storing new user event
+2022-03-29 18:27:06,644 - basicLogger - INFO - Message: {'type': 'passworduser', 'datetime': '2022-03-29T22:27:05', 'payload': {'user_id': 100, 'name': 'Gorden Pal', 'email': 'email@email.com', 'password': 'AC3DBAD', 'trace_id': '173256'}}
+2022-03-29 18:27:06,644 - basicLogger - INFO - Storing new user event
+2022-03-29 18:27:06,933 - basicLogger - INFO - Message: {'type': 'passworduser', 'datetime': '2022-03-29T22:27:05', 'payload': {'user_id': 100, 'name': 'Gorden Pal', 'email': 'email@email.com', 'password': '2AC23DD', 'trace_id': '122992'}}
+2022-03-29 18:27:06,933 - basicLogger - INFO - Storing new user event
+2022-03-29 18:27:08,723 - basicLogger - INFO - user password current time:2022-03-29 18:27:06
+2022-03-29 18:27:08,939 - basicLogger - INFO - Password Timestamp 2022-03-29T18:27:06Z returns 10 results
+2022-03-29 18:27:11,001 - basicLogger - INFO - Message: {'type': 'userpassword', 'datetime': '2022-03-29T22:27:10', 'payload': {'description': 'describes discrete purpose of managing this password', 'password': 'password', 'password_hint': 'password hint', 'password_id': '9fc63a81-4657-4a49-abab-8cb442425abc', 'trace_id': '192670'}}
+2022-03-29 18:27:11,001 - basicLogger - INFO - Storing new password event
+2022-03-29 18:27:11,178 - basicLogger - INFO - User Timestamp 2022-03-29T18:27:06Z returns 10 results
+2022-03-29 18:27:11,292 - basicLogger - INFO - Message: {'type': 'userpassword', 'datetime': '2022-03-29T22:27:10', 'payload': {'description': 'describes discrete purpose of managing this password', 'password': 'password', 'password_hint': 'password hint', 'password_id': 'fe810421-6ca6-412f-ad41-3bf282328043', 'trace_id': '195162'}}
+2022-03-29 18:27:11,294 - basicLogger - INFO - Storing new password event
+2022-03-29 18:27:11,584 - basicLogger - INFO - Message: {'type': 'userpassword', 'datetime': '2022-03-29T22:27:10', 'payload': {'description': 'describes discrete purpose of managing this password', 'password': 'password', 'password_hint': 'password hint', 'password_id': '84da16fe-878d-45a7-a29b-e26eea96f494', 'trace_id': '167697'}}
+2022-03-29 18:27:11,584 - basicLogger - INFO - Storing new password event
+2022-03-29 18:27:11,874 - basicLogger - INFO - Message: {'type': 'userpassword', 'datetime': '2022-03-29T22:27:10', 'payload': {'description': 'describes discrete purpose of managing this password', 'password': 'password', 'password_hint': 'password hint', 'password_id': '1f327441-6c51-40f1-9838-5469c3e8cb79', 'trace_id': '193860'}}
+2022-03-29 18:27:11,874 - basicLogger - INFO - Storing new password event
+2022-03-29 18:27:13,736 - basicLogger - INFO - user password current time:2022-03-29 18:27:11
+2022-03-29 18:27:13,952 - basicLogger - INFO - Password Timestamp 2022-03-29T18:27:11Z returns 14 results
+2022-03-29 18:27:16,205 - basicLogger - INFO - User Timestamp 2022-03-29T18:27:11Z returns 10 results
+2022-03-29 18:27:16,411 - basicLogger - INFO - Message: {'type': 'userpassword', 'datetime': '2022-03-29T22:27:15', 'payload': {'description': 'describes discrete purpose of managing this password', 'password': 'password', 'password_hint': 'password hint', 'password_id': 'f26eb79e-447f-4e47-b718-442661346897', 'trace_id': '164878'}}
+2022-03-29 18:27:16,411 - basicLogger - INFO - Storing new password event
+2022-03-29 18:27:16,699 - basicLogger - INFO - Message: {'type': 'userpassword', 'datetime': '2022-03-29T22:27:15', 'payload': {'description': 'describes discrete purpose of managing this password', 'password': 'password', 'password_hint': 'password hint', 'password_id': '6bad6543-6661-432a-a30f-d021c117938e', 'trace_id': '136043'}}
+2022-03-29 18:27:16,699 - basicLogger - INFO - Storing new password event
+2022-03-29 18:27:16,985 - basicLogger - INFO - Message: {'type': 'userpassword', 'datetime': '2022-03-29T22:27:16', 'payload': {'description': 'describes discrete purpose of managing this password', 'password': 'password', 'password_hint': 'password hint', 'password_id': '8a8dfde3-a88e-4d89-9a99-ecbc07f7d61b', 'trace_id': '170524'}}
+2022-03-29 18:27:16,985 - basicLogger - INFO - Storing new password event
+2022-03-29 18:27:17,278 - basicLogger - INFO - Message: {'type': 'userpassword', 'datetime': '2022-03-29T22:27:16', 'payload': {'description': 'describes discrete purpose of managing this password', 'password': 'password', 'password_hint': 'password hint', 'password_id': '7ae5c7c9-20d6-4746-8319-e3da1e96586d', 'trace_id': '162150'}}
+2022-03-29 18:27:17,278 - basicLogger - INFO - Storing new password event
+2022-03-29 18:27:17,569 - basicLogger - INFO - Message: {'type': 'userpassword', 'datetime': '2022-03-29T22:27:16', 'payload': {'description': 'describes discrete purpose of managing this password', 'password': 'password', 'password_hint': 'password hint', 'password_id': 'ac83f25e-3e59-40ea-b14e-27fdbefa5450', 'trace_id': '190588'}}
+2022-03-29 18:27:17,569 - basicLogger - INFO - Storing new password event
+2022-03-29 18:27:18,715 - basicLogger - INFO - user password current time:2022-03-29 18:27:16
+2022-03-29 18:27:18,943 - basicLogger - INFO - Password Timestamp 2022-03-29T18:27:16Z returns 19 results
+2022-03-29 18:27:21,202 - basicLogger - INFO - User Timestamp 2022-03-29T18:27:16Z returns 10 results
+2022-03-29 18:27:21,523 - basicLogger - INFO - Message: {'type': 'passworduser', 'datetime': '2022-03-29T22:27:20', 'payload': {'user_id': 100, 'name': 'Gorden Pal', 'email': 'email@email.com', 'password': 'D1ABD2B', 'trace_id': '118012'}}
+2022-03-29 18:27:21,523 - basicLogger - INFO - Storing new user event
+2022-03-29 18:27:21,810 - basicLogger - INFO - Message: {'type': 'passworduser', 'datetime': '2022-03-29T22:27:21', 'payload': {'user_id': 100, 'name': 'Gorden Pal', 'email': 'email@email.com', 'password': '3A331B1', 'trace_id': '199509'}}
+2022-03-29 18:27:21,810 - basicLogger - INFO - Storing new user event
+2022-03-29 18:27:22,101 - basicLogger - INFO - Message: {'type': 'passworduser', 'datetime': '2022-03-29T22:27:21', 'payload': {'user_id': 100, 'name': 'Gorden Pal', 'email': 'email@email.com', 'password': 'A2D2A3D', 'trace_id': '129870'}}
+2022-03-29 18:27:22,101 - basicLogger - INFO - Storing new user event
+2022-03-29 18:27:22,390 - basicLogger - INFO - Message: {'type': 'passworduser', 'datetime': '2022-03-29T22:27:21', 'payload': {'user_id': 100, 'name': 'Gorden Pal', 'email': 'email@email.com', 'password': '1112B11', 'trace_id': '127207'}}
+2022-03-29 18:27:22,390 - basicLogger - INFO - Storing new user event
+2022-03-29 18:27:22,683 - basicLogger - INFO - Message: {'type': 'passworduser', 'datetime': '2022-03-29T22:27:21', 'payload': {'user_id': 100, 'name': 'Gorden Pal', 'email': 'email@email.com', 'password': 'DCBD31A', 'trace_id': '177845'}}
+2022-03-29 18:27:22,684 - basicLogger - INFO - Storing new user event
+2022-03-29 18:27:23,691 - basicLogger - INFO - user password current time:2022-03-29 18:27:21
+2022-03-29 18:27:23,909 - basicLogger - INFO - Password Timestamp 2022-03-29T18:27:21Z returns 19 results
+2022-03-29 18:27:26,186 - basicLogger - INFO - User Timestamp 2022-03-29T18:27:21Z returns 15 results
+2022-03-29 18:27:26,645 - basicLogger - INFO - Message: {'type': 'userpassword', 'datetime': '2022-03-29T22:27:26', 'payload': {'description': 'describes discrete purpose of managing this password', 'password': 'password', 'password_hint': 'password hint', 'password_id': '7fa2b39c-c6f7-4ec8-bb42-51d01f62db1f', 'trace_id': '124230'}}
+2022-03-29 18:27:26,645 - basicLogger - INFO - Storing new password event
+2022-03-29 18:27:26,943 - basicLogger - INFO - Message: {'type': 'userpassword', 'datetime': '2022-03-29T22:27:26', 'payload': {'description': 'describes discrete purpose of managing this password', 'password': 'password', 'password_hint': 'password hint', 'password_id': '1e810a77-f6fa-4425-843f-555d410aa577', 'trace_id': '106862'}}
+2022-03-29 18:27:26,943 - basicLogger - INFO - Storing new password event
+2022-03-29 18:27:27,234 - basicLogger - INFO - Message: {'type': 'userpassword', 'datetime': '2022-03-29T22:27:26', 'payload': {'description': 'describes discrete purpose of managing this password', 'password': 'password', 'password_hint': 'password hint', 'password_id': '32773a9b-a390-4492-954d-05f41539d95d', 'trace_id': '187944'}}
+2022-03-29 18:27:27,234 - basicLogger - INFO - Storing new password event
+2022-03-29 18:27:27,524 - basicLogger - INFO - Message: {'type': 'userpassword', 'datetime': '2022-03-29T22:27:26', 'payload': {'description': 'describes discrete purpose of managing this password', 'password': 'password', 'password_hint': 'password hint', 'password_id': '4b98cb00-76a1-4ec8-a728-ed2511e51363', 'trace_id': '133693'}}
+2022-03-29 18:27:27,525 - basicLogger - INFO - Storing new password event
+2022-03-29 18:27:27,820 - basicLogger - INFO - Message: {'type': 'userpassword', 'datetime': '2022-03-29T22:27:26', 'payload': {'description': 'describes discrete purpose of managing this password', 'password': 'password', 'password_hint': 'password hint', 'password_id': 'a6b5f70b-6ca7-4e20-9f5f-62488446522d', 'trace_id': '152241'}}
+2022-03-29 18:27:27,820 - basicLogger - INFO - Storing new password event
+2022-03-29 18:27:28,749 - basicLogger - INFO - user password current time:2022-03-29 18:27:26
+2022-03-29 18:27:28,964 - basicLogger - INFO - Password Timestamp 2022-03-29T18:27:26Z returns 24 results
+2022-03-29 18:27:31,336 - basicLogger - INFO - User Timestamp 2022-03-29T18:27:26Z returns 15 results
+2022-03-29 18:27:31,815 - basicLogger - INFO - Message: {'type': 'passworduser', 'datetime': '2022-03-29T22:27:31', 'payload': {'user_id': 100, 'name': 'Gorden Pal', 'email': 'email@email.com', 'password': 'B1B1B1C', 'trace_id': '125699'}}
+2022-03-29 18:27:31,815 - basicLogger - INFO - Storing new user event
+2022-03-29 18:27:32,102 - basicLogger - INFO - Message: {'type': 'passworduser', 'datetime': '2022-03-29T22:27:31', 'payload': {'user_id': 100, 'name': 'Gorden Pal', 'email': 'email@email.com', 'password': 'C1DCDB3', 'trace_id': '198429'}}
+2022-03-29 18:27:32,102 - basicLogger - INFO - Storing new user event
+2022-03-29 18:27:32,392 - basicLogger - INFO - Message: {'type': 'passworduser', 'datetime': '2022-03-29T22:27:31', 'payload': {'user_id': 100, 'name': 'Gorden Pal', 'email': 'email@email.com', 'password': 'D2CDC1D', 'trace_id': '196916'}}
+2022-03-29 18:27:32,392 - basicLogger - INFO - Storing new user event
+2022-03-29 18:27:32,684 - basicLogger - INFO - Message: {'type': 'passworduser', 'datetime': '2022-03-29T22:27:31', 'payload': {'user_id': 100, 'name': 'Gorden Pal', 'email': 'email@email.com', 'password': 'C3C12A3', 'trace_id': '114730'}}
+2022-03-29 18:27:32,685 - basicLogger - INFO - Storing new user event
+2022-03-29 18:27:32,974 - basicLogger - INFO - Message: {'type': 'passworduser', 'datetime': '2022-03-29T22:27:32', 'payload': {'user_id': 100, 'name': 'Gorden Pal', 'email': 'email@email.com', 'password': 'CDDD21C', 'trace_id': '152217'}}
+2022-03-29 18:27:32,974 - basicLogger - INFO - Storing new user event
+2022-03-29 18:27:33,732 - basicLogger - INFO - user password current time:2022-03-29 18:27:31
+2022-03-29 18:27:33,947 - basicLogger - INFO - Password Timestamp 2022-03-29T18:27:31Z returns 24 results
+2022-03-29 18:27:36,216 - basicLogger - INFO - User Timestamp 2022-03-29T18:27:31Z returns 20 results
+2022-03-29 18:27:36,978 - basicLogger - INFO - Message: {'type': 'userpassword', 'datetime': '2022-03-29T22:27:36', 'payload': {'description': 'describes discrete purpose of managing this password', 'password': 'password', 'password_hint': 'password hint', 'password_id': '2cd9829f-f14f-4cfb-88dc-966df548a635', 'trace_id': '168271'}}
+2022-03-29 18:27:36,978 - basicLogger - INFO - Storing new password event
+2022-03-29 18:27:37,270 - basicLogger - INFO - Message: {'type': 'userpassword', 'datetime': '2022-03-29T22:27:36', 'payload': {'description': 'describes discrete purpose of managing this password', 'password': 'password', 'password_hint': 'password hint', 'password_id': '0772c406-2f2b-4e45-85b1-384584e648f2', 'trace_id': '120350'}}
+2022-03-29 18:27:37,270 - basicLogger - INFO - Storing new password event
+2022-03-29 18:27:37,564 - basicLogger - INFO - Message: {'type': 'userpassword', 'datetime': '2022-03-29T22:27:36', 'payload': {'description': 'describes discrete purpose of managing this password', 'password': 'password', 'password_hint': 'password hint', 'password_id': 'd2585ce4-501c-403c-9c07-9b2881d00091', 'trace_id': '123503'}}
+2022-03-29 18:27:37,564 - basicLogger - INFO - Storing new password event
+2022-03-29 18:27:37,853 - basicLogger - INFO - Message: {'type': 'userpassword', 'datetime': '2022-03-29T22:27:36', 'payload': {'description': 'describes discrete purpose of managing this password', 'password': 'password', 'password_hint': 'password hint', 'password_id': 'aca4e047-4d13-46cd-ad11-06f150b64f50', 'trace_id': '135169'}}
+2022-03-29 18:27:37,853 - basicLogger - INFO - Storing new password event
+2022-03-29 18:27:38,144 - basicLogger - INFO - Message: {'type': 'userpassword', 'datetime': '2022-03-29T22:27:37', 'payload': {'description': 'describes discrete purpose of managing this password', 'password': 'password', 'password_hint': 'password hint', 'password_id': '4769f066-1918-4296-b91e-09ed722fb558', 'trace_id': '192998'}}
+2022-03-29 18:27:38,145 - basicLogger - INFO - Storing new password event
+2022-03-29 18:27:38,740 - basicLogger - INFO - user password current time:2022-03-29 18:27:36
+2022-03-29 18:27:38,958 - basicLogger - INFO - Password Timestamp 2022-03-29T18:27:36Z returns 29 results
+2022-03-29 18:27:41,231 - basicLogger - INFO - User Timestamp 2022-03-29T18:27:36Z returns 20 results
+2022-03-29 18:27:42,159 - basicLogger - INFO - Message: {'type': 'passworduser', 'datetime': '2022-03-29T22:27:41', 'payload': {'user_id': 100, 'name': 'Gorden Pal', 'email': 'email@email.com', 'password': '2DCA31A', 'trace_id': '196702'}}
+2022-03-29 18:27:42,159 - basicLogger - INFO - Storing new user event
+2022-03-29 18:27:42,450 - basicLogger - INFO - Message: {'type': 'passworduser', 'datetime': '2022-03-29T22:27:41', 'payload': {'user_id': 100, 'name': 'Gorden Pal', 'email': 'email@email.com', 'password': 'AAC2C1C', 'trace_id': '161608'}}
+2022-03-29 18:27:42,450 - basicLogger - INFO - Storing new user event
+2022-03-29 18:27:42,810 - basicLogger - INFO - Message: {'type': 'passworduser', 'datetime': '2022-03-29T22:27:41', 'payload': {'user_id': 100, 'name': 'Gorden Pal', 'email': 'email@email.com', 'password': 'A2BDBDA', 'trace_id': '138742'}}
+2022-03-29 18:27:42,811 - basicLogger - INFO - Storing new user event
+2022-03-29 18:27:43,104 - basicLogger - INFO - Message: {'type': 'passworduser', 'datetime': '2022-03-29T22:27:42', 'payload': {'user_id': 100, 'name': 'Gorden Pal', 'email': 'email@email.com', 'password': 'ABADCC3', 'trace_id': '136249'}}
+2022-03-29 18:27:43,105 - basicLogger - INFO - Storing new user event
+2022-03-29 18:27:43,395 - basicLogger - INFO - Message: {'type': 'passworduser', 'datetime': '2022-03-29T22:27:42', 'payload': {'user_id': 100, 'name': 'Gorden Pal', 'email': 'email@email.com', 'password': '3ADC32A', 'trace_id': '175504'}}
+2022-03-29 18:27:43,395 - basicLogger - INFO - Storing new user event
+2022-03-29 18:27:43,710 - basicLogger - INFO - user password current time:2022-03-29 18:27:41
+2022-03-29 18:27:43,925 - basicLogger - INFO - Password Timestamp 2022-03-29T18:27:41Z returns 29 results
+2022-03-29 18:27:46,193 - basicLogger - INFO - User Timestamp 2022-03-29T18:27:41Z returns 25 results
+2022-03-29 18:27:47,317 - basicLogger - INFO - Message: {'type': 'userpassword', 'datetime': '2022-03-29T22:27:46', 'payload': {'description': 'describes discrete purpose of managing this password', 'password': 'password', 'password_hint': 'password hint', 'password_id': 'b3ac08b0-1a6e-4cf1-9a3b-0ca8bb922563', 'trace_id': '155787'}}
+2022-03-29 18:27:47,318 - basicLogger - INFO - Storing new password event
+2022-03-29 18:27:47,607 - basicLogger - INFO - Message: {'type': 'userpassword', 'datetime': '2022-03-29T22:27:46', 'payload': {'description': 'describes discrete purpose of managing this password', 'password': 'password', 'password_hint': 'password hint', 'password_id': '46549f44-16ac-457c-901f-7908a15526dc', 'trace_id': '190670'}}
+2022-03-29 18:27:47,608 - basicLogger - INFO - Storing new password event
+2022-03-29 18:27:47,898 - basicLogger - INFO - Message: {'type': 'userpassword', 'datetime': '2022-03-29T22:27:47', 'payload': {'description': 'describes discrete purpose of managing this password', 'password': 'password', 'password_hint': 'password hint', 'password_id': 'd4c9f034-1273-4f20-a1de-501287eddc5f', 'trace_id': '152741'}}
+2022-03-29 18:27:47,899 - basicLogger - INFO - Storing new password event
+2022-03-29 18:27:48,195 - basicLogger - INFO - Message: {'type': 'userpassword', 'datetime': '2022-03-29T22:27:47', 'payload': {'description': 'describes discrete purpose of managing this password', 'password': 'password', 'password_hint': 'password hint', 'password_id': '390f7b30-8343-43ef-8665-22b0ad187a37', 'trace_id': '160441'}}
+2022-03-29 18:27:48,195 - basicLogger - INFO - Storing new password event
+2022-03-29 18:27:48,486 - basicLogger - INFO - Message: {'type': 'userpassword', 'datetime': '2022-03-29T22:27:47', 'payload': {'description': 'describes discrete purpose of managing this password', 'password': 'password', 'password_hint': 'password hint', 'password_id': 'e3520cbc-039d-4c75-bfb2-b88856e71306', 'trace_id': '118289'}}
+2022-03-29 18:27:48,487 - basicLogger - INFO - Storing new password event
+2022-03-29 18:27:48,718 - basicLogger - INFO - user password current time:2022-03-29 18:27:46
+2022-03-29 18:27:48,935 - basicLogger - INFO - Password Timestamp 2022-03-29T18:27:46Z returns 34 results
+2022-03-29 18:27:51,187 - basicLogger - INFO - User Timestamp 2022-03-29T18:27:46Z returns 25 results
+2022-03-29 18:27:52,539 - basicLogger - INFO - Message: {'type': 'passworduser', 'datetime': '2022-03-29T22:27:51', 'payload': {'user_id': 100, 'name': 'Gorden Pal', 'email': 'email@email.com', 'password': 'DCAD3D3', 'trace_id': '103765'}}
+2022-03-29 18:27:52,541 - basicLogger - INFO - Storing new user event
+2022-03-29 18:27:52,834 - basicLogger - INFO - Message: {'type': 'passworduser', 'datetime': '2022-03-29T22:27:52', 'payload': {'user_id': 100, 'name': 'Gorden Pal', 'email': 'email@email.com', 'password': '23DCDD2', 'trace_id': '134914'}}
+2022-03-29 18:27:52,834 - basicLogger - INFO - Storing new user event
+2022-03-29 18:27:53,122 - basicLogger - INFO - Message: {'type': 'passworduser', 'datetime': '2022-03-29T22:27:52', 'payload': {'user_id': 100, 'name': 'Gorden Pal', 'email': 'email@email.com', 'password': 'C2BADB3', 'trace_id': '189021'}}
+2022-03-29 18:27:53,122 - basicLogger - INFO - Storing new user event
+2022-03-29 18:27:53,420 - basicLogger - INFO - Message: {'type': 'passworduser', 'datetime': '2022-03-29T22:27:52', 'payload': {'user_id': 100, 'name': 'Gorden Pal', 'email': 'email@email.com', 'password': '1DBBC21', 'trace_id': '164161'}}
+2022-03-29 18:27:53,420 - basicLogger - INFO - Storing new user event
+2022-03-29 18:27:53,711 - basicLogger - INFO - Message: {'type': 'passworduser', 'datetime': '2022-03-29T22:27:52', 'payload': {'user_id': 100, 'name': 'Gorden Pal', 'email': 'email@email.com', 'password': '3D331B1', 'trace_id': '128549'}}
+2022-03-29 18:27:53,712 - basicLogger - INFO - Storing new user event
+2022-03-29 18:27:53,735 - basicLogger - INFO - user password current time:2022-03-29 18:27:51
+2022-03-29 18:27:54,039 - basicLogger - INFO - Password Timestamp 2022-03-29T18:27:51Z returns 34 results
+2022-03-29 18:27:56,302 - basicLogger - INFO - User Timestamp 2022-03-29T18:27:51Z returns 30 results
+2022-03-29 18:27:57,702 - basicLogger - INFO - Message: {'type': 'userpassword', 'datetime': '2022-03-29T22:27:57', 'payload': {'description': 'describes discrete purpose of managing this password', 'password': 'password', 'password_hint': 'password hint', 'password_id': '407a28e3-a864-4666-8650-3df63a758491', 'trace_id': '157672'}}
+2022-03-29 18:27:57,702 - basicLogger - INFO - Storing new password event
+2022-03-29 18:27:57,994 - basicLogger - INFO - Message: {'type': 'userpassword', 'datetime': '2022-03-29T22:27:57', 'payload': {'description': 'describes discrete purpose of managing this password', 'password': 'password', 'password_hint': 'password hint', 'password_id': '02c2ae15-3bab-4f68-be4b-d62a77f2ba2d', 'trace_id': '187849'}}
+2022-03-29 18:27:57,995 - basicLogger - INFO - Storing new password event
+2022-03-29 18:27:58,285 - basicLogger - INFO - Message: {'type': 'userpassword', 'datetime': '2022-03-29T22:27:57', 'payload': {'description': 'describes discrete purpose of managing this password', 'password': 'password', 'password_hint': 'password hint', 'password_id': 'cc1a53ab-a1e2-4600-9c4d-3714c7edfd99', 'trace_id': '161948'}}
+2022-03-29 18:27:58,285 - basicLogger - INFO - Storing new password event
+2022-03-29 18:27:58,572 - basicLogger - INFO - Message: {'type': 'userpassword', 'datetime': '2022-03-29T22:27:57', 'payload': {'description': 'describes discrete purpose of managing this password', 'password': 'password', 'password_hint': 'password hint', 'password_id': '952a2bcb-3793-4667-bb00-a1f1f278ccc8', 'trace_id': '115709'}}
+2022-03-29 18:27:58,573 - basicLogger - INFO - Storing new password event
+2022-03-29 18:27:58,741 - basicLogger - INFO - user password current time:2022-03-29 18:27:56
+2022-03-29 18:27:58,860 - basicLogger - INFO - Message: {'type': 'userpassword', 'datetime': '2022-03-29T22:27:57', 'payload': {'description': 'describes discrete purpose of managing this password', 'password': 'password', 'password_hint': 'password hint', 'password_id': 'f305a56c-1cc8-4feb-bcf8-afb5b0427451', 'trace_id': '103019'}}
+2022-03-29 18:27:58,860 - basicLogger - INFO - Storing new password event
+2022-03-29 18:27:58,955 - basicLogger - INFO - Password Timestamp 2022-03-29T18:27:56Z returns 38 results
+2022-03-29 18:28:01,198 - basicLogger - INFO - User Timestamp 2022-03-29T18:27:56Z returns 30 results
+2022-03-29 18:28:02,878 - basicLogger - INFO - Message: {'type': 'passworduser', 'datetime': '2022-03-29T22:28:02', 'payload': {'user_id': 100, 'name': 'Gorden Pal', 'email': 'email@email.com', 'password': 'BBC2DB1', 'trace_id': '193154'}}
+2022-03-29 18:28:02,878 - basicLogger - INFO - Storing new user event
+2022-03-29 18:28:03,171 - basicLogger - INFO - Message: {'type': 'passworduser', 'datetime': '2022-03-29T22:28:02', 'payload': {'user_id': 100, 'name': 'Gorden Pal', 'email': 'email@email.com', 'password': 'CDBCDCC', 'trace_id': '191980'}}
+2022-03-29 18:28:03,172 - basicLogger - INFO - Storing new user event
+2022-03-29 18:28:03,463 - basicLogger - INFO - Message: {'type': 'passworduser', 'datetime': '2022-03-29T22:28:02', 'payload': {'user_id': 100, 'name': 'Gorden Pal', 'email': 'email@email.com', 'password': 'AAC3C1D', 'trace_id': '143568'}}
+2022-03-29 18:28:03,463 - basicLogger - INFO - Storing new user event
+2022-03-29 18:28:03,746 - basicLogger - INFO - user password current time:2022-03-29 18:28:01
+2022-03-29 18:28:03,752 - basicLogger - INFO - Message: {'type': 'passworduser', 'datetime': '2022-03-29T22:28:02', 'payload': {'user_id': 100, 'name': 'Gorden Pal', 'email': 'email@email.com', 'password': 'C13333A', 'trace_id': '155483'}}
+2022-03-29 18:28:03,753 - basicLogger - INFO - Storing new user event
+2022-03-29 18:28:03,968 - basicLogger - INFO - Password Timestamp 2022-03-29T18:28:01Z returns 39 results
+2022-03-29 18:28:04,044 - basicLogger - INFO - Message: {'type': 'passworduser', 'datetime': '2022-03-29T22:28:03', 'payload': {'user_id': 100, 'name': 'Gorden Pal', 'email': 'email@email.com', 'password': 'B11B13D', 'trace_id': '108043'}}
+2022-03-29 18:28:04,044 - basicLogger - INFO - Storing new user event
+2022-03-29 18:28:06,227 - basicLogger - INFO - User Timestamp 2022-03-29T18:28:01Z returns 35 results
+2022-03-29 18:28:08,742 - basicLogger - INFO - user password current time:2022-03-29 18:28:06
+2022-03-29 18:28:08,957 - basicLogger - INFO - Password Timestamp 2022-03-29T18:28:06Z returns 39 results
+2022-03-29 18:28:11,243 - basicLogger - INFO - User Timestamp 2022-03-29T18:28:06Z returns 35 results
+2022-03-29 18:28:13,734 - basicLogger - INFO - user password current time:2022-03-29 18:28:11
+2022-03-29 18:28:13,950 - basicLogger - INFO - Password Timestamp 2022-03-29T18:28:11Z returns 39 results
+2022-03-29 18:28:16,227 - basicLogger - INFO - User Timestamp 2022-03-29T18:28:11Z returns 35 results
+2022-03-29 18:28:18,746 - basicLogger - INFO - user password current time:2022-03-29 18:28:16
+2022-03-29 18:28:18,965 - basicLogger - INFO - Password Timestamp 2022-03-29T18:28:16Z returns 39 results
+2022-03-29 18:28:21,231 - basicLogger - INFO - User Timestamp 2022-03-29T18:28:16Z returns 35 results
+2022-03-29 18:28:23,720 - basicLogger - INFO - user password current time:2022-03-29 18:28:21
+2022-03-29 18:28:23,940 - basicLogger - INFO - Password Timestamp 2022-03-29T18:28:21Z returns 39 results
+2022-03-29 18:28:26,209 - basicLogger - INFO - User Timestamp 2022-03-29T18:28:21Z returns 35 results
+2022-03-29 18:28:28,724 - basicLogger - INFO - user password current time:2022-03-29 18:28:26
+2022-03-29 18:28:28,938 - basicLogger - INFO - Password Timestamp 2022-03-29T18:28:26Z returns 39 results
+2022-03-29 18:28:31,193 - basicLogger - INFO - User Timestamp 2022-03-29T18:28:26Z returns 35 results
+2022-03-29 18:28:33,698 - basicLogger - INFO - user password current time:2022-03-29 18:28:31
+2022-03-29 18:28:33,918 - basicLogger - INFO - Password Timestamp 2022-03-29T18:28:31Z returns 39 results
+2022-03-29 18:28:36,186 - basicLogger - INFO - User Timestamp 2022-03-29T18:28:31Z returns 35 results
+2022-03-29 18:28:38,721 - basicLogger - INFO - user password current time:2022-03-29 18:28:36
+2022-03-29 18:28:38,939 - basicLogger - INFO - Password Timestamp 2022-03-29T18:28:36Z returns 39 results
+2022-03-29 18:28:41,174 - basicLogger - INFO - User Timestamp 2022-03-29T18:28:36Z returns 35 results
+2022-03-29 18:28:43,716 - basicLogger - INFO - user password current time:2022-03-29 18:28:41
+2022-03-29 18:28:43,936 - basicLogger - INFO - Password Timestamp 2022-03-29T18:28:41Z returns 39 results
+2022-03-29 18:28:46,181 - basicLogger - INFO - User Timestamp 2022-03-29T18:28:41Z returns 35 results
+2022-03-29 18:28:48,727 - basicLogger - INFO - user password current time:2022-03-29 18:28:46
+2022-03-29 18:28:48,952 - basicLogger - INFO - Password Timestamp 2022-03-29T18:28:46Z returns 39 results
+2022-03-29 18:28:51,233 - basicLogger - INFO - User Timestamp 2022-03-29T18:28:46Z returns 35 results
+2022-03-29 18:28:53,720 - basicLogger - INFO - user password current time:2022-03-29 18:28:51
+2022-03-29 18:28:53,940 - basicLogger - INFO - Password Timestamp 2022-03-29T18:28:51Z returns 39 results
+2022-03-29 18:28:56,220 - basicLogger - INFO - User Timestamp 2022-03-29T18:28:51Z returns 35 results
+2022-03-29 18:28:58,725 - basicLogger - INFO - user password current time:2022-03-29 18:28:56
+2022-03-29 18:28:58,938 - basicLogger - INFO - Password Timestamp 2022-03-29T18:28:56Z returns 39 results
+2022-03-29 18:29:01,184 - basicLogger - INFO - User Timestamp 2022-03-29T18:28:56Z returns 35 results
+2022-03-29 18:29:03,726 - basicLogger - INFO - user password current time:2022-03-29 18:29:01
+2022-03-29 18:29:03,942 - basicLogger - INFO - Password Timestamp 2022-03-29T18:29:01Z returns 39 results
+2022-03-29 18:29:06,222 - basicLogger - INFO - User Timestamp 2022-03-29T18:29:01Z returns 35 results
+2022-03-29 18:29:08,737 - basicLogger - INFO - user password current time:2022-03-29 18:29:06
+2022-03-29 18:29:08,949 - basicLogger - INFO - Password Timestamp 2022-03-29T18:29:06Z returns 39 results
+2022-03-29 18:29:11,217 - basicLogger - INFO - User Timestamp 2022-03-29T18:29:06Z returns 35 results
+2022-03-29 18:29:13,734 - basicLogger - INFO - user password current time:2022-03-29 18:29:11
+2022-03-29 18:29:13,949 - basicLogger - INFO - Password Timestamp 2022-03-29T18:29:11Z returns 39 results
+2022-03-29 18:29:16,237 - basicLogger - INFO - User Timestamp 2022-03-29T18:29:11Z returns 35 results
+2022-03-29 18:29:18,708 - basicLogger - INFO - user password current time:2022-03-29 18:29:16
+2022-03-29 18:29:18,926 - basicLogger - INFO - Password Timestamp 2022-03-29T18:29:16Z returns 39 results
+2022-03-29 18:29:21,179 - basicLogger - INFO - User Timestamp 2022-03-29T18:29:16Z returns 35 results
+2022-03-29 18:29:23,731 - basicLogger - INFO - user password current time:2022-03-29 18:29:21
+2022-03-29 18:29:23,945 - basicLogger - INFO - Password Timestamp 2022-03-29T18:29:21Z returns 39 results
+2022-03-29 18:29:26,224 - basicLogger - INFO - User Timestamp 2022-03-29T18:29:21Z returns 35 results
+2022-03-29 18:29:28,728 - basicLogger - INFO - user password current time:2022-03-29 18:29:26
+2022-03-29 18:29:28,943 - basicLogger - INFO - Password Timestamp 2022-03-29T18:29:26Z returns 39 results
+2022-03-29 18:29:31,197 - basicLogger - INFO - User Timestamp 2022-03-29T18:29:26Z returns 35 results
+2022-03-29 18:29:33,727 - basicLogger - INFO - user password current time:2022-03-29 18:29:31
+2022-03-29 18:29:33,939 - basicLogger - INFO - Password Timestamp 2022-03-29T18:29:31Z returns 39 results
+2022-03-29 18:29:36,178 - basicLogger - INFO - User Timestamp 2022-03-29T18:29:31Z returns 35 results
+2022-03-29 18:29:38,729 - basicLogger - INFO - user password current time:2022-03-29 18:29:36
+2022-03-29 18:29:38,945 - basicLogger - INFO - Password Timestamp 2022-03-29T18:29:36Z returns 39 results
+2022-03-29 18:29:41,200 - basicLogger - INFO - User Timestamp 2022-03-29T18:29:36Z returns 35 results
+2022-03-29 18:29:43,711 - basicLogger - INFO - user password current time:2022-03-29 18:29:41
+2022-03-29 18:29:43,928 - basicLogger - INFO - Password Timestamp 2022-03-29T18:29:41Z returns 39 results
+2022-03-29 18:29:46,180 - basicLogger - INFO - User Timestamp 2022-03-29T18:29:41Z returns 35 results
+2022-03-29 18:29:48,733 - basicLogger - INFO - user password current time:2022-03-29 18:29:46
+2022-03-29 18:29:48,953 - basicLogger - INFO - Password Timestamp 2022-03-29T18:29:46Z returns 39 results
+2022-03-29 18:29:51,213 - basicLogger - INFO - User Timestamp 2022-03-29T18:29:46Z returns 35 results
+2022-03-29 18:29:53,741 - basicLogger - INFO - user password current time:2022-03-29 18:29:51
+2022-03-29 18:29:53,956 - basicLogger - INFO - Password Timestamp 2022-03-29T18:29:51Z returns 39 results
+2022-03-29 18:29:56,242 - basicLogger - INFO - User Timestamp 2022-03-29T18:29:51Z returns 35 results
+2022-03-29 18:29:58,735 - basicLogger - INFO - user password current time:2022-03-29 18:29:56
+2022-03-29 18:29:58,952 - basicLogger - INFO - Password Timestamp 2022-03-29T18:29:56Z returns 39 results
+2022-03-29 18:30:01,200 - basicLogger - INFO - User Timestamp 2022-03-29T18:29:56Z returns 35 results
+2022-03-29 18:30:03,721 - basicLogger - INFO - user password current time:2022-03-29 18:30:01
+2022-03-29 18:30:03,944 - basicLogger - INFO - Password Timestamp 2022-03-29T18:30:01Z returns 39 results
+2022-03-29 18:30:06,200 - basicLogger - INFO - User Timestamp 2022-03-29T18:30:01Z returns 35 results
+2022-03-29 18:30:08,738 - basicLogger - INFO - user password current time:2022-03-29 18:30:06
+2022-03-29 18:30:08,951 - basicLogger - INFO - Password Timestamp 2022-03-29T18:30:06Z returns 39 results
+2022-03-29 18:30:11,204 - basicLogger - INFO - User Timestamp 2022-03-29T18:30:06Z returns 35 results
+2022-03-29 18:30:13,699 - basicLogger - INFO - user password current time:2022-03-29 18:30:11
+2022-03-29 18:30:13,912 - basicLogger - INFO - Password Timestamp 2022-03-29T18:30:11Z returns 39 results
+2022-03-29 18:30:16,165 - basicLogger - INFO - User Timestamp 2022-03-29T18:30:11Z returns 35 results
+2022-03-29 18:30:18,715 - basicLogger - INFO - user password current time:2022-03-29 18:30:16
+2022-03-29 18:30:18,935 - basicLogger - INFO - Password Timestamp 2022-03-29T18:30:16Z returns 39 results
+2022-03-29 18:30:21,209 - basicLogger - INFO - User Timestamp 2022-03-29T18:30:16Z returns 35 results
+2022-03-29 18:30:23,720 - basicLogger - INFO - user password current time:2022-03-29 18:30:21
+2022-03-29 18:30:23,943 - basicLogger - INFO - Password Timestamp 2022-03-29T18:30:21Z returns 39 results
+2022-03-29 18:30:26,205 - basicLogger - INFO - User Timestamp 2022-03-29T18:30:21Z returns 35 results
+2022-03-29 18:30:28,735 - basicLogger - INFO - user password current time:2022-03-29 18:30:26
+2022-03-29 18:30:28,952 - basicLogger - INFO - Password Timestamp 2022-03-29T18:30:26Z returns 39 results
+2022-03-29 18:30:31,191 - basicLogger - INFO - User Timestamp 2022-03-29T18:30:26Z returns 35 results
+2022-03-29 18:30:33,745 - basicLogger - INFO - user password current time:2022-03-29 18:30:31
+2022-03-29 18:30:33,968 - basicLogger - INFO - Password Timestamp 2022-03-29T18:30:31Z returns 39 results
+2022-03-29 18:30:36,237 - basicLogger - INFO - User Timestamp 2022-03-29T18:30:31Z returns 35 results
+2022-03-29 18:30:38,735 - basicLogger - INFO - user password current time:2022-03-29 18:30:36
+2022-03-29 18:30:38,958 - basicLogger - INFO - Password Timestamp 2022-03-29T18:30:36Z returns 39 results
+2022-03-29 18:30:41,204 - basicLogger - INFO - User Timestamp 2022-03-29T18:30:36Z returns 35 results
+2022-03-29 18:30:43,699 - basicLogger - INFO - user password current time:2022-03-29 18:30:41
+2022-03-29 18:30:43,956 - basicLogger - INFO - Password Timestamp 2022-03-29T18:30:41Z returns 39 results
+2022-03-29 18:30:46,205 - basicLogger - INFO - User Timestamp 2022-03-29T18:30:41Z returns 35 results
+2022-03-29 18:30:48,719 - basicLogger - INFO - user password current time:2022-03-29 18:30:46
+2022-03-29 18:30:48,940 - basicLogger - INFO - Password Timestamp 2022-03-29T18:30:46Z returns 39 results
+2022-03-29 18:30:51,204 - basicLogger - INFO - User Timestamp 2022-03-29T18:30:46Z returns 35 results
+2022-03-29 18:30:53,727 - basicLogger - INFO - user password current time:2022-03-29 18:30:51
+2022-03-29 18:30:53,948 - basicLogger - INFO - Password Timestamp 2022-03-29T18:30:51Z returns 39 results
+2022-03-29 18:30:56,237 - basicLogger - INFO - User Timestamp 2022-03-29T18:30:51Z returns 35 results
+2022-03-29 18:30:58,731 - basicLogger - INFO - user password current time:2022-03-29 18:30:56
+2022-03-29 18:30:58,952 - basicLogger - INFO - Password Timestamp 2022-03-29T18:30:56Z returns 39 results
+2022-03-29 18:31:01,229 - basicLogger - INFO - User Timestamp 2022-03-29T18:30:56Z returns 35 results
+2022-03-29 18:31:03,720 - basicLogger - INFO - user password current time:2022-03-29 18:31:01
+2022-03-29 18:31:03,980 - basicLogger - INFO - Password Timestamp 2022-03-29T18:31:01Z returns 39 results
+2022-03-29 18:31:06,238 - basicLogger - INFO - User Timestamp 2022-03-29T18:31:01Z returns 35 results
+2022-03-29 18:31:08,746 - basicLogger - INFO - user password current time:2022-03-29 18:31:06
+2022-03-29 18:31:08,961 - basicLogger - INFO - Password Timestamp 2022-03-29T18:31:06Z returns 39 results
+2022-03-29 18:31:11,228 - basicLogger - INFO - User Timestamp 2022-03-29T18:31:06Z returns 35 results
+2022-03-29 18:31:13,747 - basicLogger - INFO - user password current time:2022-03-29 18:31:11
+2022-03-29 18:31:13,977 - basicLogger - INFO - Password Timestamp 2022-03-29T18:31:11Z returns 39 results
+2022-03-29 18:31:16,267 - basicLogger - INFO - User Timestamp 2022-03-29T18:31:11Z returns 35 results
+2022-03-29 18:31:18,718 - basicLogger - INFO - user password current time:2022-03-29 18:31:16
+2022-03-29 18:31:18,960 - basicLogger - INFO - Password Timestamp 2022-03-29T18:31:16Z returns 39 results
+2022-03-29 18:31:21,225 - basicLogger - INFO - User Timestamp 2022-03-29T18:31:16Z returns 35 results
+2022-03-29 18:31:23,702 - basicLogger - INFO - user password current time:2022-03-29 18:31:21
+2022-03-29 18:31:23,920 - basicLogger - INFO - Password Timestamp 2022-03-29T18:31:21Z returns 39 results
+2022-03-29 18:31:26,177 - basicLogger - INFO - User Timestamp 2022-03-29T18:31:21Z returns 35 results
+2022-03-29 18:31:28,709 - basicLogger - INFO - user password current time:2022-03-29 18:31:26
+2022-03-29 18:31:28,937 - basicLogger - INFO - Password Timestamp 2022-03-29T18:31:26Z returns 39 results
+2022-03-29 18:31:31,206 - basicLogger - INFO - User Timestamp 2022-03-29T18:31:26Z returns 35 results
+2022-03-29 18:31:33,722 - basicLogger - INFO - user password current time:2022-03-29 18:31:31
+2022-03-29 18:31:33,948 - basicLogger - INFO - Password Timestamp 2022-03-29T18:31:31Z returns 39 results
+2022-03-29 18:31:36,215 - basicLogger - INFO - User Timestamp 2022-03-29T18:31:31Z returns 35 results
+2022-03-29 18:31:38,710 - basicLogger - INFO - user password current time:2022-03-29 18:31:36
+2022-03-29 18:31:38,929 - basicLogger - INFO - Password Timestamp 2022-03-29T18:31:36Z returns 39 results
+2022-03-29 18:31:41,185 - basicLogger - INFO - User Timestamp 2022-03-29T18:31:36Z returns 35 results
+2022-03-29 18:31:43,717 - basicLogger - INFO - user password current time:2022-03-29 18:31:41
+2022-03-29 18:31:43,932 - basicLogger - INFO - Password Timestamp 2022-03-29T18:31:41Z returns 39 results
+2022-03-29 18:31:46,192 - basicLogger - INFO - User Timestamp 2022-03-29T18:31:41Z returns 35 results
+2022-03-29 18:31:48,713 - basicLogger - INFO - user password current time:2022-03-29 18:31:46
+2022-03-29 18:31:48,927 - basicLogger - INFO - Password Timestamp 2022-03-29T18:31:46Z returns 39 results
+2022-03-29 18:31:51,190 - basicLogger - INFO - User Timestamp 2022-03-29T18:31:46Z returns 35 results
+2022-03-29 18:31:53,715 - basicLogger - INFO - user password current time:2022-03-29 18:31:51
+2022-03-29 18:31:53,927 - basicLogger - INFO - Password Timestamp 2022-03-29T18:31:51Z returns 39 results
+2022-03-29 18:31:56,201 - basicLogger - INFO - User Timestamp 2022-03-29T18:31:51Z returns 35 results
+2022-03-29 18:31:58,707 - basicLogger - INFO - user password current time:2022-03-29 18:31:56
+2022-03-29 18:31:58,922 - basicLogger - INFO - Password Timestamp 2022-03-29T18:31:56Z returns 39 results
+2022-03-29 18:32:01,183 - basicLogger - INFO - User Timestamp 2022-03-29T18:31:56Z returns 35 results
+2022-03-29 18:32:03,733 - basicLogger - INFO - user password current time:2022-03-29 18:32:01
+2022-03-29 18:32:03,951 - basicLogger - INFO - Password Timestamp 2022-03-29T18:32:01Z returns 39 results
+2022-03-29 18:32:06,244 - basicLogger - INFO - User Timestamp 2022-03-29T18:32:01Z returns 35 results
+2022-03-29 18:32:08,736 - basicLogger - INFO - user password current time:2022-03-29 18:32:06
+2022-03-29 18:32:08,958 - basicLogger - INFO - Password Timestamp 2022-03-29T18:32:06Z returns 39 results
+2022-03-29 18:32:11,224 - basicLogger - INFO - User Timestamp 2022-03-29T18:32:06Z returns 35 results
+2022-03-29 18:32:13,714 - basicLogger - INFO - user password current time:2022-03-29 18:32:11
+2022-03-29 18:32:13,931 - basicLogger - INFO - Password Timestamp 2022-03-29T18:32:11Z returns 39 results
+2022-03-29 18:32:16,202 - basicLogger - INFO - User Timestamp 2022-03-29T18:32:11Z returns 35 results
+2022-03-29 18:32:18,714 - basicLogger - INFO - user password current time:2022-03-29 18:32:16
+2022-03-29 18:32:18,936 - basicLogger - INFO - Password Timestamp 2022-03-29T18:32:16Z returns 39 results
+2022-03-29 18:32:21,203 - basicLogger - INFO - User Timestamp 2022-03-29T18:32:16Z returns 35 results
+2022-03-29 18:32:23,702 - basicLogger - INFO - user password current time:2022-03-29 18:32:21
+2022-03-29 18:32:23,919 - basicLogger - INFO - Password Timestamp 2022-03-29T18:32:21Z returns 39 results
+2022-03-29 18:32:26,176 - basicLogger - INFO - User Timestamp 2022-03-29T18:32:21Z returns 35 results
+2022-03-29 18:32:28,719 - basicLogger - INFO - user password current time:2022-03-29 18:32:26
+2022-03-29 18:32:28,948 - basicLogger - INFO - Password Timestamp 2022-03-29T18:32:26Z returns 39 results
+2022-03-29 18:32:31,218 - basicLogger - INFO - User Timestamp 2022-03-29T18:32:26Z returns 35 results
+2022-03-29 18:32:33,715 - basicLogger - INFO - user password current time:2022-03-29 18:32:31
+2022-03-29 18:32:33,930 - basicLogger - INFO - Password Timestamp 2022-03-29T18:32:31Z returns 39 results
+2022-03-29 18:32:36,213 - basicLogger - INFO - User Timestamp 2022-03-29T18:32:31Z returns 35 results
+2022-03-29 18:32:38,738 - basicLogger - INFO - user password current time:2022-03-29 18:32:36
+2022-03-29 18:32:38,960 - basicLogger - INFO - Password Timestamp 2022-03-29T18:32:36Z returns 39 results
+2022-03-29 18:32:41,215 - basicLogger - INFO - User Timestamp 2022-03-29T18:32:36Z returns 35 results
+2022-03-29 18:32:43,729 - basicLogger - INFO - user password current time:2022-03-29 18:32:41
+2022-03-29 18:32:43,957 - basicLogger - INFO - Password Timestamp 2022-03-29T18:32:41Z returns 39 results
+2022-03-29 18:32:46,200 - basicLogger - INFO - User Timestamp 2022-03-29T18:32:41Z returns 35 results
+2022-03-29 18:32:48,709 - basicLogger - INFO - user password current time:2022-03-29 18:32:46
+2022-03-29 18:32:48,931 - basicLogger - INFO - Password Timestamp 2022-03-29T18:32:46Z returns 39 results
+2022-03-29 18:32:51,193 - basicLogger - INFO - User Timestamp 2022-03-29T18:32:46Z returns 35 results
+2022-03-29 18:32:53,709 - basicLogger - INFO - user password current time:2022-03-29 18:32:51
+2022-03-29 18:32:53,922 - basicLogger - INFO - Password Timestamp 2022-03-29T18:32:51Z returns 39 results
+2022-03-29 18:32:56,215 - basicLogger - INFO - User Timestamp 2022-03-29T18:32:51Z returns 35 results
+2022-03-29 18:32:58,705 - basicLogger - INFO - user password current time:2022-03-29 18:32:56
+2022-03-29 18:32:58,920 - basicLogger - INFO - Password Timestamp 2022-03-29T18:32:56Z returns 39 results
+2022-03-29 18:33:01,186 - basicLogger - INFO - User Timestamp 2022-03-29T18:32:56Z returns 35 results
+2022-03-29 18:33:03,715 - basicLogger - INFO - user password current time:2022-03-29 18:33:01
+2022-03-29 18:33:03,934 - basicLogger - INFO - Password Timestamp 2022-03-29T18:33:01Z returns 39 results
+2022-03-29 18:33:06,177 - basicLogger - INFO - User Timestamp 2022-03-29T18:33:01Z returns 35 results
+2022-03-29 18:33:08,723 - basicLogger - INFO - user password current time:2022-03-29 18:33:06
+2022-03-29 18:33:08,941 - basicLogger - INFO - Password Timestamp 2022-03-29T18:33:06Z returns 39 results
+2022-03-29 18:33:11,176 - basicLogger - INFO - User Timestamp 2022-03-29T18:33:06Z returns 35 results
+2022-03-29 18:33:13,711 - basicLogger - INFO - user password current time:2022-03-29 18:33:11
+2022-03-29 18:33:13,926 - basicLogger - INFO - Password Timestamp 2022-03-29T18:33:11Z returns 39 results
+2022-03-29 18:33:16,168 - basicLogger - INFO - User Timestamp 2022-03-29T18:33:11Z returns 35 results
+2022-03-29 18:33:18,718 - basicLogger - INFO - user password current time:2022-03-29 18:33:16
+2022-03-29 18:33:18,931 - basicLogger - INFO - Password Timestamp 2022-03-29T18:33:16Z returns 39 results
+2022-03-29 18:33:21,192 - basicLogger - INFO - User Timestamp 2022-03-29T18:33:16Z returns 35 results
+2022-03-29 18:33:23,697 - basicLogger - INFO - user password current time:2022-03-29 18:33:21
+2022-03-29 18:33:23,909 - basicLogger - INFO - Password Timestamp 2022-03-29T18:33:21Z returns 39 results
+2022-03-29 18:33:26,179 - basicLogger - INFO - User Timestamp 2022-03-29T18:33:21Z returns 35 results
+2022-03-29 18:33:28,721 - basicLogger - INFO - user password current time:2022-03-29 18:33:26
+2022-03-29 18:33:28,936 - basicLogger - INFO - Password Timestamp 2022-03-29T18:33:26Z returns 39 results
+2022-03-29 18:33:31,204 - basicLogger - INFO - User Timestamp 2022-03-29T18:33:26Z returns 35 results
+2022-03-29 18:33:33,731 - basicLogger - INFO - user password current time:2022-03-29 18:33:31
+2022-03-29 18:33:33,945 - basicLogger - INFO - Password Timestamp 2022-03-29T18:33:31Z returns 39 results
+2022-03-29 18:33:36,217 - basicLogger - INFO - User Timestamp 2022-03-29T18:33:31Z returns 35 results
+2022-03-29 18:33:38,728 - basicLogger - INFO - user password current time:2022-03-29 18:33:36
+2022-03-29 18:33:38,951 - basicLogger - INFO - Password Timestamp 2022-03-29T18:33:36Z returns 39 results
+2022-03-29 18:33:41,206 - basicLogger - INFO - User Timestamp 2022-03-29T18:33:36Z returns 35 results
+2022-03-29 18:33:43,712 - basicLogger - INFO - user password current time:2022-03-29 18:33:41
+2022-03-29 18:33:43,924 - basicLogger - INFO - Password Timestamp 2022-03-29T18:33:41Z returns 39 results
+2022-03-29 18:33:46,207 - basicLogger - INFO - User Timestamp 2022-03-29T18:33:41Z returns 35 results
+2022-03-29 18:33:48,706 - basicLogger - INFO - user password current time:2022-03-29 18:33:46
+2022-03-29 18:33:48,924 - basicLogger - INFO - Password Timestamp 2022-03-29T18:33:46Z returns 39 results
+2022-03-29 18:33:51,187 - basicLogger - INFO - User Timestamp 2022-03-29T18:33:46Z returns 35 results
+2022-03-29 18:33:53,719 - basicLogger - INFO - user password current time:2022-03-29 18:33:51
+2022-03-29 18:33:53,938 - basicLogger - INFO - Password Timestamp 2022-03-29T18:33:51Z returns 39 results
+2022-03-29 18:33:56,198 - basicLogger - INFO - User Timestamp 2022-03-29T18:33:51Z returns 35 results
+2022-03-29 18:33:58,743 - basicLogger - INFO - user password current time:2022-03-29 18:33:56
+2022-03-29 18:33:58,961 - basicLogger - INFO - Password Timestamp 2022-03-29T18:33:56Z returns 39 results
+2022-03-29 18:34:01,226 - basicLogger - INFO - User Timestamp 2022-03-29T18:33:56Z returns 35 results
+2022-03-29 18:34:03,716 - basicLogger - INFO - user password current time:2022-03-29 18:34:01
+2022-03-29 18:34:03,930 - basicLogger - INFO - Password Timestamp 2022-03-29T18:34:01Z returns 39 results
+2022-03-29 18:34:06,184 - basicLogger - INFO - User Timestamp 2022-03-29T18:34:01Z returns 35 results
+2022-03-29 18:34:08,716 - basicLogger - INFO - user password current time:2022-03-29 18:34:06
+2022-03-29 18:34:08,930 - basicLogger - INFO - Password Timestamp 2022-03-29T18:34:06Z returns 39 results
+2022-03-29 18:34:11,208 - basicLogger - INFO - User Timestamp 2022-03-29T18:34:06Z returns 35 results
+2022-03-29 18:34:13,694 - basicLogger - INFO - user password current time:2022-03-29 18:34:11
+2022-03-29 18:34:13,916 - basicLogger - INFO - Password Timestamp 2022-03-29T18:34:11Z returns 39 results
+2022-03-29 18:34:16,167 - basicLogger - INFO - User Timestamp 2022-03-29T18:34:11Z returns 35 results
+2022-03-29 18:34:18,700 - basicLogger - INFO - user password current time:2022-03-29 18:34:16
+2022-03-29 18:34:18,921 - basicLogger - INFO - Password Timestamp 2022-03-29T18:34:16Z returns 39 results
+2022-03-29 18:34:21,210 - basicLogger - INFO - User Timestamp 2022-03-29T18:34:16Z returns 35 results
+2022-03-29 18:34:23,697 - basicLogger - INFO - user password current time:2022-03-29 18:34:21
+2022-03-29 18:34:23,909 - basicLogger - INFO - Password Timestamp 2022-03-29T18:34:21Z returns 39 results
+2022-03-29 18:34:26,157 - basicLogger - INFO - User Timestamp 2022-03-29T18:34:21Z returns 35 results
+2022-03-29 18:34:28,722 - basicLogger - INFO - user password current time:2022-03-29 18:34:26
+2022-03-29 18:34:28,939 - basicLogger - INFO - Password Timestamp 2022-03-29T18:34:26Z returns 39 results
+2022-03-29 18:34:31,194 - basicLogger - INFO - User Timestamp 2022-03-29T18:34:26Z returns 35 results
+2022-03-29 18:34:33,712 - basicLogger - INFO - user password current time:2022-03-29 18:34:31
+2022-03-29 18:34:33,929 - basicLogger - INFO - Password Timestamp 2022-03-29T18:34:31Z returns 39 results
+2022-03-29 18:34:36,160 - basicLogger - INFO - User Timestamp 2022-03-29T18:34:31Z returns 35 results
+2022-03-29 18:34:38,718 - basicLogger - INFO - user password current time:2022-03-29 18:34:36
+2022-03-29 18:34:38,940 - basicLogger - INFO - Password Timestamp 2022-03-29T18:34:36Z returns 39 results
+2022-03-29 18:34:41,187 - basicLogger - INFO - User Timestamp 2022-03-29T18:34:36Z returns 35 results
+2022-03-29 18:34:43,707 - basicLogger - INFO - user password current time:2022-03-29 18:34:41
+2022-03-29 18:34:43,918 - basicLogger - INFO - Password Timestamp 2022-03-29T18:34:41Z returns 39 results
+2022-03-29 18:34:46,183 - basicLogger - INFO - User Timestamp 2022-03-29T18:34:41Z returns 35 results
+2022-03-29 18:34:48,730 - basicLogger - INFO - user password current time:2022-03-29 18:34:46
+2022-03-29 18:34:48,973 - basicLogger - INFO - Password Timestamp 2022-03-29T18:34:46Z returns 39 results
+2022-03-29 18:34:51,253 - basicLogger - INFO - User Timestamp 2022-03-29T18:34:46Z returns 35 results
+2022-03-29 18:34:53,704 - basicLogger - INFO - user password current time:2022-03-29 18:34:51
+2022-03-29 18:34:53,918 - basicLogger - INFO - Password Timestamp 2022-03-29T18:34:51Z returns 39 results
+2022-03-29 18:34:56,169 - basicLogger - INFO - User Timestamp 2022-03-29T18:34:51Z returns 35 results
+2022-03-29 18:34:58,710 - basicLogger - INFO - user password current time:2022-03-29 18:34:56
+2022-03-29 18:34:58,931 - basicLogger - INFO - Password Timestamp 2022-03-29T18:34:56Z returns 39 results
+2022-03-29 18:35:01,194 - basicLogger - INFO - User Timestamp 2022-03-29T18:34:56Z returns 35 results
+2022-03-29 18:35:03,704 - basicLogger - INFO - user password current time:2022-03-29 18:35:01
+2022-03-29 18:35:03,924 - basicLogger - INFO - Password Timestamp 2022-03-29T18:35:01Z returns 39 results
+2022-03-29 18:35:06,171 - basicLogger - INFO - User Timestamp 2022-03-29T18:35:01Z returns 35 results
+2022-03-29 18:35:08,743 - basicLogger - INFO - user password current time:2022-03-29 18:35:06
+2022-03-29 18:35:08,962 - basicLogger - INFO - Password Timestamp 2022-03-29T18:35:06Z returns 39 results
+2022-03-29 18:35:11,229 - basicLogger - INFO - User Timestamp 2022-03-29T18:35:06Z returns 35 results
+2022-03-29 18:35:13,714 - basicLogger - INFO - user password current time:2022-03-29 18:35:11
+2022-03-29 18:35:13,933 - basicLogger - INFO - Password Timestamp 2022-03-29T18:35:11Z returns 39 results
+2022-03-29 18:35:16,199 - basicLogger - INFO - User Timestamp 2022-03-29T18:35:11Z returns 35 results
+2022-03-29 18:35:18,722 - basicLogger - INFO - user password current time:2022-03-29 18:35:16
+2022-03-29 18:35:18,944 - basicLogger - INFO - Password Timestamp 2022-03-29T18:35:16Z returns 39 results
+2022-03-29 18:35:21,220 - basicLogger - INFO - User Timestamp 2022-03-29T18:35:16Z returns 35 results
+2022-03-29 18:35:23,707 - basicLogger - INFO - user password current time:2022-03-29 18:35:21
+2022-03-29 18:35:23,923 - basicLogger - INFO - Password Timestamp 2022-03-29T18:35:21Z returns 39 results
+2022-03-29 18:35:26,210 - basicLogger - INFO - User Timestamp 2022-03-29T18:35:21Z returns 35 results
+2022-03-29 18:35:28,734 - basicLogger - INFO - user password current time:2022-03-29 18:35:26
+2022-03-29 18:35:28,948 - basicLogger - INFO - Password Timestamp 2022-03-29T18:35:26Z returns 39 results
+2022-03-29 18:35:31,229 - basicLogger - INFO - User Timestamp 2022-03-29T18:35:26Z returns 35 results
+2022-03-29 18:35:33,716 - basicLogger - INFO - user password current time:2022-03-29 18:35:31
+2022-03-29 18:35:33,932 - basicLogger - INFO - Password Timestamp 2022-03-29T18:35:31Z returns 39 results
+2022-03-29 18:35:36,222 - basicLogger - INFO - User Timestamp 2022-03-29T18:35:31Z returns 35 results
+2022-03-29 18:35:38,719 - basicLogger - INFO - user password current time:2022-03-29 18:35:36
+2022-03-29 18:35:38,946 - basicLogger - INFO - Password Timestamp 2022-03-29T18:35:36Z returns 39 results
+2022-03-29 18:35:41,210 - basicLogger - INFO - User Timestamp 2022-03-29T18:35:36Z returns 35 results
+2022-03-29 18:35:43,694 - basicLogger - INFO - user password current time:2022-03-29 18:35:41
+2022-03-29 18:35:43,915 - basicLogger - INFO - Password Timestamp 2022-03-29T18:35:41Z returns 39 results
+2022-03-29 18:35:46,174 - basicLogger - INFO - User Timestamp 2022-03-29T18:35:41Z returns 35 results
+2022-03-29 18:35:48,731 - basicLogger - INFO - user password current time:2022-03-29 18:35:46
+2022-03-29 18:35:48,960 - basicLogger - INFO - Password Timestamp 2022-03-29T18:35:46Z returns 39 results
+2022-03-29 18:35:51,224 - basicLogger - INFO - User Timestamp 2022-03-29T18:35:46Z returns 35 results
+2022-03-29 18:35:53,743 - basicLogger - INFO - user password current time:2022-03-29 18:35:51
+2022-03-29 18:35:53,957 - basicLogger - INFO - Password Timestamp 2022-03-29T18:35:51Z returns 39 results
+2022-03-29 18:35:56,236 - basicLogger - INFO - User Timestamp 2022-03-29T18:35:51Z returns 35 results
+2022-03-29 18:35:58,734 - basicLogger - INFO - user password current time:2022-03-29 18:35:56
+2022-03-29 18:35:58,953 - basicLogger - INFO - Password Timestamp 2022-03-29T18:35:56Z returns 39 results
+2022-03-29 18:36:01,208 - basicLogger - INFO - User Timestamp 2022-03-29T18:35:56Z returns 35 results
+2022-03-29 18:36:03,689 - basicLogger - INFO - user password current time:2022-03-29 18:36:01
+2022-03-29 18:36:03,905 - basicLogger - INFO - Password Timestamp 2022-03-29T18:36:01Z returns 39 results
+2022-03-29 18:36:06,151 - basicLogger - INFO - User Timestamp 2022-03-29T18:36:01Z returns 35 results
+2022-03-29 18:36:08,740 - basicLogger - INFO - user password current time:2022-03-29 18:36:06
+2022-03-29 18:36:08,955 - basicLogger - INFO - Password Timestamp 2022-03-29T18:36:06Z returns 39 results
+2022-03-29 18:36:11,208 - basicLogger - INFO - User Timestamp 2022-03-29T18:36:06Z returns 35 results
+2022-03-29 18:36:13,729 - basicLogger - INFO - user password current time:2022-03-29 18:36:11
+2022-03-29 18:36:13,964 - basicLogger - INFO - Password Timestamp 2022-03-29T18:36:11Z returns 39 results
+2022-03-29 18:36:16,211 - basicLogger - INFO - User Timestamp 2022-03-29T18:36:11Z returns 35 results
+2022-03-29 18:36:18,704 - basicLogger - INFO - user password current time:2022-03-29 18:36:16
+2022-03-29 18:36:18,940 - basicLogger - INFO - Password Timestamp 2022-03-29T18:36:16Z returns 39 results
+2022-03-29 18:36:21,188 - basicLogger - INFO - User Timestamp 2022-03-29T18:36:16Z returns 35 results
+2022-03-29 18:36:23,718 - basicLogger - INFO - user password current time:2022-03-29 18:36:21
+2022-03-29 18:36:23,940 - basicLogger - INFO - Password Timestamp 2022-03-29T18:36:21Z returns 39 results
+2022-03-29 18:36:26,207 - basicLogger - INFO - User Timestamp 2022-03-29T18:36:21Z returns 35 results
+2022-03-29 18:36:28,721 - basicLogger - INFO - user password current time:2022-03-29 18:36:26
+2022-03-29 18:36:28,939 - basicLogger - INFO - Password Timestamp 2022-03-29T18:36:26Z returns 39 results
+2022-03-29 18:36:31,202 - basicLogger - INFO - User Timestamp 2022-03-29T18:36:26Z returns 35 results
+2022-03-29 18:36:33,739 - basicLogger - INFO - user password current time:2022-03-29 18:36:31
+2022-03-29 18:36:33,957 - basicLogger - INFO - Password Timestamp 2022-03-29T18:36:31Z returns 39 results
+2022-03-29 18:36:36,241 - basicLogger - INFO - User Timestamp 2022-03-29T18:36:31Z returns 35 results
+2022-03-29 18:36:38,695 - basicLogger - INFO - user password current time:2022-03-29 18:36:36
+2022-03-29 18:36:38,915 - basicLogger - INFO - Password Timestamp 2022-03-29T18:36:36Z returns 39 results
+2022-03-29 18:36:41,179 - basicLogger - INFO - User Timestamp 2022-03-29T18:36:36Z returns 35 results
+2022-03-29 18:36:43,719 - basicLogger - INFO - user password current time:2022-03-29 18:36:41
+2022-03-29 18:36:43,938 - basicLogger - INFO - Password Timestamp 2022-03-29T18:36:41Z returns 39 results
+2022-03-29 18:36:46,169 - basicLogger - INFO - User Timestamp 2022-03-29T18:36:41Z returns 35 results
+2022-03-29 18:36:48,718 - basicLogger - INFO - user password current time:2022-03-29 18:36:46
+2022-03-29 18:36:48,944 - basicLogger - INFO - Password Timestamp 2022-03-29T18:36:46Z returns 39 results
+2022-03-29 18:36:51,281 - basicLogger - INFO - User Timestamp 2022-03-29T18:36:46Z returns 35 results
+2022-03-29 18:36:53,726 - basicLogger - INFO - user password current time:2022-03-29 18:36:51
+2022-03-29 18:36:54,003 - basicLogger - INFO - Password Timestamp 2022-03-29T18:36:51Z returns 39 results
+2022-03-29 18:36:56,279 - basicLogger - INFO - User Timestamp 2022-03-29T18:36:51Z returns 35 results
+2022-03-29 18:36:58,721 - basicLogger - INFO - user password current time:2022-03-29 18:36:56
+2022-03-29 18:36:58,948 - basicLogger - INFO - Password Timestamp 2022-03-29T18:36:56Z returns 39 results
+2022-03-29 18:37:01,197 - basicLogger - INFO - User Timestamp 2022-03-29T18:36:56Z returns 35 results
+2022-03-29 18:37:03,723 - basicLogger - INFO - user password current time:2022-03-29 18:37:01
+2022-03-29 18:37:03,942 - basicLogger - INFO - Password Timestamp 2022-03-29T18:37:01Z returns 39 results
+2022-03-29 18:37:06,210 - basicLogger - INFO - User Timestamp 2022-03-29T18:37:01Z returns 35 results
+2022-03-29 18:37:08,724 - basicLogger - INFO - user password current time:2022-03-29 18:37:06
+2022-03-29 18:37:08,942 - basicLogger - INFO - Password Timestamp 2022-03-29T18:37:06Z returns 39 results
+2022-03-29 18:37:11,218 - basicLogger - INFO - User Timestamp 2022-03-29T18:37:06Z returns 35 results
+2022-03-29 18:37:13,713 - basicLogger - INFO - user password current time:2022-03-29 18:37:11
+2022-03-29 18:37:13,928 - basicLogger - INFO - Password Timestamp 2022-03-29T18:37:11Z returns 39 results
+2022-03-29 18:37:16,187 - basicLogger - INFO - User Timestamp 2022-03-29T18:37:11Z returns 35 results
+2022-03-29 18:37:18,736 - basicLogger - INFO - user password current time:2022-03-29 18:37:16
+2022-03-29 18:37:18,951 - basicLogger - INFO - Password Timestamp 2022-03-29T18:37:16Z returns 39 results
+2022-03-29 18:37:21,215 - basicLogger - INFO - User Timestamp 2022-03-29T18:37:16Z returns 35 results

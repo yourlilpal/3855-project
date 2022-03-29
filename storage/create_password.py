@@ -23,7 +23,7 @@ class Userpasswords(Base):
         self.password_id = password_id
         self.password = password
         self.password_hint = password_hint
-        self.date_created = datetime.datetime.now().strftime("%Y-%m-%dT%H:%M:%SZ")  # Sets the date/time record is created
+        self.date_created = datetime.datetime.now()  # Sets the date/time record is created
         self.description = description
         self.trace_id = trace_id
 
@@ -35,7 +35,7 @@ class Userpasswords(Base):
         dict['password'] = self.password
         dict['password_hint'] = self.password_hint
         dict['description'] = self.description
-        dict['date_created'] = self.date_created
+        dict['date_created'] = self.date_created.strftime("%Y-%m-%dT%H:%M:%SZ")
         dict['trace_id'] = self.trace_id
 
         return dict
