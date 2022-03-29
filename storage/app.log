@@ -1,0 +1,139 @@
+2022-03-29 17:33:01,829 - basicLogger - INFO - Connecting to DB. Hostname:kafka-3855.eastus2.cloudapp.azure.com, Port:3306
+2022-03-29 17:33:01,857 - basicLogger - INFO - Connecting to DB. Hostname:kafka-3855.eastus2.cloudapp.azure.com, Port:3306
+2022-03-29 17:33:01,883 - basicLogger - INFO - Access process hostname
+2022-03-29 17:33:10,919 - basicLogger - INFO - user password current time:2022-03-29 17:33:08
+2022-03-29 17:33:10,926 - basicLogger - INFO - user password reading:SELECT user_password.id AS user_password_id, user_password.password_id AS user_password_password_id, user_password.password AS user_password_password, user_password.password_hint AS user_password_password_hint, user_password.date_created AS user_password_date_created, user_password.description AS user_password_description, user_password.trace_id AS user_password_trace_id 
+FROM user_password 
+WHERE user_password.date_created >= %(date_created_1)s
+2022-03-29 17:34:14,210 - basicLogger - INFO - Connecting to DB. Hostname:kafka-3855.eastus2.cloudapp.azure.com, Port:3306
+2022-03-29 17:34:14,239 - basicLogger - INFO - Connecting to DB. Hostname:kafka-3855.eastus2.cloudapp.azure.com, Port:3306
+2022-03-29 17:34:14,266 - basicLogger - INFO - Access process hostname
+2022-03-29 17:34:14,568 - basicLogger - INFO - Access client
+2022-03-29 17:34:14,734 - basicLogger - INFO - Access topics
+2022-03-29 17:34:17,400 - basicLogger - INFO - Access consumer
+2022-03-29 17:34:22,845 - basicLogger - INFO - user password current time:2022-03-29 17:34:20
+2022-03-29 17:34:22,849 - basicLogger - INFO - user password reading:SELECT user_password.id AS user_password_id, user_password.password_id AS user_password_password_id, user_password.password AS user_password_password, user_password.password_hint AS user_password_password_hint, user_password.date_created AS user_password_date_created, user_password.description AS user_password_description, user_password.trace_id AS user_password_trace_id 
+FROM user_password 
+WHERE user_password.date_created >= %(date_created_1)s
+2022-03-29 17:34:23,860 - basicLogger - INFO - Password Timestamp 2022-03-29T17:34:20Z returns 27 results
+2022-03-29 17:34:26,130 - basicLogger - INFO - User Timestamp 2022-03-29T17:34:20Z returns 25 results
+2022-03-29 17:34:32,827 - basicLogger - INFO - user password current time:2022-03-29 17:34:30
+2022-03-29 17:34:32,828 - basicLogger - INFO - user password reading:SELECT user_password.id AS user_password_id, user_password.password_id AS user_password_password_id, user_password.password AS user_password_password, user_password.password_hint AS user_password_password_hint, user_password.date_created AS user_password_date_created, user_password.description AS user_password_description, user_password.trace_id AS user_password_trace_id 
+FROM user_password 
+WHERE user_password.date_created >= %(date_created_1)s
+2022-03-29 17:34:33,043 - basicLogger - INFO - Password Timestamp 2022-03-29T17:34:30Z returns 27 results
+2022-03-29 17:34:35,294 - basicLogger - INFO - User Timestamp 2022-03-29T17:34:30Z returns 25 results
+2022-03-29 17:34:37,823 - basicLogger - INFO - user password current time:2022-03-29 17:34:35
+2022-03-29 17:34:37,824 - basicLogger - INFO - user password reading:SELECT user_password.id AS user_password_id, user_password.password_id AS user_password_password_id, user_password.password AS user_password_password, user_password.password_hint AS user_password_password_hint, user_password.date_created AS user_password_date_created, user_password.description AS user_password_description, user_password.trace_id AS user_password_trace_id 
+FROM user_password 
+WHERE user_password.date_created >= %(date_created_1)s
+2022-03-29 17:34:38,041 - basicLogger - INFO - Password Timestamp 2022-03-29T17:34:35Z returns 27 results
+2022-03-29 17:34:40,282 - basicLogger - INFO - User Timestamp 2022-03-29T17:34:35Z returns 25 results
+2022-03-29 17:34:42,797 - basicLogger - INFO - user password current time:2022-03-29 17:34:40
+2022-03-29 17:34:42,798 - basicLogger - INFO - user password reading:SELECT user_password.id AS user_password_id, user_password.password_id AS user_password_password_id, user_password.password AS user_password_password, user_password.password_hint AS user_password_password_hint, user_password.date_created AS user_password_date_created, user_password.description AS user_password_description, user_password.trace_id AS user_password_trace_id 
+FROM user_password 
+WHERE user_password.date_created >= %(date_created_1)s
+2022-03-29 17:34:43,018 - basicLogger - INFO - Password Timestamp 2022-03-29T17:34:40Z returns 27 results
+2022-03-29 17:34:45,278 - basicLogger - INFO - User Timestamp 2022-03-29T17:34:40Z returns 25 results
+2022-03-29 17:34:47,827 - basicLogger - INFO - user password current time:2022-03-29 17:34:45
+2022-03-29 17:34:47,828 - basicLogger - INFO - user password reading:SELECT user_password.id AS user_password_id, user_password.password_id AS user_password_password_id, user_password.password AS user_password_password, user_password.password_hint AS user_password_password_hint, user_password.date_created AS user_password_date_created, user_password.description AS user_password_description, user_password.trace_id AS user_password_trace_id 
+FROM user_password 
+WHERE user_password.date_created >= %(date_created_1)s
+2022-03-29 17:34:48,042 - basicLogger - INFO - Password Timestamp 2022-03-29T17:34:45Z returns 27 results
+2022-03-29 17:34:50,316 - basicLogger - INFO - User Timestamp 2022-03-29T17:34:45Z returns 25 results
+2022-03-29 17:34:52,847 - basicLogger - INFO - user password current time:2022-03-29 17:34:50
+2022-03-29 17:34:52,849 - basicLogger - INFO - user password reading:SELECT user_password.id AS user_password_id, user_password.password_id AS user_password_password_id, user_password.password AS user_password_password, user_password.password_hint AS user_password_password_hint, user_password.date_created AS user_password_date_created, user_password.description AS user_password_description, user_password.trace_id AS user_password_trace_id 
+FROM user_password 
+WHERE user_password.date_created >= %(date_created_1)s
+2022-03-29 17:34:53,070 - basicLogger - INFO - Password Timestamp 2022-03-29T17:34:50Z returns 27 results
+2022-03-29 17:34:55,340 - basicLogger - INFO - User Timestamp 2022-03-29T17:34:50Z returns 25 results
+2022-03-29 17:34:57,825 - basicLogger - INFO - user password current time:2022-03-29 17:34:55
+2022-03-29 17:34:57,827 - basicLogger - INFO - user password reading:SELECT user_password.id AS user_password_id, user_password.password_id AS user_password_password_id, user_password.password AS user_password_password, user_password.password_hint AS user_password_password_hint, user_password.date_created AS user_password_date_created, user_password.description AS user_password_description, user_password.trace_id AS user_password_trace_id 
+FROM user_password 
+WHERE user_password.date_created >= %(date_created_1)s
+2022-03-29 17:34:58,039 - basicLogger - INFO - Password Timestamp 2022-03-29T17:34:55Z returns 27 results
+2022-03-29 17:35:00,298 - basicLogger - INFO - User Timestamp 2022-03-29T17:34:55Z returns 25 results
+2022-03-29 17:35:02,814 - basicLogger - INFO - user password current time:2022-03-29 17:35:00
+2022-03-29 17:35:02,817 - basicLogger - INFO - user password reading:SELECT user_password.id AS user_password_id, user_password.password_id AS user_password_password_id, user_password.password AS user_password_password, user_password.password_hint AS user_password_password_hint, user_password.date_created AS user_password_date_created, user_password.description AS user_password_description, user_password.trace_id AS user_password_trace_id 
+FROM user_password 
+WHERE user_password.date_created >= %(date_created_1)s
+2022-03-29 17:35:03,033 - basicLogger - INFO - Password Timestamp 2022-03-29T17:35:00Z returns 27 results
+2022-03-29 17:35:05,310 - basicLogger - INFO - User Timestamp 2022-03-29T17:35:00Z returns 25 results
+2022-03-29 17:35:07,843 - basicLogger - INFO - user password current time:2022-03-29 17:35:05
+2022-03-29 17:35:07,844 - basicLogger - INFO - user password reading:SELECT user_password.id AS user_password_id, user_password.password_id AS user_password_password_id, user_password.password AS user_password_password, user_password.password_hint AS user_password_password_hint, user_password.date_created AS user_password_date_created, user_password.description AS user_password_description, user_password.trace_id AS user_password_trace_id 
+FROM user_password 
+WHERE user_password.date_created >= %(date_created_1)s
+2022-03-29 17:35:08,061 - basicLogger - INFO - Password Timestamp 2022-03-29T17:35:05Z returns 27 results
+2022-03-29 17:35:10,342 - basicLogger - INFO - User Timestamp 2022-03-29T17:35:05Z returns 25 results
+2022-03-29 17:35:12,846 - basicLogger - INFO - user password current time:2022-03-29 17:35:10
+2022-03-29 17:35:12,847 - basicLogger - INFO - user password reading:SELECT user_password.id AS user_password_id, user_password.password_id AS user_password_password_id, user_password.password AS user_password_password, user_password.password_hint AS user_password_password_hint, user_password.date_created AS user_password_date_created, user_password.description AS user_password_description, user_password.trace_id AS user_password_trace_id 
+FROM user_password 
+WHERE user_password.date_created >= %(date_created_1)s
+2022-03-29 17:35:13,062 - basicLogger - INFO - Password Timestamp 2022-03-29T17:35:10Z returns 27 results
+2022-03-29 17:35:15,309 - basicLogger - INFO - User Timestamp 2022-03-29T17:35:10Z returns 25 results
+2022-03-29 17:35:17,815 - basicLogger - INFO - user password current time:2022-03-29 17:35:15
+2022-03-29 17:35:17,817 - basicLogger - INFO - user password reading:SELECT user_password.id AS user_password_id, user_password.password_id AS user_password_password_id, user_password.password AS user_password_password, user_password.password_hint AS user_password_password_hint, user_password.date_created AS user_password_date_created, user_password.description AS user_password_description, user_password.trace_id AS user_password_trace_id 
+FROM user_password 
+WHERE user_password.date_created >= %(date_created_1)s
+2022-03-29 17:35:18,031 - basicLogger - INFO - Password Timestamp 2022-03-29T17:35:15Z returns 27 results
+2022-03-29 17:35:20,309 - basicLogger - INFO - User Timestamp 2022-03-29T17:35:15Z returns 25 results
+2022-03-29 17:35:22,838 - basicLogger - INFO - user password current time:2022-03-29 17:35:20
+2022-03-29 17:35:22,841 - basicLogger - INFO - user password reading:SELECT user_password.id AS user_password_id, user_password.password_id AS user_password_password_id, user_password.password AS user_password_password, user_password.password_hint AS user_password_password_hint, user_password.date_created AS user_password_date_created, user_password.description AS user_password_description, user_password.trace_id AS user_password_trace_id 
+FROM user_password 
+WHERE user_password.date_created >= %(date_created_1)s
+2022-03-29 17:35:23,064 - basicLogger - INFO - Password Timestamp 2022-03-29T17:35:20Z returns 27 results
+2022-03-29 17:35:25,339 - basicLogger - INFO - User Timestamp 2022-03-29T17:35:20Z returns 25 results
+2022-03-29 17:35:27,833 - basicLogger - INFO - user password current time:2022-03-29 17:35:25
+2022-03-29 17:35:27,835 - basicLogger - INFO - user password reading:SELECT user_password.id AS user_password_id, user_password.password_id AS user_password_password_id, user_password.password AS user_password_password, user_password.password_hint AS user_password_password_hint, user_password.date_created AS user_password_date_created, user_password.description AS user_password_description, user_password.trace_id AS user_password_trace_id 
+FROM user_password 
+WHERE user_password.date_created >= %(date_created_1)s
+2022-03-29 17:35:28,051 - basicLogger - INFO - Password Timestamp 2022-03-29T17:35:25Z returns 27 results
+2022-03-29 17:35:30,305 - basicLogger - INFO - User Timestamp 2022-03-29T17:35:25Z returns 25 results
+2022-03-29 17:35:32,820 - basicLogger - INFO - user password current time:2022-03-29 17:35:30
+2022-03-29 17:35:32,821 - basicLogger - INFO - user password reading:SELECT user_password.id AS user_password_id, user_password.password_id AS user_password_password_id, user_password.password AS user_password_password, user_password.password_hint AS user_password_password_hint, user_password.date_created AS user_password_date_created, user_password.description AS user_password_description, user_password.trace_id AS user_password_trace_id 
+FROM user_password 
+WHERE user_password.date_created >= %(date_created_1)s
+2022-03-29 17:35:33,032 - basicLogger - INFO - Password Timestamp 2022-03-29T17:35:30Z returns 27 results
+2022-03-29 17:35:35,300 - basicLogger - INFO - User Timestamp 2022-03-29T17:35:30Z returns 25 results
+2022-03-29 17:35:37,846 - basicLogger - INFO - user password current time:2022-03-29 17:35:35
+2022-03-29 17:35:37,847 - basicLogger - INFO - user password reading:SELECT user_password.id AS user_password_id, user_password.password_id AS user_password_password_id, user_password.password AS user_password_password, user_password.password_hint AS user_password_password_hint, user_password.date_created AS user_password_date_created, user_password.description AS user_password_description, user_password.trace_id AS user_password_trace_id 
+FROM user_password 
+WHERE user_password.date_created >= %(date_created_1)s
+2022-03-29 17:35:38,060 - basicLogger - INFO - Password Timestamp 2022-03-29T17:35:35Z returns 27 results
+2022-03-29 17:35:40,330 - basicLogger - INFO - User Timestamp 2022-03-29T17:35:35Z returns 25 results
+2022-03-29 17:35:42,809 - basicLogger - INFO - user password current time:2022-03-29 17:35:40
+2022-03-29 17:35:42,811 - basicLogger - INFO - user password reading:SELECT user_password.id AS user_password_id, user_password.password_id AS user_password_password_id, user_password.password AS user_password_password, user_password.password_hint AS user_password_password_hint, user_password.date_created AS user_password_date_created, user_password.description AS user_password_description, user_password.trace_id AS user_password_trace_id 
+FROM user_password 
+WHERE user_password.date_created >= %(date_created_1)s
+2022-03-29 17:35:43,027 - basicLogger - INFO - Password Timestamp 2022-03-29T17:35:40Z returns 27 results
+2022-03-29 17:35:45,304 - basicLogger - INFO - User Timestamp 2022-03-29T17:35:40Z returns 25 results
+2022-03-29 17:35:47,832 - basicLogger - INFO - user password current time:2022-03-29 17:35:45
+2022-03-29 17:35:47,834 - basicLogger - INFO - user password reading:SELECT user_password.id AS user_password_id, user_password.password_id AS user_password_password_id, user_password.password AS user_password_password, user_password.password_hint AS user_password_password_hint, user_password.date_created AS user_password_date_created, user_password.description AS user_password_description, user_password.trace_id AS user_password_trace_id 
+FROM user_password 
+WHERE user_password.date_created >= %(date_created_1)s
+2022-03-29 17:35:48,051 - basicLogger - INFO - Password Timestamp 2022-03-29T17:35:45Z returns 27 results
+2022-03-29 17:35:50,300 - basicLogger - INFO - User Timestamp 2022-03-29T17:35:45Z returns 25 results
+2022-03-29 17:35:52,834 - basicLogger - INFO - user password current time:2022-03-29 17:35:50
+2022-03-29 17:35:52,836 - basicLogger - INFO - user password reading:SELECT user_password.id AS user_password_id, user_password.password_id AS user_password_password_id, user_password.password AS user_password_password, user_password.password_hint AS user_password_password_hint, user_password.date_created AS user_password_date_created, user_password.description AS user_password_description, user_password.trace_id AS user_password_trace_id 
+FROM user_password 
+WHERE user_password.date_created >= %(date_created_1)s
+2022-03-29 17:35:53,054 - basicLogger - INFO - Password Timestamp 2022-03-29T17:35:50Z returns 27 results
+2022-03-29 17:35:55,309 - basicLogger - INFO - User Timestamp 2022-03-29T17:35:50Z returns 25 results
+2022-03-29 17:35:57,835 - basicLogger - INFO - user password current time:2022-03-29 17:35:55
+2022-03-29 17:35:57,836 - basicLogger - INFO - user password reading:SELECT user_password.id AS user_password_id, user_password.password_id AS user_password_password_id, user_password.password AS user_password_password, user_password.password_hint AS user_password_password_hint, user_password.date_created AS user_password_date_created, user_password.description AS user_password_description, user_password.trace_id AS user_password_trace_id 
+FROM user_password 
+WHERE user_password.date_created >= %(date_created_1)s
+2022-03-29 17:35:58,049 - basicLogger - INFO - Password Timestamp 2022-03-29T17:35:55Z returns 27 results
+2022-03-29 17:36:00,294 - basicLogger - INFO - User Timestamp 2022-03-29T17:35:55Z returns 25 results
+2022-03-29 17:36:02,809 - basicLogger - INFO - user password current time:2022-03-29 17:36:00
+2022-03-29 17:36:02,811 - basicLogger - INFO - user password reading:SELECT user_password.id AS user_password_id, user_password.password_id AS user_password_password_id, user_password.password AS user_password_password, user_password.password_hint AS user_password_password_hint, user_password.date_created AS user_password_date_created, user_password.description AS user_password_description, user_password.trace_id AS user_password_trace_id 
+FROM user_password 
+WHERE user_password.date_created >= %(date_created_1)s
+2022-03-29 17:36:03,027 - basicLogger - INFO - Password Timestamp 2022-03-29T17:36:00Z returns 27 results
+2022-03-29 17:36:05,302 - basicLogger - INFO - User Timestamp 2022-03-29T17:36:00Z returns 25 results
+2022-03-29 17:36:07,824 - basicLogger - INFO - user password current time:2022-03-29 17:36:05
+2022-03-29 17:36:07,825 - basicLogger - INFO - user password reading:SELECT user_password.id AS user_password_id, user_password.password_id AS user_password_password_id, user_password.password AS user_password_password, user_password.password_hint AS user_password_password_hint, user_password.date_created AS user_password_date_created, user_password.description AS user_password_description, user_password.trace_id AS user_password_trace_id 
+FROM user_password 
+WHERE user_password.date_created >= %(date_created_1)s
+2022-03-29 17:36:08,037 - basicLogger - INFO - Password Timestamp 2022-03-29T17:36:05Z returns 27 results
+2022-03-29 17:36:10,309 - basicLogger - INFO - User Timestamp 2022-03-29T17:36:05Z returns 25 results
