@@ -27,7 +27,7 @@ paths:
             schema:
               type: string
               format: date-time
-              example: 2016-08-29T09:12:33.001Z
+              example: '2016-08-29T09:12:33.001Z'
         responses:
           '200':
             description: Successfully returned a list of events
@@ -77,7 +77,7 @@ paths:
           schema:
             type: string
             format: date-time
-            example: 2016-08-29T09:12:33.001Z
+            example: '2016-08-29T09:12:33.001Z'
       responses:
         '200':
           description: Successfully returned a list of evernts

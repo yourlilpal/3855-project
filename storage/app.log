@@ -2923,3 +2923,49 @@ WHERE user_password.date_created >= %(date_created_1)s
 2022-03-29 19:38:06,956 - basicLogger - INFO - Password Timestamp 2022-03-29T19:38:04Z returns 0 results
 2022-03-29 19:38:11,746 - basicLogger - INFO - user password current time:2022-03-29 19:38:09
 2022-03-29 19:38:11,958 - basicLogger - INFO - Password Timestamp 2022-03-29T19:38:09Z returns 0 results
+2022-03-29 19:38:16,755 - basicLogger - INFO - user password current time:2022-03-29 19:38:14
+2022-03-29 19:38:16,965 - basicLogger - INFO - Password Timestamp 2022-03-29T19:38:14Z returns 0 results
+2022-03-29 19:38:21,757 - basicLogger - INFO - user password current time:2022-03-29 19:38:19
+2022-03-29 19:38:21,971 - basicLogger - INFO - Password Timestamp 2022-03-29T19:38:19Z returns 0 results
+2022-03-29 19:38:26,744 - basicLogger - INFO - user password current time:2022-03-29 19:38:24
+2022-03-29 19:38:26,957 - basicLogger - INFO - Password Timestamp 2022-03-29T19:38:24Z returns 0 results
+2022-03-29 19:38:31,762 - basicLogger - INFO - user password current time:2022-03-29 19:38:29
+2022-03-29 19:38:31,978 - basicLogger - INFO - Password Timestamp 2022-03-29T19:38:29Z returns 0 results
+2022-03-29 19:38:36,754 - basicLogger - INFO - user password current time:2022-03-29 19:38:34
+2022-03-29 19:38:36,964 - basicLogger - INFO - Password Timestamp 2022-03-29T19:38:34Z returns 0 results
+2022-03-29 19:38:41,714 - basicLogger - INFO - user password current time:2022-03-29 19:38:39
+2022-03-29 19:38:41,927 - basicLogger - INFO - Password Timestamp 2022-03-29T19:38:39Z returns 0 results
+2022-03-29 19:38:46,734 - basicLogger - INFO - user password current time:2022-03-29 19:38:44
+2022-03-29 19:38:46,946 - basicLogger - INFO - Password Timestamp 2022-03-29T19:38:44Z returns 0 results
+2022-03-29 19:38:51,742 - basicLogger - INFO - user password current time:2022-03-29 19:38:49
+2022-03-29 19:38:51,955 - basicLogger - INFO - Password Timestamp 2022-03-29T19:38:49Z returns 0 results
+2022-03-29 19:38:56,728 - basicLogger - INFO - user password current time:2022-03-29 19:38:54
+2022-03-29 19:38:56,940 - basicLogger - INFO - Password Timestamp 2022-03-29T19:38:54Z returns 0 results
+2022-03-29 19:39:01,734 - basicLogger - INFO - user password current time:2022-03-29 19:38:59
+2022-03-29 19:39:01,948 - basicLogger - INFO - Password Timestamp 2022-03-29T19:38:59Z returns 0 results
+2022-03-29 19:39:06,766 - basicLogger - INFO - user password current time:2022-03-29 19:39:04
+2022-03-29 19:39:06,979 - basicLogger - INFO - Password Timestamp 2022-03-29T19:39:04Z returns 0 results
+2022-03-29 19:39:11,743 - basicLogger - INFO - user password current time:2022-03-29 19:39:09
+2022-03-29 19:39:11,954 - basicLogger - INFO - Password Timestamp 2022-03-29T19:39:09Z returns 0 results
+2022-03-29 19:39:16,740 - basicLogger - INFO - user password current time:2022-03-29 19:39:14
+2022-03-29 19:39:16,954 - basicLogger - INFO - Password Timestamp 2022-03-29T19:39:14Z returns 0 results
+2022-03-29 19:39:21,733 - basicLogger - INFO - user password current time:2022-03-29 19:39:19
+2022-03-29 19:39:21,944 - basicLogger - INFO - Password Timestamp 2022-03-29T19:39:19Z returns 0 results
+2022-03-29 19:39:26,756 - basicLogger - INFO - user password current time:2022-03-29 19:39:24
+2022-03-29 19:39:26,971 - basicLogger - INFO - Password Timestamp 2022-03-29T19:39:24Z returns 0 results
+2022-03-29 19:39:28,666 - basicLogger - INFO - Message: {'type': 'userpassword', 'datetime': '2022-03-29T23:39:28', 'payload': {'description': 'describes discrete purpose of managing this password', 'password': 'password', 'password_hint': 'password hint', 'password_id': '5b90c203-ad49-4f5f-9bf5-d157854af4ec', 'trace_id': '181854'}}
+2022-03-29 19:39:28,666 - basicLogger - INFO - Storing new password event
+2022-03-29 19:39:31,732 - basicLogger - INFO - user password current time:2022-03-29 19:39:29
+2022-03-29 19:39:31,944 - basicLogger - INFO - Password Timestamp 2022-03-29T19:39:29Z returns 0 results
+2022-03-29 19:39:36,759 - basicLogger - INFO - user password current time:2022-03-29 19:39:34
+2022-03-29 19:39:36,973 - basicLogger - INFO - Password Timestamp 2022-03-29T19:39:34Z returns 0 results
+2022-03-29 19:39:41,775 - basicLogger - INFO - user password current time:2022-03-29 19:39:39
+2022-03-29 19:39:41,989 - basicLogger - INFO - Password Timestamp 2022-03-29T19:39:39Z returns 0 results
+2022-03-29 19:39:46,747 - basicLogger - INFO - user password current time:2022-03-29 19:39:44
+2022-03-29 19:39:46,960 - basicLogger - INFO - Password Timestamp 2022-03-29T19:39:44Z returns 0 results
+2022-03-29 19:39:51,764 - basicLogger - INFO - user password current time:2022-03-29 19:39:49
+2022-03-29 19:39:51,977 - basicLogger - INFO - Password Timestamp 2022-03-29T19:39:49Z returns 0 results
+2022-03-29 19:39:56,756 - basicLogger - INFO - user password current time:2022-03-29 19:39:54
+2022-03-29 19:39:56,968 - basicLogger - INFO - Password Timestamp 2022-03-29T19:39:54Z returns 0 results
+2022-03-29 19:40:01,750 - basicLogger - INFO - user password current time:2022-03-29 19:39:59
+2022-03-29 19:40:01,962 - basicLogger - INFO - Password Timestamp 2022-03-29T19:39:59Z returns 0 results

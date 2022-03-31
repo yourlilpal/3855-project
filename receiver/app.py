@@ -47,9 +47,7 @@ def create_new_user(body):
     producer = topic.get_sync_producer()
 
     msg = {"type": "passworduser",
-           "datetime":
-               datetime.datetime.now().strftime(
-                   "%Y-%m-%dT%H:%M:%SZ"),
+           "datetime": datetime.datetime.now().strftime("%Y-%m-%dT%H:%M:%SZ"),
            "payload": body}
     msg_str = json.dumps(msg)
     logger.info("Received event %s request with a unique id of %s"
@@ -76,9 +74,7 @@ def add_new_password(body):
     producer = topic.get_sync_producer()
 
     msg = {"type": "userpassword",
-           "datetime":
-               datetime.datetime.now().strftime(
-                   "%Y-%m-%dT%H:%M:%SZ"),
+           "datetime": datetime.datetime.now().strftime("%Y-%m-%dT%H:%M:%SZ"),
            "payload": body}
     msg_str = json.dumps(msg)
     logger.info("Received event %s request with a unique id of %s"
@@ -93,7 +89,7 @@ def add_new_password(body):
  
 
 app = connexion.FlaskApp(__name__, specification_dir='') 
-app.add_api("openapi.yaml", strict_validation=False, validate_responses=True)
+app.add_api("openapi.yaml", strict_validation=True, validate_responses=True)
  
 if __name__ == "__main__": 
     app.run(port=8080)
