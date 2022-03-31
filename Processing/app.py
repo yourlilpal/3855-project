@@ -142,7 +142,7 @@ def get_stats():
         stats = {
             "num_of_name": 0,
             "num_of_password": 0,
-            "max_length_password": 0,
+            # "max_length_password": 0,
             "trace_id": 0,
             "last_updated": "2016-08-29T09:12:33Z"
             # "last_updated": datetime.datetime.now().strftime("%Y-%m-%dT%H:%M:%SZ")
