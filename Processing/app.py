@@ -155,13 +155,12 @@ def get_stats():
 
 
 app = connexion.FlaskApp(__name__, specification_dir='')
+CORS(app.app)
+app.app.config['CORS_HEADERS'] = 'Content-Type'
 app.add_api("openapi.yml", strict_validation=True, validate_responses=True)
 
 if __name__ == "__main__":
     # run our standalone gevent server
     init_scheduler()
-    app = connexion.FlaskApp(__name__, specification_dir='')
-    CORS(app.app)
-    app.app.config['CORS_HEADERS'] = 'Content-Type'
     app.run(port=8100, use_reloader=False)
     # app.run(port=8100)
