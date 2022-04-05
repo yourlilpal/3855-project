@@ -37,4 +37,12 @@ export default function EndpointAudit(props) {
             </div>
         )
     }
+    const [index, setIndex] = useState(null);
+    setIndex(rand_val);
+        return (
+            <div>
+                <h3>{props.endpoint}-{rand_val}</h3>
+                {JSON.stringify(log)}
+            </div>
+        )
 }
