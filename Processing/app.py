@@ -48,11 +48,12 @@ def populate_stats():
     else:
         stats = results.to_dict()
 
-    old_datetime = stats['last_updated']
+    start_timestamp = stats['last_updated']
+    current_timestamp = datetime.datetime.now().strftime("%Y-%m-%dT%H:%M:%SZ")
 
     #response
-    get_name = requests.get(app_config['passworduser']['url'] + '?timestamp=' + old_datetime)
-    get_password = requests.get(app_config['userpasswords']['url'] + '?timestamp=' + old_datetime)
+    get_name = requests.get(app_config['passworduser']['url'] + '?start_timestamp=' + start_timestamp + "&end_timestamp=" + current_timestamp)
+    get_password = requests.get(app_config['userpasswords']['url'] + '?start_timestamp=' + start_timestamp + "&end_timestamp=" + current_timestamp)
 
     #json data
     # passworduser_dict = json.loads(get_name.text)

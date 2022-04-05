@@ -1,7 +1,7 @@
 import connexion
 from connexion import NoContent
 import random
-from sqlalchemy import create_engine
+from sqlalchemy import create_engine, and_
 from sqlalchemy.orm import sessionmaker
 from base import Base
 from create_account import Passworduser
@@ -84,16 +84,15 @@ def add_new_password(body):
     return NoContent, 201
 
 
-def get_password_user(timestamp):
+def get_password_user(start_timestamp, end_timestamp):
     """ Gets user password readings after the timestamp """
 
     session = DB_SESSION()
-    timestamp_datetime = datetime.datetime.strptime(timestamp, "%Y-%m-%dT%H:%M:%SZ")
-    # timestamp_datetime = timestamp.strftime("%Y-%m-%dT%H:%M:%SZ")
-    # stamp = datetime.strptime(timestamp_datetime, "%Y-%m-%dT%H:%M:%SZ")
-    # timestamp_datetime2 = datetime.strptime(str(datetime.now()), "%Y-%m-%d %H:%M:%S.%f").strftime("%Y-%m-%d %H:%M:%S.%f")
-    # logger.info("password user current time:{}".format(timestamp_datetime))
-    readings = session.query(Passworduser).filter(Passworduser.date_created >= timestamp_datetime)
+    start_timestamp_datetime = datetime.datetime.strptime(start_timestamp, "%Y-%m-%dT%H:%M:%SZ")
+    end_timestamp_datetime = datetime.datetime.strptime(end_timestamp, "%Y-%m-%dT%H:%M:%SZ")
+
+    readings = session.query(Passworduser).filter(and_(Passworduser.date_created >= start_timestamp_datetime,
+                                                       Passworduser.date_created >= end_timestamp_datetime))
     results_list = []
     for reading in readings:
         results_list.append(reading.to_dict())
@@ -102,18 +101,19 @@ def get_password_user(timestamp):
     # logger.info("user reading list:{}".format(results_list))
     session.close()
 
-    logger.info("User Timestamp %s returns %d results" %
-                (timestamp, len(results_list)))
+    logger.info("User Timestamp after %s and before %s returns %d results" %
+                (start_timestamp, end_timestamp, len(results_list)))
     return results_list, 200
 
 
-def get_user_password(timestamp):
+def get_user_password(start_timestamp, end_timestamp):
     """ Gets user password readings after the timestamp """
 
     session = DB_SESSION()
-    timestamp_datetime = datetime.datetime.strptime(timestamp, "%Y-%m-%dT%H:%M:%SZ")
-    logger.info("user password current time:{}".format(timestamp_datetime))
-    readings = session.query(Userpasswords).filter(Userpasswords.date_created >= timestamp_datetime)
+    start_timestamp_datetime = datetime.datetime.strptime(start_timestamp, "%Y-%m-%dT%H:%M:%SZ")
+    end_timestamp_datetime = datetime.datetime.strptime(end_timestamp, "%Y-%m-%dT%H:%M:%SZ")
+    readings = session.query(Userpasswords).filter(and_(Userpasswords.date_created >= start_timestamp_datetime,
+                                                        Userpasswords.date_created >= end_timestamp_datetime))
     # logger.info("user password reading:{}".format(readings))
     results_list = []
     for reading in readings:
@@ -123,8 +123,8 @@ def get_user_password(timestamp):
     # logger.info("password reading list:{}".format(results_list))
     session.close()
 
-    logger.info("Password Timestamp %s returns %d results" %
-                (timestamp, len(results_list)))
+    logger.info("Password Timestamp after %s and before %s returns %d results" %
+                (start_timestamp, end_timestamp, len(results_list)))
     return results_list, 200
 
 
@@ -155,6 +155,7 @@ def process_messages():
             logger.info("Storing new password event")
             add_new_password(payload)
         consumer.commit_offsets()
+
 
 app = connexion.FlaskApp(__name__, specification_dir='')
 app.add_api("openapi.yaml", strict_validation=True, validate_responses=True)
