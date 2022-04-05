@@ -1,3 +1,4 @@
+from time import sleep
 import connexion
 from connexion import NoContent
 import random
@@ -130,13 +131,22 @@ def get_user_password(start_timestamp, end_timestamp):
 
 def process_messages():
     """ Process event messages """
+    retry_count = 0
     process_hostname = "%s:%d" % (app_config["events"]["hostname"],
                                   app_config["events"]["port"])
-    logger.info("Access process hostname")
-    client = KafkaClient(hosts=process_hostname)
-    logger.info("Access client")
+    while retry_count < app_config["connect_kafka"]["retry_count"]:
+        try:
+            logger.info('trying to connect, attempt: %d' % (retry_count))
+            client = KafkaClient(hosts=process_hostname)
+        except:
+            logger.error('attempt %d failed, reconnecting in 3 seconds...' % (retry_count))
+            retry_count = retry_count + 1
+            sleep(app_config["connect_kafka"]["sleep_time"])
+        else:
+            break
+    logger.info("Running Kafka")
     topic = client.topics[str.encode(app_config["events"]["topic"])]
-    logger.info("Access topics")
+
     consumer = topic.get_simple_consumer(consumer_group=b'event_group',
                                          reset_offset_on_start=False,
                                          auto_offset_reset=OffsetType.LATEST)

@@ -9,3 +9,6 @@ events:
   hostname: kafka-3855.eastus2.cloudapp.azure.com
   port: 9092
   topic: events
+connect_kafka:
+  retry_count: 10
+  sleep_time: 3
