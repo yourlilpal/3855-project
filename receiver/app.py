@@ -1,4 +1,6 @@
-import connexion 
+from time import sleep
+
+import connexion
 from connexion import NoContent 
 import json
 import datetime 
@@ -25,6 +27,22 @@ with open('log_conf.yml', 'r') as f:
     logging.config.dictConfig(log_config)
     logger = logging.getLogger("basicLogger")
 
+retry_count = 0
+hostname = "%s:%d" % (app_config["events"]["hostname"], app_config["events"]["port"])
+while retry_count < app_config["connect_kafka"]["retry_count"]:
+    try:
+        logger.info('trying to connect, attempt: %d' % retry_count)
+        client = KafkaClient(hosts=hostname)
+        topic = client.topics[str.encode(app_config['events']['topic'])]
+        producer = topic.get_sync_producer()
+    except:
+        logger.error('attempt %d failed, reconnecting in 3 seconds...' % retry_count)
+        retry_count = retry_count + 1
+        sleep(app_config["connect_kafka"]["sleep_time"])
+    else:
+        break
+logger.info("Running Kafka")
+
 
 def make_file():
     """This will create a file with an empty list to host the JSON data"""
@@ -43,8 +61,8 @@ def create_new_user(body):
     logger.info("Received event {} reading with a trace id of {}".format(event_name, trace_id))
     # trace_id = body['trace_id']
     client = KafkaClient(hosts='{}:{}'.format(kafka_server, kafka_port))
-    topic = client.topics[str.encode(event_topic)]
-    producer = topic.get_sync_producer()
+    # topic = client.topics[str.encode(event_topic)]
+    # producer = topic.get_sync_producer()
 
     msg = {"type": "passworduser",
            "datetime": datetime.datetime.now().strftime("%Y-%m-%dT%H:%M:%SZ"),
@@ -63,15 +81,13 @@ def create_new_user(body):
 
 def add_new_password(body):
     """This will add a password account with description"""
-
-
     trace_id = random.randint(100000, 200000)
     body['trace_id'] = str(trace_id)
     event_name = user_password.split("/")[-1]
     logger.info("Received event {} reading with a trace id of {}".format(event_name, trace_id))
     client = KafkaClient(hosts='{}:{}'.format(kafka_server, kafka_port))
-    topic = client.topics[str.encode(event_topic)]
-    producer = topic.get_sync_producer()
+    # topic = client.topics[str.encode(event_topic)]
+    # producer = topic.get_sync_producer()
 
     msg = {"type": "userpassword",
            "datetime": datetime.datetime.now().strftime("%Y-%m-%dT%H:%M:%SZ"),
