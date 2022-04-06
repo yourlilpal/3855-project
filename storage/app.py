@@ -93,7 +93,7 @@ def get_password_user(start_timestamp, end_timestamp):
     end_timestamp_datetime = datetime.datetime.strptime(end_timestamp, "%Y-%m-%dT%H:%M:%SZ")
 
     readings = session.query(Passworduser).filter(and_(Passworduser.date_created >= start_timestamp_datetime,
-                                                       Passworduser.date_created >= end_timestamp_datetime))
+                                                       Passworduser.date_created < end_timestamp_datetime))
     results_list = []
     for reading in readings:
         results_list.append(reading.to_dict())
@@ -114,7 +114,7 @@ def get_user_password(start_timestamp, end_timestamp):
     start_timestamp_datetime = datetime.datetime.strptime(start_timestamp, "%Y-%m-%dT%H:%M:%SZ")
     end_timestamp_datetime = datetime.datetime.strptime(end_timestamp, "%Y-%m-%dT%H:%M:%SZ")
     readings = session.query(Userpasswords).filter(and_(Userpasswords.date_created >= start_timestamp_datetime,
-                                                        Userpasswords.date_created >= end_timestamp_datetime))
+                                                        Userpasswords.date_created < end_timestamp_datetime))
     # logger.info("user password reading:{}".format(readings))
     results_list = []
     for reading in readings:
