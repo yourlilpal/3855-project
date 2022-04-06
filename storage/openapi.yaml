@@ -21,7 +21,7 @@ paths:
         operationId: app.get_password_user
         description: Gets new user readings after the timestamp
         parameters:
-          - name: timestamp
+          - name: start_timestamp
             in: query
             description: start the number of items on a page
             schema:
