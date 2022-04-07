@@ -138,11 +138,12 @@ def process_messages():
         try:
             logger.info('trying to connect, attempt: %d' % (retry_count))
             client = KafkaClient(hosts=process_hostname)
-            break
         except:
             logger.error('attempt %d failed, reconnecting in 3 seconds...' % (retry_count))
             retry_count = retry_count + 1
             sleep(app_config["connect_kafka"]["sleep_time"])
+        else:
+            break
 
     logger.info("Running Kafka")
     topic = client.topics[str.encode(app_config["events"]["topic"])]
