@@ -53,8 +53,8 @@ def populate_stats():
     end_timestamp = current_timestamp.strftime("%Y-%m-%dT%H:%M:%SZ")
 
     #response
-    get_name = requests.get(app_config['passworduser']['url'] + "?start_timestamp=" + start_timestamp + "end_timestamp=" + end_timestamp)
-    get_password = requests.get(app_config['userpasswords']['url'] + "?start_timestamp=" + start_timestamp + "&end_timestamp=" + end_timestamp)
+    get_name = requests.get(app_config['passworduser']['url'] + '?start_timestamp=' + start_timestamp + 'end_timestamp=' + end_timestamp)
+    get_password = requests.get(app_config['userpasswords']['url'] + '?start_timestamp=' + start_timestamp + '&end_timestamp=' + end_timestamp)
 
     #json data
     # passworduser_dict = json.loads(get_name.text)
