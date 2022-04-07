@@ -2,7 +2,7 @@ version: '3.3'
 services:
   zookeeper:
     image: wurstmeister/zookeeper
-    restart: always
+#    restart: always
     ports:
       - "2181"
     hostname: zookeeper
@@ -10,7 +10,7 @@ services:
       - /home/azureuser/zookeeper/data:/opt/zookeeper-3.4.13/data
   kafka:
     image: wurstmeister/kafka
-    restart: always
+#    restart: always
     command: [start-kafka.sh]
     ports:
       - "9092:9092"
@@ -27,7 +27,7 @@ services:
       KAFKA_BROKER_ID: 1
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
-      - /home/azureuser/kafka:/kafka/kafka kafka-logs
+      - /home/azureuser/kafka:/kafka/kafka-logs
     depends_on:
       - "zookeeper"
   db:
