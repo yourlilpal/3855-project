@@ -35,11 +35,12 @@ while retry_count < app_config["connect_kafka"]["retry_count"]:
         client = KafkaClient(hosts=hostname)
         topic = client.topics[str.encode(app_config['events']['topic'])]
         producer = topic.get_sync_producer()
-        break
     except:
         logger.error('attempt %d failed, reconnecting in 3 seconds...' % retry_count)
         retry_count = retry_count + 1
         sleep(app_config["connect_kafka"]["sleep_time"])
+    else:
+        break
 
 logger.info("Running Kafka")
 
